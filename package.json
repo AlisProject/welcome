@@ -40,8 +40,8 @@
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "build:production": "yarn webpack -p && yarn gulp pug:build",
-    "build:develop": "yarn webpack -p && yarn gulp pug:build",
+    "build:production": "yarn run webpack -p && yarn gulp pug:build",
+    "build:develop": "yarn run webpack -p && yarn gulp pug:build",
     "watch": "npm-run-all --parallel watch:*",
     "watch:webpack": "webpack-dev-server --hot --inline --devtool source-map",
     "watch:gulp": "yarn gulp watch",
