@@ -13,7 +13,6 @@ dependencies:
 
 compile:
   override:
-    - yarn clean:public
     - yarn install:production
     - yarn run build:production
 
