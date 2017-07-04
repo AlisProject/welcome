@@ -13,8 +13,8 @@ dependencies:
 
 compile:
   override:
-    - yarn install:production
     - yarn run build:production
+    - yarn install:production
 
 test:
   override:
