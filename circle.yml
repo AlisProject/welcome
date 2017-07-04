@@ -14,7 +14,6 @@ dependencies:
 compile:
   override:
     - yarn run build:production
-    - yarn install:production
 
 test:
   override:
@@ -25,8 +24,10 @@ deployment:
   staging:
     branch: master
     commands:
+      - yarn install:production
       - yarn s3sync:staging
   develop:
     branch: /.*/
     commands:
+      - yarn install:develop
       - yarn s3sync:develop
