@@ -40,13 +40,21 @@
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "production": "rm -fr public/* && webpack -p && yarn gulp pug:build",
-    "develop": "webpack -d",
+    "build:production": "yarn run webpack -p && yarn gulp pug:build",
+    "build:develop": "yarn run webpack -p && yarn gulp pug:build",
     "watch": "npm-run-all --parallel watch:*",
     "watch:webpack": "webpack-dev-server --hot --inline --devtool source-map",
     "watch:gulp": "yarn gulp watch",
-    "test": "yarn pug-lint ./src && yarn eslint ./src/js",
     "clean": "rm -fr ./node_modules && yarn && rm -fr ./public/*",
-    "deploy": "yarn production && aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
+    "clean:generates": "rm -fr ./node_modules && rm -fr ./public/*",
+    "clean:public": "rm -fr public/*",
+    "install:develop": "yarn install --modules-folder ./public/node_modules",
+    "install:production": "yarn install --modules-folder ./public/node_modules --prod",
+    "test": "yarn pug-lint ./src && yarn eslint ./src/js",
+    "s3sync:develop": "aws s3 sync public s3://${S3_BUCKET_DEVELOP}/ --delete --acl public-read-write",
+    "s3sync:staging": "aws s3 sync public s3://${S3_BUCKET_STAGING}/ --delete --acl public-read-write",
+    "s3sync:production": "aws s3 sync public s3://alismedia.jp/ --delete --acl public-read-write",
+    "deploy": "yarn clean:public && yarn install:develop && yarn build:develop && yarn s3sync:develop",
+    "deploy:production": "yarn clean:public && yarn install:develop && yarn build:develop && yarn s3sync:develop"
   }
 }
