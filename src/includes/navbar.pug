@@ -18,6 +18,11 @@ block links
       li
         a.smooth-anchor(href='#meetus') #{navbar.meetus}
       li
+        a.btn.btn-social-icon.btn-lg.navbar__sns-links__link(href='https://twitter.com/ALIS_media', target='blank')
+          i.fa.fa-twitter
+        a.btn.btn-social-icon.btn-lg.navbar__sns-links__link(href='https://alis-slack.herokuapp.com/', target='blank')
+          i.fa.fa-slack
+      li
         select.form-control.nav__language(onchange="location = this.options[this.selectedIndex].value;")
           option #{navbar.language}
           option(value='/') English
