@@ -5,6 +5,8 @@ mail_form:
   place_holder: 输入您的邮箱
   button: 提交
 navbar:
+  introduction_en: Introduction / 
+  introduction_ja: はじめに　
   whitepaper: Whitepaper(
   whitepaper_en: en
   whitepaper_ja: ja

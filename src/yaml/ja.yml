@@ -5,6 +5,8 @@ mail_form:
   place_holder: Enter your email
   button: Subscribe
 navbar:
+  introduction_en: Introduction /
+  introduction_ja: はじめに　
   whitepaper: Whitepaper(
   whitepaper_en: en
   whitepaper_ja: ja
