@@ -95,6 +95,8 @@ body
                 +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.togashi.id)
                 +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.terashima.id)
+                +team_member(member.profile.terashima.name, member.profile.terashima.role)(src='img/pc/img_profile_terashima.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kamei.id)
                 +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
@@ -162,6 +164,18 @@ body
     member.profile.togashi.linkedin)
   .p-popup-overlay(data-exit=member.profile.togashi.id)
 
+
+  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_terashima.png', id="js-popup-"+member.profile.terashima.id)
+    +popup_member(
+    member.profile.terashima.id,
+    member.profile.terashima.name,
+    member.profile.terashima.role,
+    member.profile.terashima.body,
+    member.profile.terashima.twitter,
+    member.profile.terashima.fb,
+    member.profile.terashima.linkedin)
+  .p-popup-overlay(data-exit=member.profile.terashima.id)
+
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
     +popup_member(
     member.profile.kamei.id,
@@ -184,7 +198,7 @@ body
     member.profile.usagi.linkedin)
   .p-popup-overlay(data-exit=member.profile.usagi.id)
 
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_terashima.png', id="js-popup-"+member.profile.terashima.id)
     +popup_member(
     member.profile.kubori.id,
     member.profile.kubori.name,

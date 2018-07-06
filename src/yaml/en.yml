@@ -150,14 +150,14 @@ member:
       twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho:
-      id: gachiho
-      name: GACHIHO
+    terashima:
+      id: terashima
+      name: YUKI TERASHIMA
       body: |
         sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.
       role: ENGINEER
-      twitter:
-      fb:
+      twitter: https://twitter.com/y_temp4
+      fb: https://www.facebook.com/yuki.terashima4
       linkedin:
     kubori:
       id: kubori
