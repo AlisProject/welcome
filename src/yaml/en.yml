@@ -168,6 +168,15 @@ member:
       twitter: https://twitter.com/kuborichisa
       fb:
       linkedin:
+    kawai:
+      id: kawai
+      name: KEN KAWAI
+      body: |
+        Ken Kawai has extensive experience advising financial institutions, fintech startups, investors and corporate clients on complex finance and financial regulatory matters.Ken's primary focus has been on fintech. Ken has been very actively advising fintech companies, financial institutions, international organizations and self-regulatory organizations on fintech legal issues including those of cryptocurrencies, initial coin offerings and blockchain.He also has expertise in derivatives. He counsels global banks, broker-dealers and investors on regulatory matters and best practices regarding derivatives and related products. His in-depth understanding of the actual practices derives from his 17-year career at The Bank of Tokyo Ltd. / The Bank of Tokyo-Mitsubishi (presently The Bank of Tokyo-Mitsubishi UFJ Ltd.), where he mainly engaged in derivatives trading and marketing.Ken's practice also involves corporate bankruptcy, insolvency and reorganizations. He has represented debtors or creditors in several insolvency cases that involve complex financial transactions and cross-border issues. He also advises several G-SIFIs and related institutions on Bank Recovery and Resolution Regimes.
+      role: LEGAL ADVISOR
+      twitter:
+      fb:
+      linkedin:
 ambassador:
   header: AMBASSADOR
   body: to help spread awareness of the platform ALIS.

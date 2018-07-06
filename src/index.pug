@@ -101,7 +101,8 @@ body
                 +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
                 +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
-
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kawai.id)
+                +team_member(member.profile.kawai.name, member.profile.kawai.role)(src='/img/pc/img_profile_kawai.png')
 
       // EXCHANGE
       section.p-section
@@ -198,7 +199,7 @@ body
     member.profile.usagi.linkedin)
   .p-popup-overlay(data-exit=member.profile.usagi.id)
 
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_terashima.png', id="js-popup-"+member.profile.terashima.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
     +popup_member(
     member.profile.kubori.id,
     member.profile.kubori.name,
@@ -208,6 +209,17 @@ body
     member.profile.kubori.fb,
     member.profile.kubori.linkedin)
   .p-popup-overlay(data-exit=member.profile.kubori.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kawai.png', id="js-popup-"+member.profile.kawai.id)
+    +popup_member(
+    member.profile.kawai.id,
+    member.profile.kawai.name,
+    member.profile.kawai.role,
+    member.profile.kawai.body,
+    member.profile.kawai.twitter,
+    member.profile.kawai.fb,
+    member.profile.kawai.linkedin)
+  .p-popup-overlay(data-exit=member.profile.kawai.id)
 
   // Footer
   #meetus
