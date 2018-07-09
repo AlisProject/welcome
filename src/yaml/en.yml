@@ -128,7 +128,7 @@ member:
         During his time in service development, multiple experiences with BtoB and BtoC, etc, bolstered this experience track record, as his support capabilities were and continue to be many, working on projects from the infrastructure stage all the way to front end application.
         Togashi joined ALIS in the interest of reducing falsehood on the Internet as much as possible.
         Through his work with ALIS, he promotes consistent system development from service design to operation design.
-      role: ENGINEER
+      role: LEAD ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
       linkedin:
@@ -154,7 +154,7 @@ member:
       id: terashima
       name: YUKI TERASHIMA
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.
+        In college, while involved in team development of web applications via internship and extracurricular activities, Terashima developed as an individual and elevated his technical skills. In development, he experienced a wide range of work assignments ranging from front end to the server side of development. Terashima learned about ALIS during his 4th year of university, and shared information about ALIS via his blogs before the ICO. He communicated deeply with ALIS members through ALIS meetups, and thus commenced his commitment to the company as an engineer. Through ALIS, Terashima aims to create a world where value is appreciated correctly.
       role: ENGINEER
       twitter: https://twitter.com/y_temp4
       fb: https://www.facebook.com/yuki.terashima4
@@ -163,7 +163,7 @@ member:
       id: fukamatsu
       name: IPPEI FUKAMATSU
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.
+        Fukamatsu has 9 years of engineering experience. After being involved in BtoB and business system development at an SI company, he was engaged in the development of a Facebook dating application. Fukamatsu founded Yumerebo Co., Ltd. independently in 2015. He specializes in the philosophy of service purpose, and planning and development focusing on KPI. He is fascinated by ALIS's philosophy, the fun of use technology aid in the ALIS mission.
       role: ENGINEER
       twitter:
       fb: https://www.facebook.com/ippei.fukamatsu
@@ -177,24 +177,24 @@ member:
       twitter:
       fb: https://www.facebook.com/yuki.matsuyama.395
       linkedin:
-    potato:
-      id: potato
-      name: Potato
-      body: |
-        sample sample sample
-      role: FRONTEND TECHNICAL ADVISOR
-      twitter: https://twitter.com/potato4d
-      fb: https://www.facebook.com/potato4d
-      linkedin:
     yamashita:
       id: yamashita
       name: TAISUKE YAMASHITA
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.
+        After graduating from Tokyo Denki University Faculty of Engineering in 2008, Yamashita joined a banking service development company where he was involved in customizing packages for regional banks, transitioning to a joint center operations. Interested in the development of open systems rather than the development of general purpose systems, in 2012, Yamashita changed to a web development company. He was involved in the development and operation of the LAMP environment. In 2017 he began work as a freelance contractor. At ALIS he mainly handles the development of authentication and search functions and tools.
       role: ENGINEER
       twitter: https://github.com/yaasita
       fb: https://www.facebook.com/taisuke.yamasita.9
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
+    potato:
+      id: potato
+      name: Potato
+      body: |
+        After experiencing development with multiple startups, Potato joined Pixiv, Inc. He became independent in 2017, and currently works as a freelance web engineer. Engaged in designing the front end at ALIS in order to create a project that will become a model case of Vue.js / Nuxt.js, which is itself contributing to the creation of documentation for developers, Potato is hard at work shaping and empowering the ALIS vision.
+      role: TECHNICAL ADVISOR
+      twitter: https://twitter.com/potato4d
+      fb: https://www.facebook.com/potato4d
+      linkedin:
     kubori:
       id: kubori
       name: CHIKA KUBORI
@@ -208,7 +208,7 @@ member:
       id: ishizaka
       name: MASAYA ISHIZAKA
       body: |
-        sample sample sample
+        Ishizaka graduated from the Kuwasawa Design School, where he is now a member of the Board of Directors of the Alumni Association. Since college, he has worked as a freelance designer. At the production company, he branded the Ground Self Defense Force, other large enterprises, etc. and became the design company Shanghai branch manager and CD. After that, he received the first Cannes Lion Golden Lion award (cyber division) in China during his work there for half a year. From there, he moved to Singapore, worked at DDB Singapore, and then returned home to Japan, where he became creative director of services using AI and automatic driving at DeNA. Currently, Ishizaka has started an education business in India and block chain branding in Japan. He is a designer.
       role: DESIGNER
       twitter: https://twitter.com/msy_i
       fb: https://www.facebook.com/masaya0
@@ -226,10 +226,10 @@ member:
       id: numasawa
       name: KENTO NUMASAWA
       body: |
-        sample sample sample
+        - CEO of Aerial Partners Inc. and owner of influential Twitter account @2nd_chick. - Aerial Partners Inc. offers a service "Guardian" that supports Investors to file their taxes from cryptocurrencies, and a calculating application "G-tax" for trades of cryptocurrency over several exchanges. - Advisor of the ICO project ALIS and others. Also, a director of Japan Cryptocurrency Tax Association(General Incorporated Association) - Accounting and tax advisor of Blockchain Economy Alliance of Japan.
       role: ADVISOR
-      twitter:
-      fb:
+      twitter: https://twitter.com/2nd_chick
+      fb: https://www.facebook.com/kent0422
       linkedin:
 ambassador:
   header: AMBASSADOR

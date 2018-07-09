@@ -184,24 +184,24 @@ member:
       twitter:
       fb: https://www.facebook.com/yuki.matsuyama.395
       linkedin:
+    yamashita:
+      id: yamashita
+      name: TAISUKE YAMASHITA
+      body: |
+        東京電機大学工学部を2008年卒業後、銀行系サービス開発会社に入社。地方銀行向けパッケージのカスタマイズ、共同センター移行、運用に携わる。汎用系の開発よりオープン系の開発に興味を持ったため、2012年より、Web系開発会社に転職。LAMP環境の開発・運用に携わる。2017年よりフリーランス。ALISでは主に認証部分、検索部分の開発を担当。
+      role: ENGINEER
+      twitter: https://github.com/yaasita
+      fb: https://www.facebook.com/taisuke.yamasita.9
+      linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
     potato:
       id: potato
       name: Potato
       body: |
         複数のスタートアップなどでの開発経験を経て、 pixiv inc. に入社。 2017 年に独立し、現在はフリーランスの Web エンジニアとして活動している。自身が開発者向け資料の作成などで貢献している Vue.js / Nuxt.js のモデルケースとなるようなプロジェクトを作り上げるため、 ALIS にてフロントエンドの設計に携わっている。
-      role: FRONTEND TECHNICAL ADVISOR
+      role: TECHNICAL ADVISOR
       twitter: https://twitter.com/potato4d
       fb: https://www.facebook.com/potato4d
       linkedin:
-    yamashita:
-      id: yamashita
-      name: TAISUKE YAMASHITA
-      body: |
-        サンプルテキスト
-      role: ENGINEER
-      twitter: https://github.com/yaasita
-      fb: https://www.facebook.com/taisuke.yamasita.9
-      linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
     kubori:
       id: kubori
       name: CHIKA KUBORI
@@ -233,7 +233,7 @@ member:
       id: numasawa
       name: KENTO NUMASAWA
       body: |
-        sample sample sample
+        株式会社Aerial Partners代表取締役。仮想通貨取引計算サポートと税理士紹介を行う『Guardian』、仮想通貨取引計算ツールである『G-tax』を提供している。Twitterの仮想通貨アカウント「二匹目のヒヨコ（@2nd_chick）」中の人としてブロックチェーン業界の会計・税務領域を中心に啓蒙活動を行っている。会計コンサルティングファームであるAtlas Accounting代表として、仮想通貨交換業者の申請サポート・顧問業務の他、IPO支援やM&Aの会計デューデリジェンス等のアドバイザリーサービスを提供。複数のICOプロジェクトの顧問を務めており、一般社団法人日本仮想通貨税務協会理事も兼任
       role: ADVISOR
       twitter:
       fb:

@@ -96,15 +96,15 @@ body
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.togashi.id)
                 +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.terashima.id)
-                +team_member(member.profile.terashima.name, member.profile.terashima.role)(src='img/pc/img_profile_terashima.png')
+                +team_member(member.profile.terashima.name, member.profile.terashima.role)(src='/img/pc/img_profile_terashima.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.fukamatsu.id)
-                +team_member(member.profile.fukamatsu.name, member.profile.fukamatsu.role)(src='img/pc/img_profile_fukamatsu.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
-                +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='img/pc/img_profile_matsuyama.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.potato.id)
-                +team_member(member.profile.potato.name, member.profile.potato.role)(src='img/pc/img_profile_potato.png')
+                +team_member(member.profile.fukamatsu.name, member.profile.fukamatsu.role)(src='/img/pc/img_profile_fukamatsu.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yamashita.id)
-                +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='img/pc/img_profile_yamashita.png')
+                +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='/img/pc/img_profile_yamashita.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
+                +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='/img/pc/img_profile_matsuyama.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.potato.id)
+                +team_member(member.profile.potato.name, member.profile.potato.role)(src='/img/pc/img_profile_potato.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kamei.id)
                 +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
@@ -178,7 +178,7 @@ body
   .p-popup-overlay(data-exit=member.profile.togashi.id)
 
 
-  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_terashima.png', id="js-popup-"+member.profile.terashima.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_terashima.png', id="js-popup-"+member.profile.terashima.id)
     +popup_member(
     member.profile.terashima.id,
     member.profile.terashima.name,
@@ -189,7 +189,7 @@ body
     member.profile.terashima.linkedin)
   .p-popup-overlay(data-exit=member.profile.terashima.id)
 
-  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_fukamatsu.png', id="js-popup-"+member.profile.fukamatsu.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_fukamatsu.png', id="js-popup-"+member.profile.fukamatsu.id)
     +popup_member(
     member.profile.fukamatsu.id,
     member.profile.fukamatsu.name,
@@ -200,7 +200,7 @@ body
     member.profile.fukamatsu.linkedin)
   .p-popup-overlay(data-exit=member.profile.fukamatsu.id)
 
-  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_matsuyama.png', id="js-popup-"+member.profile.matsuyama.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_matsuyama.png', id="js-popup-"+member.profile.matsuyama.id)
     +popup_member(
     member.profile.matsuyama.id,
     member.profile.matsuyama.name,
@@ -211,18 +211,7 @@ body
     member.profile.matsuyama.linkedin)
   .p-popup-overlay(data-exit=member.profile.matsuyama.id)
 
-  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_potato.png', id="js-popup-"+member.profile.potato.id)
-    +popup_member(
-    member.profile.potato.id,
-    member.profile.potato.name,
-    member.profile.potato.role,
-    member.profile.potato.body,
-    member.profile.potato.twitter,
-    member.profile.potato.fb,
-    member.profile.potato.linkedin)
-  .p-popup-overlay(data-exit=member.profile.potato.id)
-
-  article.p-popup.p-popup-member.is-effect(src='img/pc/img_profile_yamashita.png', id="js-popup-"+member.profile.yamashita.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_yamashita.png', id="js-popup-"+member.profile.yamashita.id)
     +popup_member(
     member.profile.yamashita.id,
     member.profile.yamashita.name,
@@ -232,6 +221,17 @@ body
     member.profile.yamashita.fb,
     member.profile.yamashita.linkedin)
   .p-popup-overlay(data-exit=member.profile.yamashita.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_potato.png', id="js-popup-"+member.profile.potato.id)
+    +popup_member(
+    member.profile.potato.id,
+    member.profile.potato.name,
+    member.profile.potato.role,
+    member.profile.potato.body,
+    member.profile.potato.twitter,
+    member.profile.potato.fb,
+    member.profile.potato.linkedin)
+  .p-popup-overlay(data-exit=member.profile.potato.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
     +popup_member(
