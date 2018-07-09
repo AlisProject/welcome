@@ -89,7 +89,7 @@ team:
   header: TEAM
 member:
   header: MEMBER
-  body: contributing to ALIS every day.
+  body: contributing to ALIS.
   profile:
     yasu:
       id: yasu
