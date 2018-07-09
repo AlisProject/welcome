@@ -190,7 +190,7 @@ member:
       body: |
         東京電機大学工学部を2008年卒業後、銀行系サービス開発会社に入社。地方銀行向けパッケージのカスタマイズ、共同センター移行、運用に携わる。汎用系の開発よりオープン系の開発に興味を持ったため、2012年より、Web系開発会社に転職。LAMP環境の開発・運用に携わる。2017年よりフリーランス。ALISでは主に認証部分、検索部分の開発を担当。
       role: ENGINEER
-      twitter: https://github.com/yaasita
+      twitter: https://twitter.com/yaasita
       fb: https://www.facebook.com/taisuke.yamasita.9
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
     potato:
@@ -204,7 +204,7 @@ member:
       linkedin:
     kubori:
       id: kubori
-      name: CHIKA KUBORI
+      name: CHISA KUBORI
       body: |
         大阪芸術大学にてグラフィックデザインを専攻しブランディング・タイポグラフィを基軸としたデザインを研究。在学中、大阪中ノ島公会堂にてOSAKA DESIGN FORUM2011を開催・メインビジュアルを担当。卒業後、広告制作会社にて企画・提案・パッケージデザイン・コーディング等幅広い事業に従事。その後フリーランスとして独立。グラフィックデザイン・Webデザインを主に、出身地である和歌山県の一次産業にスポットライトを当てた新規事業の立ち上げ等を行なっている。
       role: DESIGNER
