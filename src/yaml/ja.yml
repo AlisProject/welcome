@@ -134,7 +134,7 @@ member:
         サービス開発としては BtoB や BtoC 等で複数経験し、技術としてもインフラからフロントエンドまでマルチに対応する。
         インターネット上の虚偽を可能な限り少なくしたいという思いから ALISへのジョインを決める。
         サービス設計から運用設計まで一貫したシステム開発を進めている。
-      role: ENGINEER
+      role: LEAD ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
       linkedin:
@@ -148,31 +148,94 @@ member:
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    usagi:
-      id: usagi
-      name: USAGI
+    akagi:
+      id: akagi
+      name: KENTA AKAGI
       body: |
         武蔵野美術大学にてブランディングデザイン・カルチュラルエンジニアリングデザインを選考。感情の変化、行動とデザインの関係を研究。卒業後はDeNA・リクルートジョブズにて新規サービスの開発に従事。Forbesの"スタートアップの有望株 厳選50社"に選出されたエメラダでCXOとして新規サービスの立上げを行った後、ALISへジョイン。情報を視覚化し、物体的に捉えた時のそのあり方や、情報が一過性ではなく育っていくようなデザインの実現を進める。ペルソナの設計からIA、表層部のデザインまで一気通貫で進めている。
       role: LEAD DESIGNER
       twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho:
-      id: gachiho
-      name: GACHIHO
+    terashima:
+      id: terashima
+      name: YUKI TERASHIMA
       body: |
-        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        大学時代はインターンシップや課外活動を通じてチームでWebアプリケーション制作を行うかたわら、個人でも開発を行い技術力を高める。開発ではフロントエンドからサーバーサイドまで幅広く経験。大学4年時にALISを知り、ICO以前からALISの情報をブログで発信。ALISミートアップを通じてALISメンバーと深くコミュニケーションをとり、エンジニアとしてのコミットを開始。ALISを通じて、価値が正しく評価される世界をつくること目標としている。
+      role: ENGINEER
+      twitter: https://twitter.com/y_temp4
+      fb: https://www.facebook.com/yuki.terashima4
+      linkedin:
+    fukamatsu:
+      id: fukamatsu
+      name: IPPEI FUKAMATSU
+      body: |
+        エンジニア歴9年。SI企業にてBtoBや業務システム開発を経験、その後Facebookを活用した恋活アプリの開発に従事。2015年にフリーランスを経て株式会社ユメラボを創業。サービスの目的やKPIにフォーカスした企画、開発を理念として活動。ALISの理念、使用技術の面白さに魅力を感じジョイン。
       role: ENGINEER
       twitter:
-      fb:
+      fb: https://www.facebook.com/ippei.fukamatsu
+      linkedin:
+    matsuyama:
+      id: matsuyama
+      name: YUKI MATSUYAMA
+      body: |
+        早稲田大学で法律を学んだ後、2014年に新卒で大手WEB企業に入社。大規模サービスでプロジェクトマネジメントを経験後、エンジニアとして複数サービスのグロースに携わる。また、スクラムマスターとしてスクラムチームの立ち上げ、継続的な価値のデリバリーのためにDevOpsやアジャイルプラクティスの実践を行う。ALISでは主にサーバレスを使ったバックエンドアプリケーションの開発に従事している。
+      role: ENGINEER
+      twitter:
+      fb: https://www.facebook.com/yuki.matsuyama.395
+      linkedin:
+    yamashita:
+      id: yamashita
+      name: TAISUKE YAMASHITA
+      body: |
+        東京電機大学工学部を2008年卒業後、銀行系サービス開発会社に入社。地方銀行向けパッケージのカスタマイズ、共同センター移行、運用に携わる。汎用系の開発よりオープン系の開発に興味を持ったため、2012年より、Web系開発会社に転職。LAMP環境の開発・運用に携わる。2017年よりフリーランス。ALISでは主に認証部分、検索部分の開発を担当。
+      role: ENGINEER
+      twitter: https://twitter.com/yaasita
+      fb: https://www.facebook.com/taisuke.yamasita.9
+      linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
+    potato:
+      id: potato
+      name: Potato
+      body: |
+        複数のスタートアップなどでの開発経験を経て、 pixiv inc. に入社。 2017 年に独立し、現在はフリーランスの Web エンジニアとして活動している。自身が開発者向け資料の作成などで貢献している Vue.js / Nuxt.js のモデルケースとなるようなプロジェクトを作り上げるため、 ALIS にてフロントエンドの設計に携わっている。
+      role: TECHNICAL ADVISOR
+      twitter: https://twitter.com/potato4d
+      fb: https://www.facebook.com/potato4d
       linkedin:
     kubori:
       id: kubori
-      name: CHIKA KUBORI
+      name: CHISA KUBORI
       body: |
         大阪芸術大学にてグラフィックデザインを専攻しブランディング・タイポグラフィを基軸としたデザインを研究。在学中、大阪中ノ島公会堂にてOSAKA DESIGN FORUM2011を開催・メインビジュアルを担当。卒業後、広告制作会社にて企画・提案・パッケージデザイン・コーディング等幅広い事業に従事。その後フリーランスとして独立。グラフィックデザイン・Webデザインを主に、出身地である和歌山県の一次産業にスポットライトを当てた新規事業の立ち上げ等を行なっている。
       role: DESIGNER
       twitter: https://twitter.com/kuborichisa
+      fb:
+      linkedin:
+    ishizaka:
+      id: ishizaka
+      name: MASAYA ISHIZAKA
+      body: |
+         桑沢デザイン研究所（kuwasawa design school）卒業、同窓会理事会委員。在学中から、フリーランスデザイナーとして活動。制作会社で、陸上自衛隊、大企業などのブランディングを行い、デザイン会社上海支社長兼CDとなる。その後、半年で中国で初となるカンヌライオン金獅子賞（サイバー部門）を受賞。シンガポールに移り、DDBシンガポールで働き、帰国。DeNAでAIと自動運転を活用したサービスのクリエイティブディレクターとなる。現在は、インドでIOT教育ビジネスや国内でブロックチェーンブランディングを始める。本職はデザイナー。
+      role: DESIGNER
+      twitter: https://twitter.com/msy_i
+      fb: https://www.facebook.com/masaya0
+      linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    kawai:
+      id: kawai
+      name: KEN KAWAI
+      body: |
+        ・フィンテック企業及び既存金融機関に対してフィンテックに関連する各種のリーガルアドバイスを行っています。仮想通貨、イニシャル・コイン・オファリング及びブロックチェーンに関して、特に多くの案件を取り扱うほか、自主規制団体の法律顧問を務め、また、内外の公的機関等への政策アドバイスにも積極的に取り組んでいます。・大手金融機関においてデリバティブ取引等の市場業務に約15年間従事した経験を踏まえ、金融規制法、デリバティブ取引、仕組商品、金融商品関連紛争等に関し、金融実務に即したアドバイスを行うことを得意としています。・複雑な金融取引やクロスボーダー取引への対処が必要な倒産/事業再生案件を多く手掛けています。特に金融機関の破綻法制については、関連機関及び大手金融機関から多くの依頼を受けています。・競争法分野における審判/訴訟対応、コンプライアンス体制整備についても広く取り扱っております。
+      role: LEGAL ADVISOR
+      twitter:
+      fb:
+      linkedin:
+    numasawa:
+      id: numasawa
+      name: KENTO NUMASAWA
+      body: |
+        株式会社Aerial Partners代表取締役。仮想通貨取引計算サポートと税理士紹介を行う『Guardian』、仮想通貨取引計算ツールである『G-tax』を提供している。Twitterの仮想通貨アカウント「二匹目のヒヨコ（@2nd_chick）」中の人としてブロックチェーン業界の会計・税務領域を中心に啓蒙活動を行っている。会計コンサルティングファームであるAtlas Accounting代表として、仮想通貨交換業者の申請サポート・顧問業務の他、IPO支援やM&Aの会計デューデリジェンス等のアドバイザリーサービスを提供。複数のICOプロジェクトの顧問を務めており、一般社団法人日本仮想通貨税務協会理事も兼任
+      role: ADVISOR
+      twitter:
       fb:
       linkedin:
 ambassador:
