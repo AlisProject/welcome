@@ -91,8 +91,8 @@ body
                 +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.ishii.id)
                 +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.usagi.id)
-                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_akagi.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.akagi.id)
+                +team_member(member.profile.akagi.name, member.profile.akagi.role)(src='/img/pc/img_profile_akagi.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.togashi.id)
                 +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.terashima.id)
@@ -244,16 +244,16 @@ body
     member.profile.kamei.linkedin)
   .p-popup-overlay(data-exit=member.profile.kamei.id)
 
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_akagi.png', id="js-popup-"+member.profile.usagi.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_akagi.png', id="js-popup-"+member.profile.akagi.id)
     +popup_member(
-    member.profile.usagi.id,
-    member.profile.usagi.name,
-    member.profile.usagi.role,
-    member.profile.usagi.body,
-    member.profile.usagi.twitter,
-    member.profile.usagi.fb,
-    member.profile.usagi.linkedin)
-  .p-popup-overlay(data-exit=member.profile.usagi.id)
+    member.profile.akagi.id,
+    member.profile.akagi.name,
+    member.profile.akagi.role,
+    member.profile.akagi.body,
+    member.profile.akagi.twitter,
+    member.profile.akagi.fb,
+    member.profile.akagi.linkedin)
+  .p-popup-overlay(data-exit=member.profile.akagi.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
     +popup_member(
