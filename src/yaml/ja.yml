@@ -257,6 +257,15 @@ ambassador:
     ueno:
       name: 上野直彦
       url: https://twitter.com/Nao_Ueno
+    cosmos:
+      name: こすもす
+      url: https://twitter.com/cosmoscx
+    mio:
+      name: みお
+      url: https://twitter.com/cryptoJD1010
+    kiyosui:
+      name: キヨスイ
+      url: https://twitter.com/kiyosui_goraku
     adam:
       name: Adam Koltun
       url: https://twitter.com/socialblocchain
@@ -296,6 +305,9 @@ ambassador:
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
+    m:
+      name: M
+      url: https://twitter.com/M_Thai_Crypto
 community:
   header:
     body_line_1: Pioneering the Future,

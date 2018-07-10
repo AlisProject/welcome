@@ -84,6 +84,21 @@ body
                 .col-lg-6
                   .p-ambassador__profile
                     +team_ambassador(ambassador.profile.ueno.name, ambassador.profile.ueno.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.cosmos.name, ambassador.profile.cosmos.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.kiyosui.name, ambassador.profile.kiyosui.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.mio.name, ambassador.profile.mio.url)
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
@@ -169,6 +184,14 @@ body
                 .col-lg-6
                   .p-ambassador__profile
                     +team_ambassador(ambassador.profile.dmitry.name, ambassador.profile.dmitry.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--thailand
+                  span.p-ambassador__country Thailand
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.m.name, ambassador.profile.m.url)
 
   include mixin/popup_member
   article.p-popup.p-popup-member.is-effect(id="js-popup-"+member.profile.yasu.id)
