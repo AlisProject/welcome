@@ -346,7 +346,7 @@ ambassador_program:
   url: https://medium.com/@alismedia/alis-ambassador-program%E9%96%8B%E5%A7%8B-aa59f00f2969
 goods:
   header: ALISTORE（ALIS認定グッズ販売所）
-  body: アンバサダー主導でコミュニティ要望型のグッズ作成プラットフォームを用意しています。DISCORDなどを通してALISグッズの提案が可能です。提案が受け入れられると、提案者は無料でそのグッズが配布され、ALISTOREにグッズが並びます。※グッズの提案はdiscord内の#alis-goodsで受け付けております
+  body: アンバサダー主導でコミュニティ要望型のグッズ作成プラットフォームを用意しています。DISCORD内の#alis-goodsなどを通してALISグッズの提案が可能です。提案が受け入れられると、提案者は無料でそのグッズが配布され、ALISTOREにグッズが並びます。
   btn_text1: ALISTOREはこちら
   url1: https://alismedia.official.ec/
   btn_text2: トークンでの支払いはこちら
