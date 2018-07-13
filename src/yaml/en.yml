@@ -338,8 +338,12 @@ ambassador_program:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
 goods:
-  header: GOODS
-  body: We have a community-based goods creation platform. Community members suggest ideas for new ALIS goods and “swag” at any time. When a proposal is accepted, the proposer will be distributed the goods for free, and the product will be featured on the ALIS goods page.
+  header: 
+  body: 
+  btn_text1: 
+  url1: https://alismedia.official.ec/
+  btn_text2: 
+  url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
 closedb:
   header: WHAT’S CLOSED β
   body: |
