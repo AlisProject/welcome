@@ -351,6 +351,12 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _07312018:
+    category: PRESS RELEASE
+    date: Jul 31, 2018
+    header: Business partnership with MyToken
+    body: Today, ALIS formed a business partnership with MyToken, a China-based crypto currency application with more than a million users. We will work jointly for product enhancement and mutually grow in Asian market.
+    url: 
   _06212018:
     category: UPDATE
     date: Jun 21, 2018

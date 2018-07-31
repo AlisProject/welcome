@@ -15,6 +15,13 @@ body
         .p-block--lg
           .row.p-news-cards
             include mixin/news_card
+            .col-lg-4(data-hasurl=news._07312018.url)
+              a.p-news-card.p-news-card--twitter(href=news._07312018.url, target="_blank", data-category=news._07312018.category)
+                +news_card(
+                news._07312018.category,
+                news._07312018.date,
+                news._07312018.header,
+                news._07312018.body)
             .col-lg-4(data-hasurl=news._06212018.url)
               a.p-news-card.p-news-card--twitter(href=news._06212018.url, target="_blank", data-category=news._06212018.category)
                 +news_card(
