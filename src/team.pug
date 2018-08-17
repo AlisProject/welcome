@@ -192,6 +192,14 @@ body
                 .col-lg-6
                   .p-ambassador__profile
                     +team_ambassador(ambassador.profile.m.name, ambassador.profile.m.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--germany
+                  span.p-ambassador__country Germany
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.okrabbit.name, ambassador.profile.okrabbit.url)
 
   include mixin/popup_member
   article.p-popup.p-popup-member.is-effect(id="js-popup-"+member.profile.yasu.id)

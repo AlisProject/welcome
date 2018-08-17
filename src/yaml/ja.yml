@@ -308,6 +308,9 @@ ambassador:
     m:
       name: M
       url: https://twitter.com/M_Thai_Crypto
+    okrabbit:
+      name: 億ラビットくん
+      url: https://twitter.com/ocrybit
 community:
   header:
     body_line_1: Pioneering the Future,

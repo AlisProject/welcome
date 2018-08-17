@@ -301,6 +301,9 @@ ambassador:
     m:
       name: M
       url: https://twitter.com/M_Thai_Crypto
+    okrabbit:
+      name: OK Rabbit
+      url: https://twitter.com/ocrybit
 community:
   header:
     body_line_1: Pioneering the Future,
@@ -338,11 +341,11 @@ ambassador_program:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
 goods:
-  header: 
-  body: 
-  btn_text1: 
+  header:
+  body:
+  btn_text1:
   url1: https://alismedia.official.ec/
-  btn_text2: 
+  btn_text2:
   url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
 closedb:
   header: WHAT’S CLOSED β
