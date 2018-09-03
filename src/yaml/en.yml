@@ -354,6 +354,12 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _09042018:
+    category: PRESS RELEASE
+    date: Sep 4, 2018
+    header: ALIS, and Microsoft have collaborated on a “tips” API
+    body: Blockchain Social Media Company ALIS, and Microsoft Japan, have begun a collaboration for the development of the "tips" API, contributing to the sound growth of the domestic blockchain industry, while smoothly transferring value in the token economy era.
+    url: https://alis.to/ALIS-official/articles/KmQ0nYMX1pog
   _07312018:
     category: PRESS RELEASE
     date: Jul 31, 2018
