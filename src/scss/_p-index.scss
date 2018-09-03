@@ -399,6 +399,35 @@
   }
 }
 
+/* Partners
+-------------------------------------------------- */
+
+.p-partners {
+  text-align: center;
+  @include mq() {
+    text-align: left;
+  }
+  &__img {
+    height: 54px;
+    width: auto;
+    margin: 16px 20px;
+    @include mq(lg) {
+      margin: 28px 30px
+    }
+    @include mq() {
+      display: none;
+    }
+  }
+  &__img--sp {
+    display: none;
+    @include mq() {
+      display: inline-block;
+      height: 40px;
+      margin-bottom: 24px;
+      margin-right: 2rem;
+    }
+  }
+}
 
 /* Media Logos
 -------------------------------------------------- */

@@ -361,6 +361,12 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _09042018:
+    category: PRESS RELEASE
+    date: Sep 4, 2018
+    header: ALISとマイクロソフトが投げ銭APIのための協業を開始
+    body: 国内最大規模の仮想通貨コミュニティを誇るALISと大手Tech企業の日本マイクロソフトが「投げ銭」API開発のための協業を開始しました。
+    url: https://prtimes.jp/main/html/rd/p/000000005.000027792.html
   _07312018:
     category: PRESS RELEASE
     date: Jul 31, 2018

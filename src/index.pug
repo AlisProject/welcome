@@ -132,6 +132,19 @@ body
               img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
               img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
 
+      // PARTNERS
+      section.p-section
+        .p-title.p-title--nobody
+          h3.p-title__header PARTNERS
+
+        .p-partners
+          a(href="https://alis.to/ALIS-official/articles/KJNk4X4POZwx", target="blank")
+            img.p-partners__img(src="/img/pc/logo_mytoken.png" alt='MyToken')
+            img.p-partners__img--sp(src="/img/sp/logo_mytoken.png" alt='MyToken')
+          a(href="https://alis.to/ALIS-official/articles/KmQ0nYMX1pog", target="blank")
+            img.p-partners__img(src="/img/pc/logo_microsoft.png" alt='Microsoft')
+            img.p-partners__img--sp(src="/img/sp/logo_microsoft.png" alt='Microsoft')
+
   include mixin/popup_member
   article.p-popup.p-popup-member.is-effect(id="js-popup-"+member.profile.yasu.id)
     +popup_member(
