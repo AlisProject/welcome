@@ -166,15 +166,15 @@ member:
       twitter: https://twitter.com/y_temp4
       fb: https://www.facebook.com/yuki.terashima4
       linkedin:
-    fukamatsu:
-      id: fukamatsu
-      name: IPPEI FUKAMATSU
+    narisada:
+      id: narisada
+      name: REISHI NARISADA
       body: |
-        エンジニア歴9年。SI企業にてBtoBや業務システム開発を経験、その後Facebookを活用した恋活アプリの開発に従事。2015年にフリーランスを経て株式会社ユメラボを創業。サービスの目的やKPIにフォーカスした企画、開発を理念として活動。ALISの理念、使用技術の面白さに魅力を感じジョイン。
+        大学院修了後Web開発会社でCtoCサービスでのAPI開発、仮想通貨取引所のシステム開発等を通してサーバサイド開発、フロントエンド開発を経験。技術だけでなくコミュニティ形成を重要視していること、個人の新しい形の信用形成の可能性に惹かれ、ALISへの参画を決める。ALISでは主にサーバレスのバックエンド部分の開発を担当している。
       role: ENGINEER
-      twitter:
-      fb: https://www.facebook.com/ippei.fukamatsu
-      linkedin:
+      twitter: https://twitter.com/_ri_sa_da
+      fb: https://www.facebook.com/reishi.narisada
+      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA

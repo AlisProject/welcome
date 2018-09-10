@@ -159,15 +159,15 @@ member:
       twitter: https://twitter.com/y_temp4
       fb: https://www.facebook.com/yuki.terashima4
       linkedin:
-    fukamatsu:
-      id: fukamatsu
-      name: IPPEI FUKAMATSU
+    narisada:
+      id: narisada
+      name: REISHI NARISADA
       body: |
-        Fukamatsu has 9 years of engineering experience. After being involved in BtoB and business system development at an SI company, he was engaged in the development of a Facebook dating application. Fukamatsu founded Yumerebo Co., Ltd. independently in 2015. He specializes in the philosophy of service purpose, and planning and development focusing on KPI. He is fascinated by ALIS's philosophy, the fun of use technology aid in the ALIS mission.
+        Reishi has experience in API development for C to C services, the frontend and backend of exchanges, and so on. He is fascinated not only by ALIS’s cutting edge technology, but also with the possibility of visualized trust, which will be established through ALIS. Currently he is taking part in the backend development of serverless architecture.
       role: ENGINEER
-      twitter:
-      fb: https://www.facebook.com/ippei.fukamatsu
-      linkedin:
+      twitter: https://twitter.com/_ri_sa_da
+      fb: https://www.facebook.com/reishi.narisada
+      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA
