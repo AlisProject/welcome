@@ -30,8 +30,8 @@ body
                 +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.terashima.id)
                 +team_member(member.profile.terashima.name, member.profile.terashima.role)(src='/img/pc/img_profile_terashima.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.fukamatsu.id)
-                +team_member(member.profile.fukamatsu.name, member.profile.fukamatsu.role)(src='/img/pc/img_profile_fukamatsu.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.narisada.id)
+                +team_member(member.profile.narisada.name, member.profile.narisada.role)(src='/img/pc/img_profile_narisada.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
                 +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='/img/pc/img_profile_matsuyama.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.potato.id)
@@ -258,16 +258,16 @@ body
     member.profile.terashima.linkedin)
   .p-popup-overlay(data-exit=member.profile.terashima.id)
 
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_fukamatsu.png', id="js-popup-"+member.profile.fukamatsu.id)
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_narisada.png', id="js-popup-"+member.profile.narisada.id)
     +popup_member(
-    member.profile.fukamatsu.id,
-    member.profile.fukamatsu.name,
-    member.profile.fukamatsu.role,
-    member.profile.fukamatsu.body,
-    member.profile.fukamatsu.twitter,
-    member.profile.fukamatsu.fb,
-    member.profile.fukamatsu.linkedin)
-  .p-popup-overlay(data-exit=member.profile.fukamatsu.id)
+    member.profile.narisada.id,
+    member.profile.narisada.name,
+    member.profile.narisada.role,
+    member.profile.narisada.body,
+    member.profile.narisada.twitter,
+    member.profile.narisada.fb,
+    member.profile.narisada.linkedin)
+  .p-popup-overlay(data-exit=member.profile.narisada.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_matsuyama.png', id="js-popup-"+member.profile.matsuyama.id)
     +popup_member(
