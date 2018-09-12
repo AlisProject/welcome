@@ -39,7 +39,7 @@
 	&__name {
 		font-size: 1.6rem;
 		line-height: 1.5;
-		letter-spacing: 2px; 
+		letter-spacing: 2px;
 		margin: 0;
 		padding-bottom: 1rem;
 		@include mq() {
@@ -142,7 +142,7 @@
       max-height: 180px;
       letter-spacing: 0;
     }
-  } 
+  }
   &__content {
     margin-left: 16px;
   }
@@ -194,7 +194,7 @@
 	&__list {
 		padding: 0;
 	}
-	
+
 	&__list-item {
 		list-style: none;
 		line-height: 44px;
@@ -204,13 +204,13 @@
 			&:first-child >:first-child{
 				margin-bottom: 20px;
 			}
-		}	
+		}
 		@include mq(sm) {
 			margin-bottom: 20px;
 			&:first-child >:first-child{
 				margin-bottom: 5px;
 			}
-		}	
+		}
 	}
 
 	&__profile {
@@ -221,7 +221,7 @@
 		}
 	}
 
-	$countries: "japan", "usa", "netherlands","china", "argentina", "taiwan", "malaysia", "singapore", "uk", "czech", "canada";
+	$countries: "japan", "usa", "netherlands","china", "argentina", "taiwan", "malaysia", "singapore", "uk", "czech", "canada", "thailand", "germany";
 
 	@each $country in $countries {
 		&__flag--#{$country} {
@@ -235,7 +235,7 @@
 			@include mq() {
 				width: 30px;
 				height: 20px;
-				margin-right: 12px;	
+				margin-right: 12px;
 			}
 		}
 	}
@@ -269,7 +269,7 @@
 			height: 44px;
 			top: 0;
 			opacity: 0;
-			background: url("/img/pc/icon_community_twitter_hover.png") 50% 62% no-repeat;	
+			background: url("/img/pc/icon_community_twitter_hover.png") 50% 62% no-repeat;
 			background-size: 32px 30px;
 		}
 
@@ -288,7 +288,7 @@
 			}
 		}
 	}
-	
+
 	&__name {
 		font-size: 1.6rem;
 		line-height: 44px;

@@ -23,20 +23,21 @@ whitepaper:
 roadmap:
   url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
 cover:
-  caption_line_one: 
+  caption_line_one:
     first: 信頼できる記事と人々を明らかにする
     second: 全く新しいソーシャルメディア
 registration:
-  header: REGISTRATION
-  body_line_1: ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
-  body_line_2: ご興味をお持ちの方はクローズドβ応募フォームよりご応募ください。
-  body_line_3: ※クローズドβは日本でのみ公開となります。
-  btn_text: クローズドβに応募する
-  url: http://eepurl.com/diOWan
+  header: CLOSED β PRODUCT
+  body_line_1: ALISは現在クローズドβ版を公開しております。
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
+  btn_text1: クローズドβにアクセス
+  url1: https://alis.to
+  btn_text2: Waitingリストに登録
+  url2: http://eepurl.com/drM0Jr
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
-  feature_list: 
+  feature_list:
     item1_body1: 欲しい情報が
     item1_body2: すぐに見つかる
     item2_body1: 信頼できる記事を
@@ -44,18 +45,19 @@ project:
     item2_body3: 報酬がもらえる
     item3_body1: 日本コミュニティを
     item3_body2: 中心に創り上げるプロダクト
-    item3_body3: 
+    item3_body3:
 product:
   header: PRODUCT
-  body_line_1: 現在ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
-  body_line_2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
-  mock_pc: 
-    btn_text: パソコンのモックを見る
-    url: https://invis.io/NVF0FSW2B
-  mock_sp: 
-    btn_text: スマートフォンのモックを見る 
-    url: https://invis.io/GNF0FS8R8
+  body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
+  mock_pc:
+    btn_text: クローズドβにアクセス
+    url: https://alis.to
+  mock_sp:
+    btn_text: Waitingリストに登録
+    url: http://eepurl.com/drM0Jr
   dev_status: プロダクトの開発状況はこちら
+  bi_status: BIデータはこちら
 about:
   vision:
     body_line_1: 信頼の可視化で
@@ -64,30 +66,30 @@ about:
     item1: 信頼できる記事と人々に素早く出会えることを可能にするソーシャルメディアを創造する
     item2: 人や情報の信頼性を可視化するロジックを柔軟に変化させながら常に磨き続ける
     item3: ブロックチェーン技術とトークンエコノミーにより自律的に発展する経済圏を実現する
-  value: 
-    item1: 
+  value:
+    item1:
       header: Alliance and Wisdom
       body: 一人で何かを成し遂げようとするのではなく、全員の知恵を結集することが新しい事業を創造するためには欠かせない要素です。常に独りよがりになることなく、周囲を巻き込みながら事業を創り上げることを大事にします。
-    item2: 
+    item2:
       header: Keep it short and simple
       body: 複雑な説明やめまぐるしいほど多くの機能を実装してしまい哲学を失うのではなく、本当に必要だと思うことを考え抜き、誰にでも利用できるシンプルで簡潔なプロダクトを提供します。
-    item3: 
+    item3:
       header: 言葉よりプロダクトで議論する
       body: いくら言葉で議論しても、何かを検証したり世の中に価値を提供することはできません。我々は常に動くプロダクトと それを使ったユーザのフィードバックから、次なる価値提供を目指します。
-    item4: 
+    item4:
       header: ユーザーのWowを創る
       body: 相手の期待に応えるだけでなく、ほんの少しでも期待を上回る「Wow」をいかなるシーンにおいても提供し続けることで、常に驚きが産まれるプロダクトを創造します。
-    item5: 
+    item5:
       header: Be the first penguin
       body: 常に新しいことの連続である領域では、とにかくまずは飛び込んでやってみることによって多くの学びを得ることができます。外敵が潜む海に真っ先に飛び込むFirst Penguineの様に、臆することなく挑戦します。
-    item6: 
+    item6:
       header: Passion as subject
       body: コミュニティおよびプロダクトの発展のために、誰かが、を待つのではなく常に自分が主体者として良いと思うこと・やりたいことに挑戦する志を磨き続けます。
 team:
   header: TEAM
 member:
   header: MEMBER
-  body: contributing to ALIS every day.
+  body: contributing to ALIS.
   profile:
     yasu:
       id: yasu
@@ -123,8 +125,8 @@ member:
       role: CO-FOUNDER / CTO
       twitter: https://twitter.com/sot528
       fb: https://fb.me/sota.ishii
-      linkedin: 
-    togashi: 
+      linkedin:
+    togashi:
       id: togashi
       name: KEIJU TOGASHI
       body: |
@@ -132,10 +134,10 @@ member:
         サービス開発としては BtoB や BtoC 等で複数経験し、技術としてもインフラからフロントエンドまでマルチに対応する。
         インターネット上の虚偽を可能な限り少なくしたいという思いから ALISへのジョインを決める。
         サービス設計から運用設計まで一貫したシステム開発を進めている。
-      role: ENGINEER
+      role: LEAD ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
-      linkedin:      
+      linkedin:
     kamei:
       id: kamei
       name: TATSUHIKO KAMEI
@@ -146,37 +148,100 @@ member:
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    usagi: 
-      id: usagi
-      name: USAGI
+    akagi:
+      id: akagi
+      name: KENTA AKAGI
       body: |
         武蔵野美術大学にてブランディングデザイン・カルチュラルエンジニアリングデザインを選考。感情の変化、行動とデザインの関係を研究。卒業後はDeNA・リクルートジョブズにて新規サービスの開発に従事。Forbesの"スタートアップの有望株 厳選50社"に選出されたエメラダでCXOとして新規サービスの立上げを行った後、ALISへジョイン。情報を視覚化し、物体的に捉えた時のそのあり方や、情報が一過性ではなく育っていくようなデザインの実現を進める。ペルソナの設計からIA、表層部のデザインまで一気通貫で進めている。
       role: LEAD DESIGNER
       twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho:
-      id: gachiho 
-      name: GACHIHO
+    terashima:
+      id: terashima
+      name: YUKI TERASHIMA
       body: |
-        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        大学時代はインターンシップや課外活動を通じてチームでWebアプリケーション制作を行うかたわら、個人でも開発を行い技術力を高める。開発ではフロントエンドからサーバーサイドまで幅広く経験。大学4年時にALISを知り、ICO以前からALISの情報をブログで発信。ALISミートアップを通じてALISメンバーと深くコミュニケーションをとり、エンジニアとしてのコミットを開始。ALISを通じて、価値が正しく評価される世界をつくること目標としている。
       role: ENGINEER
-      twitter: 
-      fb:
+      twitter: https://twitter.com/y_temp4
+      fb: https://www.facebook.com/yuki.terashima4
+      linkedin:
+    narisada:
+      id: narisada
+      name: REISHI NARISADA
+      body: |
+        大学院修了後Web開発会社でCtoCサービスでのAPI開発、仮想通貨取引所のシステム開発等を通してサーバサイド開発、フロントエンド開発を経験。技術だけでなくコミュニティ形成を重要視していること、個人の新しい形の信用形成の可能性に惹かれ、ALISへの参画を決める。ALISでは主にサーバレスのバックエンド部分の開発を担当している。
+      role: ENGINEER
+      twitter: https://twitter.com/_ri_sa_da
+      fb: https://www.facebook.com/reishi.narisada
+      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
+    matsuyama:
+      id: matsuyama
+      name: YUKI MATSUYAMA
+      body: |
+        早稲田大学で法律を学んだ後、2014年に新卒で大手WEB企業に入社。大規模サービスでプロジェクトマネジメントを経験後、エンジニアとして複数サービスのグロースに携わる。また、スクラムマスターとしてスクラムチームの立ち上げ、継続的な価値のデリバリーのためにDevOpsやアジャイルプラクティスの実践を行う。ALISでは主にサーバレスを使ったバックエンドアプリケーションの開発に従事している。
+      role: ENGINEER
+      twitter:
+      fb: https://www.facebook.com/yuki.matsuyama.395
+      linkedin:
+    yamashita:
+      id: yamashita
+      name: TAISUKE YAMASHITA
+      body: |
+        東京電機大学工学部を2008年卒業後、銀行系サービス開発会社に入社。地方銀行向けパッケージのカスタマイズ、共同センター移行、運用に携わる。汎用系の開発よりオープン系の開発に興味を持ったため、2012年より、Web系開発会社に転職。LAMP環境の開発・運用に携わる。2017年よりフリーランス。ALISでは主に認証部分、検索部分の開発を担当。
+      role: ENGINEER
+      twitter: https://twitter.com/yaasita
+      fb: https://www.facebook.com/taisuke.yamasita.9
+      linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
+    potato:
+      id: potato
+      name: Potato
+      body: |
+        複数のスタートアップなどでの開発経験を経て、 pixiv inc. に入社。 2017 年に独立し、現在はフリーランスの Web エンジニアとして活動している。自身が開発者向け資料の作成などで貢献している Vue.js / Nuxt.js のモデルケースとなるようなプロジェクトを作り上げるため、 ALIS にてフロントエンドの設計に携わっている。
+      role: TECHNICAL ADVISOR
+      twitter: https://twitter.com/potato4d
+      fb: https://www.facebook.com/potato4d
       linkedin:
     kubori:
       id: kubori
-      name: CHIKA KUBORI
+      name: CHISA KUBORI
       body: |
         大阪芸術大学にてグラフィックデザインを専攻しブランディング・タイポグラフィを基軸としたデザインを研究。在学中、大阪中ノ島公会堂にてOSAKA DESIGN FORUM2011を開催・メインビジュアルを担当。卒業後、広告制作会社にて企画・提案・パッケージデザイン・コーディング等幅広い事業に従事。その後フリーランスとして独立。グラフィックデザイン・Webデザインを主に、出身地である和歌山県の一次産業にスポットライトを当てた新規事業の立ち上げ等を行なっている。
       role: DESIGNER
       twitter: https://twitter.com/kuborichisa
       fb:
       linkedin:
+    ishizaka:
+      id: ishizaka
+      name: MASAYA ISHIZAKA
+      body: |
+         桑沢デザイン研究所（kuwasawa design school）卒業、同窓会理事会委員。在学中から、フリーランスデザイナーとして活動。制作会社で、陸上自衛隊、大企業などのブランディングを行い、デザイン会社上海支社長兼CDとなる。その後、半年で中国で初となるカンヌライオン金獅子賞（サイバー部門）を受賞。シンガポールに移り、DDBシンガポールで働き、帰国。DeNAでAIと自動運転を活用したサービスのクリエイティブディレクターとなる。現在は、インドでIOT教育ビジネスや国内でブロックチェーンブランディングを始める。本職はデザイナー。
+      role: DESIGNER
+      twitter: https://twitter.com/msy_i
+      fb: https://www.facebook.com/masaya0
+      linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    kawai:
+      id: kawai
+      name: KEN KAWAI
+      body: |
+        ・フィンテック企業及び既存金融機関に対してフィンテックに関連する各種のリーガルアドバイスを行っています。仮想通貨、イニシャル・コイン・オファリング及びブロックチェーンに関して、特に多くの案件を取り扱うほか、自主規制団体の法律顧問を務め、また、内外の公的機関等への政策アドバイスにも積極的に取り組んでいます。・大手金融機関においてデリバティブ取引等の市場業務に約15年間従事した経験を踏まえ、金融規制法、デリバティブ取引、仕組商品、金融商品関連紛争等に関し、金融実務に即したアドバイスを行うことを得意としています。・複雑な金融取引やクロスボーダー取引への対処が必要な倒産/事業再生案件を多く手掛けています。特に金融機関の破綻法制については、関連機関及び大手金融機関から多くの依頼を受けています。・競争法分野における審判/訴訟対応、コンプライアンス体制整備についても広く取り扱っております。
+      role: LEGAL ADVISOR
+      twitter:
+      fb:
+      linkedin:
+    numasawa:
+      id: numasawa
+      name: KENTO NUMASAWA
+      body: |
+        株式会社Aerial Partners代表取締役。仮想通貨取引計算サポートと税理士紹介を行う『Guardian』、仮想通貨取引計算ツールである『G-tax』を提供している。Twitterの仮想通貨アカウント「二匹目のヒヨコ（@2nd_chick）」中の人としてブロックチェーン業界の会計・税務領域を中心に啓蒙活動を行っている。会計コンサルティングファームであるAtlas Accounting代表として、仮想通貨交換業者の申請サポート・顧問業務の他、IPO支援やM&Aの会計デューデリジェンス等のアドバイザリーサービスを提供。複数のICOプロジェクトの顧問を務めており、一般社団法人日本仮想通貨税務協会理事も兼任
+      role: ADVISOR
+      twitter:
+      fb:
+      linkedin:
 ambassador:
   header: AMBASSADOR
-  body: to help spread awareness of the platform ALIS. 
-  profile: 
+  body: to help spread awareness of the platform ALIS.
+  profile:
     seiya:
       name: seiya
       url: https://twitter.com/crypto_seiya
@@ -192,6 +257,15 @@ ambassador:
     ueno:
       name: 上野直彦
       url: https://twitter.com/Nao_Ueno
+    cosmos:
+      name: Cosmos
+      url: https://twitter.com/cosmoscx
+    mio:
+      name: Mio
+      url: https://twitter.com/cryptoJD1010
+    kiyosui:
+      name: キヨスイ
+      url: https://twitter.com/kiyosui_goraku
     adam:
       name: Adam Koltun
       url: https://twitter.com/socialblocchain
@@ -210,9 +284,9 @@ ambassador:
     dmitry:
       name: Dmitry Vilchitsky
       url: https://twitter.com/rethink_urban
-    keegan:
-      name: Keegan Francis
-      url: 
+    francis:
+      name: Francis
+      url:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
@@ -221,31 +295,37 @@ ambassador:
       url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
-      url: 
+      url:
     peter:
       name: Peter Wu
-      url: 
+      url:
     tan:
       name: Tan Liang Yit
       url: https://twitter.com/liangyit90
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
+    m:
+      name: M
+      url: https://twitter.com/M_Thai_Crypto
+    okrabbit:
+      name: 億ラビットくん
+      url: https://twitter.com/ocrybit
 community:
-  header: 
-    body_line_1: Pioneering the Future, 
+  header:
+    body_line_1: Pioneering the Future,
     body_line_2: Together!
   body: ALISは良質なフィードバックを得るために、活動を透明化し、仮説をすばやくコミュニティに問いかけます。そこで自然淘汰され、生き残ったアイディアを伸ばすことが「使ってもらえるモノを作るための最善の方法」だと考えるからです。ぜひ一緒にコミュニティを盛り上げてください。あなたの活動や反応がこれからのALISを作ります。
   twitter:
     name: TWITTER
     body_line_1: ALISの
     body_line_2: 最新情報を
-    body_line_3: 知りたい 
+    body_line_3: 知りたい
   medium:
     name: MEDIUM
     body_line_1: ALISについて
     body_line_2: もっと詳しく
-    body_line_3: 知りたい 
+    body_line_3: 知りたい
   discord:
     name: DISCORD
     body_line_1: ALISに興味の
@@ -263,13 +343,17 @@ community:
     body_line_3: 知りたい
 ambassador_program:
   header_line_1: AMBASSADOR PROGRAM
-  header_line_2: 
+  header_line_2:
   body: ALISファンや投資家の方に、ALISの魅力を積極的に発信頂くためのプログラムです。世界中に配置された認定アンバサダーは主に、母国語への翻訳、コミュニティ活性化、Meetupの開催などを行います。あなたがALISの推奨者で、アンバサダーに興味がある場合はinfo@alismedia.jpにメッセージを送ってください。アンバサダーになっていただいた方には限定の特典もご用意しております。
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/alis-ambassador-program%E9%96%8B%E5%A7%8B-aa59f00f2969
 goods:
-  header: GOODS
-  body: 私たちはコミュニティ要望型のグッズ作成プラットフォームを用意しています。あなたはいつでもALISグッズの提案を行えます。提案が受け入れられると、提案者は無料でそのグッズが配布され、ALISグッズページにグッズが並びます。
+  header: ALISTORE（ALIS認定グッズ販売所）
+  body: アンバサダー主導でコミュニティ要望型のグッズ作成プラットフォームを用意しています。DISCORD内の#alis-goodsなどを通してALISグッズの提案が可能です。提案が受け入れられると、提案者は無料でそのグッズが配布され、ALISTOREにグッズが並びます。
+  btn_text1: ALISTOREはこちら
+  url1: https://alismedia.official.ec/
+  btn_text2: トークンでの支払いはこちら
+  url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
 closedb:
   header: WHAT’S CLOSED β
   body: |
@@ -277,6 +361,84 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _09042018:
+    category: PRESS RELEASE
+    date: Sep 4, 2018
+    header: ALISとマイクロソフトが投げ銭APIのための協業を開始
+    body: 国内最大規模の仮想通貨コミュニティを誇るALISと大手Tech企業の日本マイクロソフトが「投げ銭」API開発のための協業を開始しました。
+    url: https://prtimes.jp/main/html/rd/p/000000005.000027792.html
+  _07312018:
+    category: PRESS RELEASE
+    date: Jul 31, 2018
+    header: ALISとMyTokenが業務提携を発表
+    body: 世界中で100万人以上が使う仮想通貨相場・管理アプリ「MyToken」との業務提携を発表。今後、ALISとMyTokenは相互に協力し合いながら、アジアのコミュニティ発展および、プロダクトレイヤーでの価値向上を行っていきます。
+    url: https://alis.to/ALIS-official/articles/2APJXdWkQ0MX
+  _06212018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _06122018:
+    category: MEDIA
+    date: Jun 12, 2018
+    header: 仮想通貨Watch
+    body: ICOで得たトークンを糧に、広告に頼らない情報＆経済圏を目指すALIS
+    url: https://crypto.watch.impress.co.jp/docs/event/1127178.html
+  _06092018:
+    category: UPDATE
+    date: Jun 9, 2018
+    header: ALIS Update -クローズドβ版利用状況レポート
+    body: クローズドβ版リリースから今までにALISが行っていた仮説検証のプロセスを一部公開しました
+    url: https://alis.to/ALIS-official/articles/KeOn5DAAABk9
+  _05312018:
+    category: MEDIA
+    date: May 31, 2018
+    header: 仮想通貨1年生の教科書
+    body: 「仮想通貨1年生の教科書」でALISが言及されました
+    url: https://www.amazon.co.jp/dp/B07DQGXFCK/
+  _05102018:
+    category: MEDIA
+    date: May 10, 2018
+    header: Forbes JAPAN
+    body: 格差なき世界を目指す　ブロックチェーンSNS「ALIS」の信念
+    url: https://forbesjapan.com/articles/detail/20970/
+  _05072018:
+    category: MEDIA
+    date: May 7, 2018
+    header: Business Insider Japan
+    body: 格国内初、数億円“ICO”ベンチャーが奮闘する｢ICOの税務｣と｢決算｣ —— ALISの“ファーストペンギンの覚悟”とは
+    url: https://www.businessinsider.jp/post-166831
+  _04302018:
+    category: UPDATE
+    date: Apr 30, 2018
+    header: クローズドβ版利用状況を公開
+    body: リアルタイムにユーザー数、記事公開数、いいね数などご覧いただけます。数値をオープンにしながらコミュニティの皆さまと共にALISの価値を高めていけたらと思います。
+    url: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+  _04272018:
+    category: MEDIA
+    date: Apr 27, 2018
+    header: Coinpost
+    body: ALIS β版リリース記念イベント：参加レポート
+    url: http://coinpost.jp/?p=23785
+  _04252018_1:
+    category: MEDIA
+    date: Apr 25, 2018
+    header: finte
+    body: 『避けるべきは、運営者の神格化』日本のICOプロジェクトALISが考える、ICOの本質
+    url: https://www.enigma.co.jp/media/page-23123/
+  _04252018_2:
+    category: MEDIA
+    date: Apr 25, 2018
+    header: Coinchoice
+    body: ALIS(アリス)のβ版公開イベントレポート！今後のビジョンや実現に向けたロードマップを発表
+    url: https://coinchoice.net/201804-alis-beta-version-event/
+  _04242018:
+    category: UPDATE
+    date: Apr 24, 2018
+    header: クローズドβ版公開記念イベントで今後の戦略を発表
+    body: 2018年4月23日（月）にクローズドβ版公開記念イベントを開催。当日の発表内容をまとめました。
+    url: https://medium.com/@alismedia/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%89%CE%B2%E7%89%88%E5%85%AC%E9%96%8B%E8%A8%98%E5%BF%B5%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%A7%E4%BB%8A%E5%BE%8C%E3%81%AE%E6%88%A6%E7%95%A5%E3%82%92%E7%99%BA%E8%A1%A8-11f0d2a4ea8
   _02282018:
     category: UPDATE
     date: Feb 28, 2018
@@ -370,7 +532,7 @@ news:
 
   _09132018:
     category: PRESS RELEASE
-    date: Sep 13, 2018
+    date: Sep 13, 2017
     header: ICO開始12日で最小目標となる約3.8億を調達。
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）で目標最小調達額として設定していた11,666ETH（約3.8億円）を調達。2017年9月1日（日本時間）のICO開始からわずか12日間での達成となった。
     url: https://prtimes.jp/main/html/rd/p/000000003.000027792.html
@@ -437,11 +599,11 @@ news:
     body: ホワイトペーパーの中から要点を抽出した記事を作成いたしました。本記事をご覧いただき、少しでもALISにご興味を持っていただければ幸いです。
     url: https://medium.com/@alismedia/whitepaper%E3%81%AE%E8%A6%81%E6%89%80%E3%82%923%E5%88%86%E3%81%A7%E3%81%8A%E4%BC%9D%E3%81%88%E3%81%99%E3%82%8B-fff453986ebe
 
-sns_url: 
+sns_url:
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis
   github: https://github.com/AlisProject
-
+  googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q

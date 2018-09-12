@@ -26,7 +26,7 @@
       font-size: 2.8rem;
       letter-spacing: 7px;
       line-height: 1.5;
-    }    
+    }
   }
 }
 
@@ -258,6 +258,8 @@ $pages: "about", "team", "community", "product", "news";
   color: #fff;
   min-width: $width;
   height: 38px;
+  margin-right: 5px;
+  margin-bottom: 12px;
   line-height: 38px;
   padding: 0 1em;
   vertical-align: middle;

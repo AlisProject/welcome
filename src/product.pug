@@ -12,23 +12,6 @@ body
         h2.p-cover-header__title PRODUCT
 
       .container-fluid
-        .p-block.p-block--xs.p-registration-block
-          .p-title.p-title--center
-            h3.p-title__header #{registration.header}
-            p.p-title__body
-              | #{registration.body_line_1}
-              | #{registration.body_line_2}
-              | #{registration.body_line_3}
-          .text-center
-            a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{registration.btn_text}
-
-        .p-block.p-block--xs
-          .p-title.p-title--center 
-            h3.p-title__header #{closedb.header}
-            p.p-title__body #{closedb.body}
-          .text-center.u-ja-only
-            a.p-button.p-button--lg(href=closedb.url, target='_blank') #{closedb.btn_text}
-
         .p-block.p-block--xs
           .p-product-block
             .p-product-block__text
@@ -41,9 +24,19 @@ body
           .text-center
             .p-product__btns
               a.p-product__button(href=product.mock_pc.url, target="_blank") #{product.mock_pc.btn_text}
-              a.p-product__button(href=product.mock_sp.url, target="_blank") #{product.mock_sp.btn_text}
+              a.u-ja-only.u-ja-only--inline-block.p-product__button(href=product.mock_sp.url, target="_blank") #{product.mock_sp.btn_text}
+              br
+              br
+              a.p-product__link(href=sns_url.googledatastudio, target="_blank") #{product.bi_status}
               br
               a.p-product__link(href=sns_url.github, target="_blank") #{product.dev_status}
+
+        .p-block.p-block--xs
+          .p-title.p-title--center
+            h3.p-title__header #{closedb.header}
+            p.p-title__body #{closedb.body}
+          .text-center.u-ja-only
+            a.p-button.p-button--lg(href=closedb.url, target='_blank') #{closedb.btn_text}
 
   // Footer
   #meetus

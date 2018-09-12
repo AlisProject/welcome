@@ -16,79 +16,82 @@ navbar:
   community: COMMUNITY
   product: PRODUCT
   roadmap: ROADMAP
-  news: NEWS 
+  news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
 roadmap:
   url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
 cover:
-  caption_line_one: 
-    first: A completely new social media concept 
-    second: revealing and providing access to 
+  caption_line_one:
+    first: A completely new social media concept
+    second: revealing and providing access to
     third: reliable, articles, news, and people
 registration:
-  header: REGISTRATION
-  body_line_1: ALIS is looking for participants to join the ALIS closed beta version to be published in the end of April. 
-  body_line_2: If you are interested please apply via the closed beta application form.※ We are looking for those with a domestic, SMS capable, Japanese phone number.
-  body_line_3: 
-  url: http://eepurl.com/diOWan
-  btn_text: Apply to be a part of the closed beta launch!
+  header: CLOSED β PRODUCT
+  body_line_1: ALIS is now available for pre-registered users.
+  body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
+  body_line_3:
+  btn_text1: Open the product
+  url1: https://alis.to
+  btn_text2:
+  url2:
 project:
   header: OUR PROJECT
   body1: ALIS is a social media platform set to revolutionize the news and social media industries by connecting ALIS users with trustworthy articles, news, and people quickly. Our goal is to create a platform that incentivizes reliable information by rewarding authors trusted by you, the ALIS community user, as well as rewarding the consumers of the content, who vote on the level of reliability and quality of news, articles, and blogs. The goal is to set people free from advertisement-saturated conventional media, stealth marketing campaigns, and less-than-reliable information sources.
   feature_list:
-    item1_body1: Find the information 
+    item1_body1: Find the information
     item1_body2: you want immediately
-    item2_body1: Write articles, 
-    item2_body2: and get rewards 
+    item2_body1: Write articles,
+    item2_body2: and get rewards
     item2_body3: for curation
-    item3_body1: A product created 
+    item3_body1: A product created
     item3_body2: mainly by the Japanese community
-    item3_body3: 
+    item3_body3:
 product:
   header: PRODUCT
-  body_line_1: The team has currently published a design mock-up for the closed beta release scheduled in the end of April.　
-  body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
-  mock_pc: 
-    btn_text: View closed beta mock-up for PC
-    url: https://invis.io/NVF0FSW2B
-  mock_sp: 
+  body_line_1: ALIS is now available for pre-registered users. You can also check our product development status.
+  body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
+  mock_pc:
+    btn_text: Open the product
+    url: https://alis.to
+  mock_sp:
     btn_text: View closed beta mock-up for mobile device
     url: https://invis.io/GNF0FS8R8
   dev_status: Click here for product development status
+  bi_status: Click here for BI status
 about:
-  vision: 
+  vision:
     body_line_1: Facilitate the connection of people through visualized trust
-    body_line_2: 
+    body_line_2:
   mission:
     item1: Create a social media platform that enables users to find trustworthy articles and people quickly
     item2: Continuous improvement of concept, and flexibility for adjustment in order to maximize the accurate visualization of reliable people and information
     item3: Realize an autonomously developing economic system made possible via blockchain technology and a token economy
-  value: 
-    item1: 
+  value:
+    item1:
       header: Alliance and Wisdom
       body: Rather than trying to accomplish something alone, combining the wisdom of everyone is an indispensable element in creating a new business. We cherish the interdependent business creation process, working together with a wealth of various ideas, rather than alone, with few.
-    item2: 
+    item2:
       header: Keep it short and simple
       body: Instead of compromising our basic philosophy with over-complicated explanations and convoluted functions, we think the most important thing is to make a simple and concise product that can be used by everyone.
-    item3: 
+    item3:
       header: Discuss and share our product with more than just words
       body: No amount of mere talk can bring provide verification of trustworthiness, or bring real value as we wish to bring to our users. We aim to provide real value in continuously improving our product. A large part of this process involves listening to and successfully and reliably applying user feedback.
-    item4: 
+    item4:
       header: Wow! the user
       body: In addition to responding to user expectations, we will continuously provide the "WOW” experience, exceeding user expectations in as many ways as possible, delivering a product that always has—even in small ways—pleasant surprises.
-    item5: 
+    item5:
       header: Be the first penguin
       body: In unexplored and new areas full of potential, you can learn a lot by jumping in first. Though there may be an enemy lurking down there, the first penguin in the water takes this risk boldly anyway, and often gets the most fish!
-    item6: 
+    item6:
       header: Passion as subject
       body: In the development of community products, individuals should not just wait around to "see what happens," but take an active role in making contributions and suggestions, according to their own unique wants, needs, and visions. This can make for a robust discussion, and a well-rounded product!
 team:
   header: TEAM
 member:
   header: MEMBER
-  body: contributing to ALIS every day.
+  body: contributing to ALIS.
   profile:
     yasu:
       id: yasu
@@ -118,57 +121,120 @@ member:
       fb: https://fb.me/sota.ishii
       linkedin:
     togashi:
-      id: togashi 
+      id: togashi
       name: KEIJU TOGASHI
       body: |
         Togashi has over 12 years of experience in engineering, and as a service planning team member for several years.
         During his time in service development, multiple experiences with BtoB and BtoC, etc, bolstered this experience track record, as his support capabilities were and continue to be many, working on projects from the infrastructure stage all the way to front end application.
         Togashi joined ALIS in the interest of reducing falsehood on the Internet as much as possible.
         Through his work with ALIS, he promotes consistent system development from service design to operation design.
-      role: ENGINEER
+      role: LEAD ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
-      linkedin:      
+      linkedin:
     kamei:
       id: kamei
       name: TATSUHIKO KAMEI
       body: |
         After graduating from Tokyo College, Kamei joined Recruit Co., Ltd through Toppan Printing. As a staff member of the Legal Division, he has worked as a legal professional in IT, web services, marketing, and recruiting. His specialization is in legal work for new, up-and-coming fields of business. In addition to legal affairs, Kamei is in charge of ALIS corporate functions in general, such as finance, tax, labor, and government agency negotiation. Kamei’s goal is to integrate ALIS seamlessly into the blockchain industry and field as a whole. In his free time, he participates in triathlons and marathons.
-      role: LEAGAL DIVISION
+      role: LEGAL DIVISION
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    usagi: 
-      id: usagi
-      name: USAGI
+    akagi:
+      id: akagi
+      name: KENTA AKAGI
       body: |
         Akagi studied branding design / cultural engineering design at Musashino Art University, and the relationship between emotional change, behavior and design. After graduation he was engaged in developing new services at DeNA and Recruit Jobs. After launching a new service as CXO of Emerada, elected one of Forbes's “50 Promising Startups,” Akagi joined ALIS. Visualizing information and advancing innovative ways of thinking and achieving goals is best done with designs that build on robust information structures. For PERSONA to IA design, all the way to the final user experience, the surface layer, Akagi believe the ALIS team’s unity of mind in advancing the development and evolution of ALIS is paramount.
       role: LEAD DESIGNER
       twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho: 
-      id: gachiho
-      name: GACHIHO
+    terashima:
+      id: terashima
+      name: YUKI TERASHIMA
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+        In college, while involved in team development of web applications via internship and extracurricular activities, Terashima developed as an individual and elevated his technical skills. In development, he experienced a wide range of work assignments ranging from front end to the server side of development. Terashima learned about ALIS during his 4th year of university, and shared information about ALIS via his blogs before the ICO. He communicated deeply with ALIS members through ALIS meetups, and thus commenced his commitment to the company as an engineer. Through ALIS, Terashima aims to create a world where value is appreciated correctly.
       role: ENGINEER
-      twitter: 
-      fb:
+      twitter: https://twitter.com/y_temp4
+      fb: https://www.facebook.com/yuki.terashima4
+      linkedin:
+    narisada:
+      id: narisada
+      name: REISHI NARISADA
+      body: |
+        Reishi has experience in API development for C to C services, the frontend and backend of exchanges, and so on. He is fascinated not only by ALIS’s cutting edge technology, but also with the possibility of visualized trust, which will be established through ALIS. Currently he is taking part in the backend development of serverless architecture.
+      role: ENGINEER
+      twitter: https://twitter.com/_ri_sa_da
+      fb: https://www.facebook.com/reishi.narisada
+      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
+    matsuyama:
+      id: matsuyama
+      name: YUKI MATSUYAMA
+      body: |
+        Matsuyama joined a major tech company in 2014, after studying the law at Waseda University.After experiencing project management with large web service, he was engaged in engineering to growth multiple services.Also, launched the Scrum team as a Scrum Master, practiced DevOps and agile practices for continuous value delivery.He has worked in ALIS as developper of server-less backend applications.
+      role: ENGINEER
+      twitter:
+      fb: https://www.facebook.com/yuki.matsuyama.395
+      linkedin:
+    yamashita:
+      id: yamashita
+      name: TAISUKE YAMASHITA
+      body: |
+        After graduating from Tokyo Denki University Faculty of Engineering in 2008, Yamashita joined a banking service development company where he was involved in customizing packages for regional banks, transitioning to a joint center operations. Interested in the development of open systems rather than the development of general purpose systems, in 2012, Yamashita changed to a web development company. He was involved in the development and operation of the LAMP environment. In 2017 he began work as a freelance contractor. At ALIS he mainly handles the development of authentication and search functions and tools.
+      role: ENGINEER
+      twitter: https://twitter.com/yaasita
+      fb: https://www.facebook.com/taisuke.yamasita.9
+      linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
+    potato:
+      id: potato
+      name: Potato
+      body: |
+        After experiencing development with multiple startups, Potato joined Pixiv, Inc. He became independent in 2017, and currently works as a freelance web engineer. Engaged in designing the front end at ALIS in order to create a project that will become a model case of Vue.js / Nuxt.js, which is itself contributing to the creation of documentation for developers, Potato is hard at work shaping and empowering the ALIS vision.
+      role: TECHNICAL ADVISOR
+      twitter: https://twitter.com/potato4d
+      fb: https://www.facebook.com/potato4d
       linkedin:
     kubori:
       id: kubori
-      name: CHIKA KUBORI
+      name: CHISA KUBORI
       body: |
         Kuborichisa majored in graphic design at Osaka University of Arts and studied design based on branding typography. OSAKA DESIGN FORUM 2011 was held at Osaka Nakanoshima Public Hall while Kuborichisa was in school and she created the main visuals for this event. After graduation, she engaged in a wide range of projects including those dealing with planning, proposals, package design and coding at an advertisement production company. Kuborichisa then worked as an independent, freelance designer for a time. Her main focus is graphic design and web design, and launching new projects that spotlight the primary industries in Wakayama prefecture where she is from.
       role: DESIGNER
       twitter: https://twitter.com/kuborichisa
       fb:
       linkedin:
+    ishizaka:
+      id: ishizaka
+      name: MASAYA ISHIZAKA
+      body: |
+        Ishizaka graduated from the Kuwasawa Design School, where he is now a member of the Board of Directors of the Alumni Association. Since college, he has worked as a freelance designer. At the production company, he branded the Ground Self Defense Force, other large enterprises, etc. and became the design company Shanghai branch manager and CD. After that, he received the first Cannes Lion Golden Lion award (cyber division) in China during his work there for half a year. From there, he moved to Singapore, worked at DDB Singapore, and then returned home to Japan, where he became creative director of services using AI and automatic driving at DeNA. Currently, Ishizaka has started an education business in India and block chain branding in Japan. He is a designer.
+      role: DESIGNER
+      twitter: https://twitter.com/msy_i
+      fb: https://www.facebook.com/masaya0
+      linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    kawai:
+      id: kawai
+      name: KEN KAWAI
+      body: |
+        Ken Kawai has extensive experience advising financial institutions, fintech startups, investors and corporate clients on complex finance and financial regulatory matters.Ken's primary focus has been on fintech. Ken has been very actively advising fintech companies, financial institutions, international organizations and self-regulatory organizations on fintech legal issues including those of cryptocurrencies, initial coin offerings and blockchain.He also has expertise in derivatives. He counsels global banks, broker-dealers and investors on regulatory matters and best practices regarding derivatives and related products. His in-depth understanding of the actual practices derives from his 17-year career at The Bank of Tokyo Ltd. / The Bank of Tokyo-Mitsubishi (presently The Bank of Tokyo-Mitsubishi UFJ Ltd.), where he mainly engaged in derivatives trading and marketing.Ken's practice also involves corporate bankruptcy, insolvency and reorganizations. He has represented debtors or creditors in several insolvency cases that involve complex financial transactions and cross-border issues. He also advises several G-SIFIs and related institutions on Bank Recovery and Resolution Regimes.
+      role: LEGAL ADVISOR
+      twitter:
+      fb:
+      linkedin:
+    numasawa:
+      id: numasawa
+      name: KENTO NUMASAWA
+      body: |
+        - CEO of Aerial Partners Inc. and owner of influential Twitter account @2nd_chick. - Aerial Partners Inc. offers a service "Guardian" that supports Investors to file their taxes from cryptocurrencies, and a calculating application "G-tax" for trades of cryptocurrency over several exchanges. - Advisor of the ICO project ALIS and others. Also, a director of Japan Cryptocurrency Tax Association(General Incorporated Association) - Accounting and tax advisor of Blockchain Economy Alliance of Japan.
+      role: ADVISOR
+      twitter: https://twitter.com/2nd_chick
+      fb: https://www.facebook.com/kent0422
+      linkedin:
 ambassador:
   header: AMBASSADOR
   body: to help spread awareness of the platform ALIS.
-  profile: 
+  profile:
     seiya:
       name: seiya
       url: https://twitter.com/crypto_seiya
@@ -184,6 +250,15 @@ ambassador:
     ueno:
       name: Naohiko Ueno
       url: https://twitter.com/Nao_Ueno
+    cosmos:
+      name: cosmos
+      url: https://twitter.com/cosmoscx
+    mio:
+      name: Mio
+      url: https://twitter.com/cryptoJD1010
+    kiyosui:
+      name: kiyosui
+      url: https://twitter.com/kiyosui_goraku
     adam:
       name: Adam Koltun
       url: https://twitter.com/socialblocchain
@@ -202,9 +277,9 @@ ambassador:
     dmitry:
       name: Dmitry Vilchitsky
       url: https://twitter.com/rethink_urban
-    keegan:
-      name: Keegan Francis
-      url: 
+    francis:
+      name: Francis
+      url:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
@@ -213,55 +288,65 @@ ambassador:
       url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
-      url: 
+      url:
     peter:
       name: Peter Wu
-      url: 
+      url:
     tan:
       name: Tan Liang Yit
       url: https://twitter.com/liangyit90
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
+    m:
+      name: M
+      url: https://twitter.com/M_Thai_Crypto
+    okrabbit:
+      name: OK Rabbit
+      url: https://twitter.com/ocrybit
 community:
-  header: 
-    body_line_1: Pioneering the Future, 
+  header:
+    body_line_1: Pioneering the Future,
     body_line_2: Together!
   body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
   twitter:
     name: TWITTER
     body_line_1: Get the latest updates and news about ALIS
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
   medium:
     name: MEDIUM
-    body_line_1: Learn more 
+    body_line_1: Learn more
     body_line_2: about ALIS
-    body_line_3: 
+    body_line_3:
   discord:
     name: DISCORD
     body_line_1: Meet other enthusiastic members of the ALIS community
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
   reddit:
     name: REDDIT
-    body_line_1: I would like 
-    body_line_2: to participate 
+    body_line_1: I would like
+    body_line_2: to participate
     body_line_3: in an ALIS Q & A.
   github:
     name: GITHUB
     body_line_1: Check the progress of the ALIS platform and coin
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
 ambassador_program:
   header_line_1: AMBASSADOR PROGRAM
-  header_line_2: 
+  header_line_2:
   body: The ambassador program allows ALIS fans and investors to spread the ALIS “gospel” and inform others about the network. Certified ambassadors located around the world utilize their special skills, hobbies, and knowledge to share the message of ALIS with others. Ambassadors keep the community vibrant and active, translate ALIS resources to their mother tongue, hold Meetups, etc. If you are interested in becoming an ALIS ambassador, please send a message to info@alismedia.jp. Limited benefits are available to those who have become ambassadors.
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
 goods:
-  header: GOODS
-  body: We have a community-based goods creation platform. Community members suggest ideas for new ALIS goods and “swag” at any time. When a proposal is accepted, the proposer will be distributed the goods for free, and the product will be featured on the ALIS goods page.
+  header:
+  body:
+  btn_text1:
+  url1: https://alismedia.official.ec/
+  btn_text2:
+  url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
 closedb:
   header: WHAT’S CLOSED β
   body: |
@@ -269,6 +354,84 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _09042018:
+    category: PRESS RELEASE
+    date: Sep 4, 2018
+    header: ALIS, and Microsoft have collaborated on a “tips” API
+    body: Blockchain Social Media Company ALIS, and Microsoft Japan, have begun a collaboration for the development of the "tips" API, contributing to the sound growth of the domestic blockchain industry, while smoothly transferring value in the token economy era.
+    url: https://alis.to/ALIS-official/articles/KmQ0nYMX1pog
+  _07312018:
+    category: PRESS RELEASE
+    date: Jul 31, 2018
+    header: Business partnership with MyToken
+    body: Today, ALIS formed a business partnership with MyToken, a China-based crypto currency application with more than a million users. We will work jointly for product enhancement and mutually grow in Asian market.
+    url: https://alis.to/ALIS-official/articles/KJNk4X4POZwx
+  _06212018:
+    category: UPDATE
+    date: Jun 21, 2018
+    header: ALIS Update - Closed beta version usage report
+    body: In today’s article, the ﬁrst in this series, we will present to you a part of our data analysis.
+    url: https://medium.com/@alismedia/alis-update-closed-beta-version-usage-report-77f1f6bae4e8
+  _06122018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _06092018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _05312018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _05102018:
+    category: MEDIA
+    date: May 10, 2018
+    header: Forbes JAPAN
+    body: ALIS was interviewed at Forbes JAPAN. This article is in Japanese.
+    url: https://forbesjapan.com/articles/detail/20970/
+  _05072018:
+    category: MEDIA
+    date: May 7, 2018
+    header: Business Insider Japan
+    body: ALIS was interviewed at Business Insider Japan. This article is in Japanese.
+    url: https://www.businessinsider.jp/post-166831
+  _04302018:
+    category: UPDATE
+    date: Apr 30, 2018
+    header: Released closed beta version realtime analytics
+    body: We released the usage situation of closed beta users.
+    url: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+  _04272018:
+    category: MEDIA
+    date: Apr 27, 2018
+    header: Coinpost
+    body: ALIS was interviewed at Coinpost. This article is in Japanese.
+    url: http://coinpost.jp/?p=23785
+  _04252018_1:
+    category: MEDIA
+    date: Apr 25, 2018
+    header: Coinchoice
+    body: ALIS was interviewed at Coinchoice. This article is in Japanese.
+    url: https://coinchoice.net/201804-alis-beta-version-event/
+  _04252018_2:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _04242018:
+    category: UPDATE
+    date: Apr 24, 2018
+    header: Closed Beta Public Launch Event
+    body: On Monday, April 23, 2018, we held a closed beta version public launch event. With about 400 community members and media participating, the venue was lively and full of enthusiasm.
+    url: https://medium.com/@alismedia/closed-beta-public-launch-event-and-future-strategy-presentation-e00c217eef75
   _02282018:
     category:
     date:
@@ -380,7 +543,7 @@ news:
   _09012017_1:
     category: MEDIA
     date: Sep 1, 2017
-    header: 日本経済新聞
+    header: The Nikkei
     body: ALIS was interviewed at Nikkei Newspaper.
     url: https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/
   _09012017_2:
@@ -426,10 +589,11 @@ news:
     body: ou can read this article in only 3 minutes. We hope you are interested in ALIS by reading this article.
     url: https://medium.com/@alismedia/the-key-points-of-whitepaper-in-3-minutes-606fa956c18b
 
-sns_url: 
+sns_url:
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis
   github: https://github.com/AlisProject
+  googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q

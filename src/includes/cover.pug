@@ -2,16 +2,17 @@ section.p-cover
   .p-cover__title
     h2.p-cover__header ALLIANCE & WISDOM
     h2.p-cover__caption
-      | #{cover.caption_line_one.first} 
+      | #{cover.caption_line_one.first}
       br.u-pc-only
       | #{cover.caption_line_one.second}
       br.u-pc-only
       | #{cover.caption_line_one.third}
-    
+
   article.p-cta
     h3.p-cta__header #{registration.header}
-    p.p-cta__body 
+    p.p-cta__body
       | #{registration.body_line_1}
       | #{registration.body_line_2}
       span.p-cta__body__caption #{registration.body_line_3}
-    a.p-cta__button.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{registration.btn_text}
+    a.p-cta__button.u-ja-only--inline-block(href=registration.url1, target='_blank') #{registration.btn_text1}
+    a.p-cta__button.u-ja-only.u-ja-only--inline-block(href=registration.url2, target='_blank') #{registration.btn_text2}
