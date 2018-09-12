@@ -1,0 +1,41 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.11.1
+    steps:
+    - checkout
+    - run:
+        name: dependencies
+        command: |
+          yarn run clean:generates
+          yarn
+
+    - run:
+        name: build
+        command: yarn run build:develop
+
+    - run:
+        name: lint
+        command: |
+          yarn pug-lint ./src
+          yarn eslint ./src/js
+
+    - run:
+        name: lint
+        command: |
+          yarn pug-lint ./src
+          yarn eslint ./src/js
+
+    - save_cache:
+        key: v1-dep-{{ .Branch }}-{{ epoch }}
+        paths:
+        - ./node_modules
+
+    - deploy:
+        command: |
+          if [ "${CIRCLE_BRANCH}" != "master" ]; then
+            sudo apt-get -y -qq install awscli
+            yarn install:develop
+            yarn s3sync:develop
+          fi
