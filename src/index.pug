@@ -99,18 +99,22 @@ body
                 +team_member(member.profile.terashima.name, member.profile.terashima.role)(src='/img/pc/img_profile_terashima.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.narisada.id)
                 +team_member(member.profile.narisada.name, member.profile.narisada.role)(src='/img/pc/img_profile_narisada.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yamashita.id)
-                +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='/img/pc/img_profile_yamashita.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
                 +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='/img/pc/img_profile_matsuyama.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.potato.id)
                 +team_member(member.profile.potato.name, member.profile.potato.role)(src='/img/pc/img_profile_potato.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yamashita.id)
+                +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='/img/pc/img_profile_yamashita.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.horike.id)
+                +team_member(member.profile.horike.name, member.profile.horike.role)(src='/img/pc/img_profile_horike.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kamei.id)
                 +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
                 +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.ishizaka.id)
                 +team_member(member.profile.ishizaka.name, member.profile.ishizaka.role)(src='/img/pc/img_profile_ishizaka.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.jai.id)
+                +team_member(member.profile.jai.name, member.profile.jai.role)(src='/img/pc/img_profile_jai.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kawai.id)
                 +team_member(member.profile.kawai.name, member.profile.kawai.role)(src='/img/pc/img_profile_kawai.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.numasawa.id)
@@ -246,6 +250,17 @@ body
     member.profile.potato.linkedin)
   .p-popup-overlay(data-exit=member.profile.potato.id)
 
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_horike.png', id="js-popup-"+member.profile.horike.id)
+    +popup_member(
+    member.profile.horike.id,
+    member.profile.horike.name,
+    member.profile.horike.role,
+    member.profile.horike.body,
+    member.profile.horike.twitter,
+    member.profile.horike.fb,
+    member.profile.horike.linkedin)
+  .p-popup-overlay(data-exit=member.profile.horike.id)
+
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
     +popup_member(
     member.profile.kamei.id,
@@ -289,6 +304,17 @@ body
     member.profile.ishizaka.fb,
     member.profile.ishizaka.linkedin)
   .p-popup-overlay(data-exit=member.profile.ishizaka.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_jai.png', id="js-popup-"+member.profile.jai.id)
+    +popup_member(
+    member.profile.jai.id,
+    member.profile.jai.name,
+    member.profile.jai.role,
+    member.profile.jai.body,
+    member.profile.jai.twitter,
+    member.profile.jai.fb,
+    member.profile.jai.linkedin)
+  .p-popup-overlay(data-exit=member.profile.jai.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kawai.png', id="js-popup-"+member.profile.kawai.id)
     +popup_member(
