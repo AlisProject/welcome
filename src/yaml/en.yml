@@ -195,6 +195,15 @@ member:
       twitter: https://twitter.com/potato4d
       fb: https://www.facebook.com/potato4d
       linkedin:
+    horike:
+      id: horike
+      name: TAKAHIRO HORIKE
+      body: |
+        HORIKE participates in open source communities such as WordPress and Serverless, and continue to develop and contribute many OSS products in these capacities. He is currently a maintainer and developer of products such as Serverless Framework and Serverless Step Functions, focusing on Serverless technology, continuing to acquire useful skills and information. He wants to see a world where blockchain technology’s true potential and value is recognized, and is deeply interested in the affinity between Serverless and blockchain technologies.
+      role: ENGINEER
+      twitter: https://twitter.com/horike37
+      fb: https://www.facebook.com/horike.takahiro
+      linkedin:
     kubori:
       id: kubori
       name: CHISA KUBORI
@@ -213,6 +222,15 @@ member:
       twitter: https://twitter.com/msy_i
       fb: https://www.facebook.com/masaya0
       linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    jai:
+      id: jai
+      name: JAI FUKUTA
+      body: |
+        While working in PR/Marketing agencies as a planner and as a consultant, she has 10 years of experiences as an interviewer/moderator in various research projects.  Her focus has been "co-creation" which aims to newly generate or to improve products and services by highlighting the perspective of consumers and presenting it to enterprises/local governments.  With this experience, she joined ALIS team to accelerate the communication with the users and benefit both community and product.
+      role: COMMUNICATOR
+      twitter: https://twitter.com/FukutaJai
+      fb:
+      linkedin:
     kawai:
       id: kawai
       name: KEN KAWAI
