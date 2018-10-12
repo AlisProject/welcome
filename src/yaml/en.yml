@@ -99,7 +99,7 @@ member:
       body: |
         Majoring in nuclear fusion research at Kyoto University, Yasu analyzed patterns of Alveun eigen mode excitation of helical plasmas via the Fortran language. He Joined Recruit Co., Ltd. (the parent company of Indeed) in 2011, leading business strategy development, working with business SNS development, and creating an innovative business card management application. Yasu also created referral tools, and lead  the creation of new business and their development direction. Actively working on machine learning and natural language analysis, and receiving the highest prize, called GROWTH FORUM, Yasu was awarded for developing and leading Recruit Co., Ltd’s planning in 2016. Afterwards he also serves as project leader for a joint project with Microsoft Japan. Upon encountering blockchain technology, he became immediately convinced that the tech would be a means by which to speed up the evolution of the world and society at large, even more so than AI or VR, and so created ALIS.
       role: FOUNDER / CEO
-      twitter: https://twitter.com/MasahiroALIS
+      twitter: https://twitter.com/YasuMasahiro
       fb: https://www.facebook.com/masahiro.yasu.7
       linkedin: https://www.linkedin.com/in/masahiro-yasu-a7108341/
     mizusawa:
@@ -255,7 +255,7 @@ ambassador:
   profile:
     seiya:
       name: seiya
-      url: https://twitter.com/crypto_seiya
+      url:
     ricky:
       name: Rikuya Tanaka (Ricky)
       url: https://twitter.com/RuuieTanaka
@@ -312,7 +312,7 @@ ambassador:
       url:
     tan:
       name: Tan Liang Yit
-      url: https://twitter.com/liangyit90
+      url: 
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
