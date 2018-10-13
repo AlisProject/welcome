@@ -157,7 +157,6 @@ member:
         In college, while involved in team development of web applications via internship and extracurricular activities, Terashima developed as an individual and elevated his technical skills. In development, he experienced a wide range of work assignments ranging from front end to the server side of development. Terashima learned about ALIS during his 4th year of university, and shared information about ALIS via his blogs before the ICO. He communicated deeply with ALIS members through ALIS meetups, and thus commenced his commitment to the company as an engineer. Through ALIS, Terashima aims to create a world where value is appreciated correctly.
       role: ENGINEER
       twitter: https://twitter.com/y_temp4
-      fb: https://www.facebook.com/yuki.terashima4
       linkedin:
     narisada:
       id: narisada
@@ -167,7 +166,6 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/_ri_sa_da
       fb: https://www.facebook.com/reishi.narisada
-      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA
@@ -175,7 +173,6 @@ member:
         Matsuyama joined a major tech company in 2014, after studying the law at Waseda University.After experiencing project management with large web service, he was engaged in engineering to growth multiple services.Also, launched the Scrum team as a Scrum Master, practiced DevOps and agile practices for continuous value delivery.He has worked in ALIS as developper of server-less backend applications.
       role: ENGINEER
       twitter:
-      fb: https://www.facebook.com/yuki.matsuyama.395
       linkedin:
     yamashita:
       id: yamashita
@@ -184,7 +181,6 @@ member:
         After graduating from Tokyo Denki University Faculty of Engineering in 2008, Yamashita joined a banking service development company where he was involved in customizing packages for regional banks, transitioning to a joint center operations. Interested in the development of open systems rather than the development of general purpose systems, in 2012, Yamashita changed to a web development company. He was involved in the development and operation of the LAMP environment. In 2017 he began work as a freelance contractor. At ALIS he mainly handles the development of authentication and search functions and tools.
       role: ENGINEER
       twitter: https://twitter.com/yaasita
-      fb: https://www.facebook.com/taisuke.yamasita.9
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
     potato:
       id: potato
@@ -220,7 +216,6 @@ member:
         Ishizaka graduated from the Kuwasawa Design School, where he is now a member of the Board of Directors of the Alumni Association. Since college, he has worked as a freelance designer. At the production company, he branded the Ground Self Defense Force, other large enterprises, etc. and became the design company Shanghai branch manager and CD. After that, he received the first Cannes Lion Golden Lion award (cyber division) in China during his work there for half a year. From there, he moved to Singapore, worked at DDB Singapore, and then returned home to Japan, where he became creative director of services using AI and automatic driving at DeNA. Currently, Ishizaka has started an education business in India and block chain branding in Japan. He is a designer.
       role: DESIGNER
       twitter: https://twitter.com/msy_i
-      fb: https://www.facebook.com/masaya0
       linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
     jai:
       id: jai
@@ -546,12 +541,6 @@ news:
     header:
     body:
     url:
-  _09092017:
-    category: MEDIA
-    date: Sep 9, 2017
-    header: NHK （Japan’s only public broadcaster）
-    body: ALIS was broadcast on NHK which is "Japan's only public broadcaster".
-    url: https://www.nhk.or.jp/keizai/archives/20170909_10.html
   _09062017:
     category: UPDATE
     date: Sep 6, 2017
