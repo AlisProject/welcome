@@ -164,7 +164,6 @@ member:
         大学時代はインターンシップや課外活動を通じてチームでWebアプリケーション制作を行うかたわら、個人でも開発を行い技術力を高める。開発ではフロントエンドからサーバーサイドまで幅広く経験。大学4年時にALISを知り、ICO以前からALISの情報をブログで発信。ALISミートアップを通じてALISメンバーと深くコミュニケーションをとり、エンジニアとしてのコミットを開始。ALISを通じて、価値が正しく評価される世界をつくること目標としている。
       role: ENGINEER
       twitter: https://twitter.com/y_temp4
-      fb: https://www.facebook.com/yuki.terashima4
       linkedin:
     narisada:
       id: narisada
@@ -174,7 +173,6 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/_ri_sa_da
       fb: https://www.facebook.com/reishi.narisada
-      linkedin: https://www.linkedin.com/in/reishi-narisada-2597b0145/
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA
@@ -182,7 +180,6 @@ member:
         早稲田大学で法律を学んだ後、2014年に新卒で大手WEB企業に入社。大規模サービスでプロジェクトマネジメントを経験後、エンジニアとして複数サービスのグロースに携わる。また、スクラムマスターとしてスクラムチームの立ち上げ、継続的な価値のデリバリーのためにDevOpsやアジャイルプラクティスの実践を行う。ALISでは主にサーバレスを使ったバックエンドアプリケーションの開発に従事している。
       role: ENGINEER
       twitter:
-      fb: https://www.facebook.com/yuki.matsuyama.395
       linkedin:
     yamashita:
       id: yamashita
@@ -191,7 +188,6 @@ member:
         東京電機大学工学部を2008年卒業後、銀行系サービス開発会社に入社。地方銀行向けパッケージのカスタマイズ、共同センター移行、運用に携わる。汎用系の開発よりオープン系の開発に興味を持ったため、2012年より、Web系開発会社に転職。LAMP環境の開発・運用に携わる。2017年よりフリーランス。ALISでは主に認証部分、検索部分の開発を担当。
       role: ENGINEER
       twitter: https://twitter.com/yaasita
-      fb: https://www.facebook.com/taisuke.yamasita.9
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
     potato:
       id: potato
@@ -227,7 +223,6 @@ member:
         桑沢デザイン研究所（kuwasawa design school）卒業、同窓会理事会委員。在学中から、フリーランスデザイナーとして活動。制作会社で、陸上自衛隊、大企業などのブランディングを行い、デザイン会社上海支社長兼CDとなる。その後、半年で中国で初となるカンヌライオン金獅子賞（サイバー部門）を受賞。シンガポールに移り、DDBシンガポールで働き、帰国。DeNAでAIと自動運転を活用したサービスのクリエイティブディレクターとなる。現在は、インドでIOT教育ビジネスや国内でブロックチェーンブランディングを始める。本職はデザイナー。
       role: DESIGNER
       twitter: https://twitter.com/msy_i
-      fb: https://www.facebook.com/masaya0
       linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
     jai:
       id: jai
@@ -554,12 +549,6 @@ news:
     header: ICO開始12日で最小目標となる約3.8億を調達。
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）で目標最小調達額として設定していた11,666ETH（約3.8億円）を調達。2017年9月1日（日本時間）のICO開始からわずか12日間での達成となった。
     url: https://prtimes.jp/main/html/rd/p/000000003.000027792.html
-  _09092017:
-    category: MEDIA
-    date: Sep 9, 2017
-    header: NHK （経済フロントライン）
-    body: ICO・仮想通貨で資金調達がブーム？
-    url: https://www.nhk.or.jp/keizai/archives/20170909_10.html
   _09062017:
     category:
     date:
