@@ -307,7 +307,7 @@ ambassador:
       url:
     tan:
       name: Tan Liang Yit
-      url: 
+      url:
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
@@ -367,6 +367,31 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _10162018:
+    category: MEDIA
+    date: Oct 16, 2018
+    header: The Nikkei Newspaper
+    body: ALIS was published in the Nikkei Newspaper.
+※This article is in Japanese.
+    url: https://www.nikkei.com/article/DGKKZO36493240V11C18A0TJQ000/
+  _10152018:
+    category: NEWS
+    date: Oct 15, 2018
+    header: Give a presentation at Hi-Con 2018
+    body: CTO Sota will give a presentation at Hi-Con 2018. This event is organized by Hi-Ether, Japan's one of the largest Ethereum developer communities.
+    url: https://conference.hi-ether.org/
+  _10042018:
+    category: MEDIA
+    date: Oct 4, 2018
+    header: CoinPost (Japanese cryptocurrency media)
+    body: ALIS was interview by Coinpost about a partnership with Microsoft and ALIS and the benefit of tipps feature API.
+    url: https://coinpost.jp/?p=48394
+  _09272018:
+    category: NEWS
+    date: Sep 27, 2018
+    header: Give a presentation at FIN/SUM 2018
+    body: Yasu, CEO of ALIS, will speak about ALIS at "FIN/SUM 2018". This event is co-sponsored by Financial Services Agency and The Nikkei Newspaper.
+    url: http://www.finsum.jp/ja/index.html
   _09042018:
     category: PRESS RELEASE
     date: Sep 4, 2018
