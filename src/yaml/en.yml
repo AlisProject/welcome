@@ -371,8 +371,7 @@ news:
     category: MEDIA
     date: Oct 16, 2018
     header: The Nikkei Newspaper
-    body: ALIS was published in the Nikkei Newspaper.
-※This article is in Japanese.
+    body: ALIS was published in the Nikkei Newspaper.※This article is in Japanese.
     url: https://www.nikkei.com/article/DGKKZO36493240V11C18A0TJQ000/
   _10152018:
     category: NEWS
@@ -391,7 +390,7 @@ news:
     date: Sep 27, 2018
     header: Give a presentation at FIN/SUM 2018
     body: Yasu, CEO of ALIS, will speak about ALIS at "FIN/SUM 2018". This event is co-sponsored by Financial Services Agency and The Nikkei Newspaper.
-    url: http://www.finsum.jp/ja/index.html
+    url: http://www.finsum.jp
   _09042018:
     category: PRESS RELEASE
     date: Sep 4, 2018
