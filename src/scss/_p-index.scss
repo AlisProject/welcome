@@ -169,7 +169,7 @@
     text-align: center;
   }
   @include mq() {
-     bottom: -60px;
+     bottom: 20px;
   }
 
   &__header {
@@ -180,7 +180,7 @@
     margin-bottom: 20px;
 
     @include mq() {
-      margin-top: -50px;
+      margin-top: 0px;
       text-align: center;
       font-size: 2rem;
       line-height: 1.75;
