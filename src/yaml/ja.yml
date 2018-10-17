@@ -28,7 +28,7 @@ cover:
     second: 全く新しいソーシャルメディア
 registration:
   header: CLOSED β PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しております。登録することで投稿した記事がいいねを獲得したり、他の記事にいいねすることでALISトークンを獲得できます。
+  body_line_1: ALISは現在クローズドβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   body_line_2:
   btn_text1: クローズドβにアクセス
   url1: https://alis.to
@@ -47,7 +47,7 @@ project:
 product:
   header: PRODUCT
   body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
-  body_line_2: ※ALISに登録することで投稿した記事がいいねを獲得したり、他の記事にいいねすることでALISトークンを獲得できます。
+  body_line_2: ※ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   mock_pc:
     btn_text: クローズドβにアクセス
     url: https://alis.to
