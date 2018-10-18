@@ -28,12 +28,10 @@ cover:
     second: 全く新しいソーシャルメディア
 registration:
   header: CLOSED β PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しております。
-  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
+  body_line_1: ALISは現在クローズドβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
+  body_line_2:
   btn_text1: クローズドβにアクセス
   url1: https://alis.to
-  btn_text2: Waitingリストに登録
-  url2: http://eepurl.com/drM0Jr
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
@@ -49,7 +47,7 @@ project:
 product:
   header: PRODUCT
   body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
-  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
+  body_line_2: ※ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   mock_pc:
     btn_text: クローズドβにアクセス
     url: https://alis.to
