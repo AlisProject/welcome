@@ -372,6 +372,12 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _10182018:
+    category: UPDATE
+    date: Oct 18, 2018
+    header: トピック追加開放と新規登録導線改善を実施
+    body: ALISクローズドβ版サイトに「イラスト・マンガ」と「ビジネス」のトピックを追加しました。同時に、Waiting List制度も撤廃し簡単に登録できるようになりました。
+    url: https://alis.to/ALIS-official/articles/39rBNA8dWrOY
   _10162018:
     category: MEDIA
     date: Oct 16, 2018
@@ -384,30 +390,108 @@ news:
     header: Hi-Con 2018に登壇
     body: 国内最大級のイーサリアム技術者コミュニティである Hi-Ether オーガナイズの「Hi-Con 2018」にCTOの石井が登壇します
     url: https://conference.hi-ether.org/
+  _10132018:
+    category: NEWS
+    date: Oct 13, 2018
+    header: ベルリンMeetup開催のお知らせ
+    body: 10月21日にベルリンでALISのMeetupを開催します。ご興味ある方はぜひご参加ください
+    url: https://www.eventbrite.com/e/alis-meets-berlin-japans-first-social-media-using-blockchain-tickets-51321281334
+  _10092018:
+    category: NEWS
+    date: Oct 9, 2018
+    header: GLOBAL ICO NIGHTに登壇
+    body: TECHFUND社の主催するGLOBAL ICO NIGHTにCEOの安が登壇しました
+    url: https://techplay.jp/event/700642
   _10042018:
     category: MEDIA
     date: Oct 4, 2018
     header: CoinPostに掲載
     body: 「ALIS ×マイクロソフトの『投げ銭システム』協業開発の舞台裏」と称して、Microsoftとの協業開発に至った経緯、トークンを用いた投げ銭機能のメリットなどが紹介されました
     url: https://coinpost.jp/?p=48394
+  _10032018:
+    category: NEWS
+    date: Oct 3, 2018
+    header: Social BizTech Nightに登壇
+    body: SubaCo様の主催するイベントにCEOの安が登壇しました
+    url: https://sbtn-1.peatix.com/view
+  _09292018_1:
+    category: MEDIA
+    date: Sep 29, 2018
+    header: ビジネスモデル図鑑2.0に掲載
+    body: 「ビジネスモデル図鑑2.0」の中でALISのビジネスモデルが紹介されました
+    url: https://www.amazon.co.jp/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB2-0%E5%9B%B3%E9%91%91-%E8%BF%91%E8%97%A4-%E5%93%B2%E6%9C%97/dp/4046023619
+  _09292018_2:
+    category: NEWS
+    date: Sep 29, 2018
+    header: SERVERLESSCONFに登壇
+    body: Serverlessのイベントの代表格であるSERVERLESSCONFにリードエンジニアの冨樫が登壇しました
+    url: http://tokyo.serverlessconf.io/
   _09272018:
     category: NEWS
     date: Sep 27, 2018
     header: FIN/SUM 2018に登壇
     body: 金融庁、日本経済新聞社共催「FIN/SUM 2018」でCEOの安がALISの取組みをご紹介します
     url: http://www.finsum.jp/ja/index.html
-  _09042018:
+  _09082018:
+    category: NEWS
+    date: Sep 8, 2018
+    header: Social Innovation Week Shibuyaに登壇
+    body: 渋谷区と日本財団が主催するイベントSocial Innovation Week ShibuyaにCEOの安が登壇しました
+    url: https://blockchain2meetup.peatix.com/
+  _09042018_1:
     category: PRESS RELEASE
     date: Sep 4, 2018
     header: ALISとマイクロソフトが投げ銭APIのための協業を開始
     body: 国内最大規模の仮想通貨コミュニティを誇るALISと大手Tech企業の日本マイクロソフトが「投げ銭」API開発のための協業を開始しました。
     url: https://prtimes.jp/main/html/rd/p/000000005.000027792.html
+  _09042018_2:
+    category: MEDIA
+    date: Sep 4, 2018
+    header: COINTELEGRAPH Japanに掲載
+    body: 「日本マイクロソフト、ALISと投げ銭API開発へ」と称して、ALISと日本マイクロソフトによる投げ銭API開発のための共同プロジェクトが紹介されました
+    url: https://jp.cointelegraph.com/news/microsoft-japan-and-blockchain-sns-alis-develop-nagesen-api
+  _08282018:
+    category: MEDIA
+    date: Aug 28, 2018
+    header: 日経FinTech8月号に掲載
+    body: 日経FinTech8月号のCOVER STORY「金融庁の苦悩～岐路に立つ仮想通貨行政」にCEO Masahiro安のコメントが掲載されました
+    url: ./news.html
+  _08242018:
+    category: NEWS
+    date: Aug 24, 2018
+    header: HOPE NIGHTに登壇
+    body: Newspicks社主催のイベントHOPE NightにCEOの安が登壇しました
+    url: https://newspicks.com/news/3217737
+  _08032018:
+    category: NEWS
+    date: Aug 3, 2018
+    header: SPORTS Xに登壇
+    body: 日経新聞社と慶応大学が主催するSPORTS XにCEOの安が登壇しました
+    url: https://events.nikkei.co.jp/4249/
   _07312018:
     category: PRESS RELEASE
     date: Jul 31, 2018
     header: ALISとMyTokenが業務提携を発表
     body: 世界中で100万人以上が使う仮想通貨相場・管理アプリ「MyToken」との業務提携を発表。今後、ALISとMyTokenは相互に協力し合いながら、アジアのコミュニティ発展および、プロダクトレイヤーでの価値向上を行っていきます。
     url: https://alis.to/ALIS-official/articles/2APJXdWkQ0MX
+  _07302018:
+    category: MEDIA
+    date: Jul 30, 2018
+    header: Newspics社のHOPE誌に掲載
+    body: Newspics社が新たに発行したHOPE誌にALISが掲載されました
+    url: https://newspicks.com/news/3206255/body/
+  _07282018:
+    category: NEWS
+    date: Jul 28, 2018
+    header: トークンエコノミーmeetupに登壇
+    body: billage OSAKA社の主催するイベントトークンエコノミーmeetupにCEOの安が登壇しました
+    url: https://logmi.jp/304048
+  _06292018:
+    category: NEWS
+    date: June 29, 2018
+    header: CRYPTONOMICS TOKYO 2018に登壇
+    body: TECHWAVE社主催のCRYPTONOMICS TOKYO 2018にCEOの安が登壇しました
+    url: https://cryptonomics-tokyo-2018.peatix.com/
   _06212018:
     category:
     date:
@@ -426,12 +510,24 @@ news:
     header: ALIS Update -クローズドβ版利用状況レポート
     body: クローズドβ版リリースから今までにALISが行っていた仮説検証のプロセスを一部公開しました
     url: https://alis.to/ALIS-official/articles/KeOn5DAAABk9
+  _06062018:
+    category: NEWS
+    date: June 6, 2018
+    header: MIrai Salonに登壇
+    body: addlight社主催のmiraisalonにCEOの安が登壇しました
+    url: https://crypto.watch.impress.co.jp/docs/event/1127178.html
   _05312018:
     category: MEDIA
     date: May 31, 2018
     header: 仮想通貨1年生の教科書
     body: 「仮想通貨1年生の教科書」でALISが言及されました
     url: https://www.amazon.co.jp/dp/B07DQGXFCK/
+  _05192018:
+    category: NEWS
+    date: May 19, 2018
+    header: Japan Societyに登壇
+    body: ニューヨークを拠点とし、100年以上の歴史を抱えるJapan SocietyにCEOの安が登壇しました
+    url: https://www.japansociety.org/page/about/overview
   _05102018:
     category: MEDIA
     date: May 10, 2018

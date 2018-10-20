@@ -367,6 +367,12 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _10182018:
+    category: UPDATE
+    date: Oct 18, 2018
+    header: Development update of closed beta version (beta0.26.0)
+    body: "New Topics are added and Users can register w/o being on the waiting list ※This article is in Japanese."
+    url: https://alis.to/ALIS-official/articles/39rBNA8dWrOY
   _10162018:
     category: MEDIA
     date: Oct 16, 2018
@@ -376,33 +382,111 @@ news:
   _10152018:
     category: NEWS
     date: Oct 15, 2018
-    header: Give a presentation at Hi-Con 2018
+    header: Presentation at Hi-Con 2018
     body: CTO Sota will give a presentation at Hi-Con 2018. This event is organized by Hi-Ether, Japan's one of the largest Ethereum developer communities.
     url: https://conference.hi-ether.org/
+  _10132018:
+    category: NEWS
+    date: Oct 13, 2018
+    header: Announcement of Berlin Meetup
+    body: Hello, Berlin crypto lovers. ALIS world Meetup will be held on October 21. Those who have interest in ALIS and Blockchain technology, please join us.
+    url: https://www.eventbrite.com/e/alis-meets-berlin-japans-first-social-media-using-blockchain-tickets-51321281334
+  _10092018:
+    category: NEWS
+    date: Oct 9, 2018
+    header: Presentation at GLOBAL ICO NIGHT
+    body: CEO Masahiro gave a presentation at GLOBAL ICO NIGHT hold by TECHFUND
+    url: https://techplay.jp/event/700642
   _10042018:
     category: MEDIA
     date: Oct 4, 2018
     header: CoinPost (Japanese cryptocurrency media)
     body: ALIS was interview by Coinpost about a partnership with Microsoft and ALIS and the benefit of tipps feature API.
     url: https://coinpost.jp/?p=48394
+  _10032018:
+    category: NEWS
+    date: Oct 3, 2018
+    header: Presentation at Social BizTech Night
+    body: CEO Masahiro gave a presentation at Social BizTech Night hold by SubaCo
+    url: https://sbtn-1.peatix.com/view
+  _09292018_1:
+    category: MEDIA
+    date: Sep 29, 2018
+    header: ALIS was posted on a "Visual Dictionary of Business Model 2.0"
+    body: The business model of ALIS was introduced in "Visual Dictionary of Business Model 2.0" which is Japanese bestselling book.
+    url: https://www.amazon.co.jp/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB2-0%E5%9B%B3%E9%91%91-%E8%BF%91%E8%97%A4-%E5%93%B2%E6%9C%97/dp/4046023619
+  _09292018_2:
+    category: NEWS
+    date: Sep 29, 2018
+    header: Presentation at SERVERLESSCONF
+    body: Keiju, a lead engineer of ALIS, gave a presentation at SERVERLESSCONF which is one of the largest conference about serverless
+    url: http://tokyo.serverlessconf.io/
   _09272018:
     category: NEWS
     date: Sep 27, 2018
-    header: Give a presentation at FIN/SUM 2018
+    header: Presentation at FIN/SUM 2018
     body: Yasu, CEO of ALIS, will speak about ALIS at "FIN/SUM 2018". This event is co-sponsored by Financial Services Agency and The Nikkei Newspaper.
     url: http://www.finsum.jp
-  _09042018:
+  _09082018:
+    category: NEWS
+    date: Sep 8, 2018
+    header: Speech at Social Innovation Week Shibuya
+    body: CEO Masahiro gave a speech at Social Innovation Week Shibuya hold by Shibuya-ku and Nippon Fundation
+    url: https://blockchain2meetup.peatix.com/
+  _09042018_1:
     category: PRESS RELEASE
     date: Sep 4, 2018
     header: ALIS, and Microsoft have collaborated on a “tips” API
     body: Blockchain Social Media Company ALIS, and Microsoft Japan, have begun a collaboration for the development of the "tips" API, contributing to the sound growth of the domestic blockchain industry, while smoothly transferring value in the token economy era.
     url: https://alis.to/ALIS-official/articles/KmQ0nYMX1pog
+  _09042018_2:
+    category: MEDIA
+    date: Sep 4, 2018
+    header: Published in the "COINTELEGRAPH JAPAN"
+    body: ALIS and Microsoft partnership was introduced at ""Cointelegraph Jaspan"" ※This article is in Japanese
+    url: https://jp.cointelegraph.com/news/microsoft-japan-and-blockchain-sns-alis-develop-nagesen-api
+  _08282018:
+    category: MEDIA
+    date: Aug 28, 2018
+    header: Published in the Nikkei FinTech
+    body: CEO Masahiro's comment was posted on the Nikkei FinTech August issue
+    url: ./news.html
+  _08242018:
+    category: NEWS
+    date: Aug 24, 2018
+    header: Speech at HOPE Night
+    body: CEO Masahiro gave a speech at HOPE Night hold by Newspicks
+    url: https://newspicks.com/news/3217737
+  _08032018:
+    category: NEWS
+    date: Aug 3, 2018
+    header: Speech at SPORTS X
+    body: CEO Masahiro gave a speech at SPORTS X hold by Nikkei and Keio university
+    url: https://events.nikkei.co.jp/4249/
   _07312018:
     category: PRESS RELEASE
     date: Jul 31, 2018
     header: Business partnership with MyToken
     body: Today, ALIS formed a business partnership with MyToken, a China-based crypto currency application with more than a million users. We will work jointly for product enhancement and mutually grow in Asian market.
     url: https://alis.to/ALIS-official/articles/KJNk4X4POZwx
+  _07302018:
+    category: MEDIA
+    date: Jul 30, 2018
+    header: ALIS was interveiwed on the "HOPE"
+    body: ALIS was interveiwed on the "HOPE" issued by Newspics
+    url: https://newspicks.com/news/3206255/body/
+  _07282018:
+    category: NEWS
+    date: Jul 28, 2018
+    header: Speech at token economy meetup
+    body: CEO Masahiro gave a speech at token economy meetup hold by billage OSAKA
+    url: https://logmi.jp/304048
+  _06292018:
+    category: NEWS
+    date: June 29, 2018
+    header: Speech at CRYPTONOMICS TOKYO 2018
+    body: CEO Masahiro gave a speech at SPORTS X hold by TECHWAVE
+    url: https://cryptonomics-tokyo-2018.peatix.com/
   _06212018:
     category: UPDATE
     date: Jun 21, 2018
@@ -421,12 +505,24 @@ news:
     header:
     body:
     url:
+  _06062018:
+    category: NEWS
+    date: June 6, 2018
+    header: Speech at miraisalon
+    body: CEO Masahiro gave a speech at miraisalon hold by addlight
+    url: https://crypto.watch.impress.co.jp/docs/event/1127178.html
   _05312018:
     category:
     date:
     header:
     body:
     url:
+  _05192018:
+    category: NEWS
+    date: May 19, 2018
+    header: Presentation at Japan Society
+    body: CEO Masahiro gave a speech at Japan Society, which has the hisory of more than 100 years
+    url: https://www.japansociety.org/page/about/overview
   _05102018:
     category: MEDIA
     date: May 10, 2018
