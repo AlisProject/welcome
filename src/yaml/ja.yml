@@ -372,6 +372,18 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _11072018_1:
+    category: UPDATE
+    date: Nov 7, 2018
+    header: ベトナムで開催されるState of Chain 2018に登壇
+    body: ベトナムのホーチミン市で開催されるイベント「State of Chain 2018」にCEOの安が登壇します
+    url: https://stateofchain.io/
+  _11072018_2:
+    category: PRESS RELEASE
+    date: Nov 7, 2018
+    header: マイクロソフトとの投げ銭APIを公開
+    body: 日本マイクロソフトと共同研究中の投げ銭APIを「Microsoft Tech Summit 2018」で公開
+    url: https://prtimes.jp/main/html/rd/p/000000006.000027792.html
   _10182018:
     category: UPDATE
     date: Oct 18, 2018
