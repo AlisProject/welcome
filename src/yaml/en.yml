@@ -367,11 +367,23 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _11072018_1:
+    category: NEWS
+    date: Nov 7, 2018
+    header: Presentation at State of chain 2018
+    body: CEO Masahiro will speak at State of Chain 2018 in Ho Chi Minh City
+    url: https://stateofchain.io/
+  _11072018_2:
+    category: PRESS RELEASE
+    date: Nov 7, 2018
+    header: Released the prototype of the tips API
+    body: We will release the prototype of the ""tips"" API at Microsoft Tech Summit 2018. ※This article is in Japanese.
+    url: https://prtimes.jp/main/html/rd/p/000000006.000027792.html
   _10182018:
     category: UPDATE
     date: Oct 18, 2018
     header: Development update of closed beta version (beta0.26.0)
-    body: "New Topics are added and Users can register w/o being on the waiting list ※This article is in Japanese."
+    body: New Topics are added and Users can register w/o being on the waiting list ※This article is in Japanese.
     url: https://alis.to/ALIS-official/articles/39rBNA8dWrOY
   _10162018:
     category: MEDIA

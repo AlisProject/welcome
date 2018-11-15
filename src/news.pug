@@ -15,6 +15,20 @@ body
         .p-block--lg
           .row.p-news-cards
             include mixin/news_card
+            .col-lg-4(data-hasurl=news._11072018_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._11072018_1.url, target="_blank", data-category=news._11072018_1.category)
+                +news_card(
+                news._11072018_1.category,
+                news._11072018_1.date,
+                news._11072018_1.header,
+                news._11072018_1.body)
+            .col-lg-4(data-hasurl=news._11072018_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._11072018_2.url, target="_blank", data-category=news._11072018_2.category)
+                +news_card(
+                news._11072018_2.category,
+                news._11072018_2.date,
+                news._11072018_2.header,
+                news._11072018_2.body)
             .col-lg-4(data-hasurl=news._10182018.url)
               a.p-news-card.p-news-card--twitter(href=news._10182018.url, target="_blank", data-category=news._10182018.category)
                 +news_card(
