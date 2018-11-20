@@ -317,6 +317,9 @@ ambassador:
     okrabbit:
       name: OK Rabbit
       url: https://twitter.com/ocrybit
+    muromachi:
+      name: Muromachi
+      url: https://twitter.com/i_osd1_Bonsai
 community:
   header:
     body_line_1: Pioneering the Future,
