@@ -322,6 +322,9 @@ ambassador:
     okrabbit:
       name: 億ラビットくん
       url: https://twitter.com/ocrybit
+    muromachi:
+      name: むろまち
+      url: https://twitter.com/i_osd1_Bonsai
 community:
   header:
     body_line_1: Pioneering the Future,
