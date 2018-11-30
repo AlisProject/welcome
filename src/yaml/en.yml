@@ -370,6 +370,12 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _11302018:
+    category: PRESS RELEASE
+    date: Nov 30, 2018
+    header: ALIS and HAKUHODO started partnership
+    body: We will start start collaborative research on value exchange process of Token Economy
+    url: https://alis.to/ALIS-official/articles/36561PLdz99Q
   _11072018_1:
     category: NEWS
     date: Nov 7, 2018
