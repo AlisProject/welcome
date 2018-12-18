@@ -375,12 +375,6 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
-  _12182018:
-    category: NEWS
-    date: Dec 18, 2018
-    header: ブロックチェーン・ビジネスサミット ~Beyond PoC~に登壇
-    body: Neutrino、Microsoft、HashHub様が主催するイベント「ブロックチェーン・ビジネスサミット ~Beyond PoC~」にCEOの安が登壇しました
-    url: https://blockchain-business-summit.peatix.com/
   _11302018:
     category: PRESS RELEASE
     date: Nov 30, 2018
