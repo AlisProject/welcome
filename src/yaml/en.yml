@@ -370,6 +370,12 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _12182018:
+    category: NEWS
+    date: Dec 18, 2018
+    header: Presentation at Blockchain Business Summit ~Beyond PoC~
+    body: CEO Masahiro spoke at Blockchain Business Summit ~Beyond PoC~
+    url: https://blockchain-business-summit.peatix.com/
   _11302018:
     category: PRESS RELEASE
     date: Nov 30, 2018
