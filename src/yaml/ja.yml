@@ -187,15 +187,6 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/yaasita
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
-    potato:
-      id: potato
-      name: Potato
-      body: |
-        複数のスタートアップなどでの開発経験を経て、 pixiv inc. に入社。 2017 年に独立し、現在はフリーランスの Web エンジニアとして活動している。自身が開発者向け資料の作成などで貢献している Vue.js / Nuxt.js のモデルケースとなるようなプロジェクトを作り上げるため、 ALIS にてフロントエンドの設計に携わっている。
-      role: TECHNICAL ADVISOR
-      twitter: https://twitter.com/potato4d
-      fb: https://www.facebook.com/potato4d
-      linkedin:
     horike:
       id: horike
       name: TAKAHIRO HORIKE

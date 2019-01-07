@@ -182,15 +182,6 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/yaasita
       linkedin: https://www.linkedin.com/in/taisuke-yamasita-3239b8135/
-    potato:
-      id: potato
-      name: Potato
-      body: |
-        After experiencing development with multiple startups, Potato joined Pixiv, Inc. He became independent in 2017, and currently works as a freelance web engineer. Engaged in designing the front end at ALIS in order to create a project that will become a model case of Vue.js / Nuxt.js, which is itself contributing to the creation of documentation for developers, Potato is hard at work shaping and empowering the ALIS vision.
-      role: TECHNICAL ADVISOR
-      twitter: https://twitter.com/potato4d
-      fb: https://www.facebook.com/potato4d
-      linkedin:
     horike:
       id: horike
       name: TAKAHIRO HORIKE
