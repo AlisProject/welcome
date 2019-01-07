@@ -15,13 +15,31 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  roadmap: ROADMAP
+  technology: TECHNOLOGY
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
   btn_text: WHITEPAPERを読む
-roadmap:
-  url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
+technology:
+  header:
+    body_line_1: Technology Stacks
+  body: |
+    ALISはブロックチェーン・ベースのサービスを開発、運用する実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における機密性・完全性はパーフェクトであり、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
+  blockchain:
+    name: Blockchain
+    body_line_1: ALISの基幹技術
+    body_line_2: 国内有数の実運用
+    body_line_3: 実績を誇ります
+  serverless:
+    name: Serverless
+    body_line_1: 可用性100%の実績
+    body_line_2: 堅牢性も誇り
+    body_line_3: Blockchainに最適
+  frontend:
+    name: Frontend
+    body_line_1: Vue.js & Nuxt.js
+    body_line_2: 公開リポジトリで
+    body_line_3: 国内有数の実装例
 cover:
   caption_line_one:
     first: 信頼できる記事と人々を明らかにする
@@ -747,6 +765,11 @@ sns_url:
   medium: https://medium.com/@alismedia
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
-  trello: https://trello.com/b/BBhg390G/alis
+  trello: https://trello.com/b/x8pzV9DB/alis-development
   github: https://github.com/AlisProject
   googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+
+technology_url:
+  blockchain: https://alis.to/AB2/articles/375b0QAXo1dl
+  serverless: https://alis.to/AB2/articles/KBXeJ1VgwzNB
+  frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ
