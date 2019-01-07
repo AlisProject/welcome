@@ -34,8 +34,6 @@ body
                 +team_member(member.profile.narisada.name, member.profile.narisada.role)(src='/img/pc/img_profile_narisada.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
                 +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='/img/pc/img_profile_matsuyama.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.potato.id)
-                +team_member(member.profile.potato.name, member.profile.potato.role)(src='/img/pc/img_profile_potato.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yamashita.id)
                 +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='/img/pc/img_profile_yamashita.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.horike.id)
@@ -288,17 +286,6 @@ body
     member.profile.matsuyama.fb,
     member.profile.matsuyama.linkedin)
   .p-popup-overlay(data-exit=member.profile.matsuyama.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_potato.png', id="js-popup-"+member.profile.potato.id)
-    +popup_member(
-    member.profile.potato.id,
-    member.profile.potato.name,
-    member.profile.potato.role,
-    member.profile.potato.body,
-    member.profile.potato.twitter,
-    member.profile.potato.fb,
-    member.profile.potato.linkedin)
-  .p-popup-overlay(data-exit=member.profile.potato.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_yamashita.png', id="js-popup-"+member.profile.yamashita.id)
     +popup_member(
