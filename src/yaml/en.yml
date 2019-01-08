@@ -22,24 +22,25 @@ whitepaper:
   btn_text: Read Whitepaper
 technology:
   header:
-    body_line_1: Pioneering the Future,
+    body_line_1: Technology Stacks
     stackshare: stackshare
-  body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
+  body: |
+    Our cutting-edge technology stacks. You can check the details below.
   blockchain:
     name: Blockchain
-    body_line_1: ALISの基幹技術
-    body_line_2: 国内有数の実運用
-    body_line_3: 実績を誇ります
+    body_line_1: Ethereum
+    body_line_2:
+    body_line_3:
   serverless:
     name: Serverless
-    body_line_1: 実績:可用性100%
-    body_line_2: 堅牢性も誇り
-    body_line_3: Blockchainに最適
+    body_line_1: AWS
+    body_line_2: serverless framework
+    body_line_3:
   frontend:
     name: Frontend
     body_line_1: Vue.js & Nuxt.js
-    body_line_2: 公開リポジトリで
-    body_line_3: 国内有数の実装例
+    body_line_2:
+    body_line_3:
 cover:
   caption_line_one:
     first: A completely new social media concept

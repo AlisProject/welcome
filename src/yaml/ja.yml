@@ -25,22 +25,22 @@ technology:
     body_line_1: Technology Stacks
     stackshare: stackshare
   body: |
-    ALISはブロックチェーン・ベースのサービスを開発、運用する実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性は万全であり、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
+    ALISはブロックチェーン・ベースのサービス開発・運用実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性を堅牢に担保し、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
   blockchain:
     name: Blockchain
     body_line_1: ALISの基幹技術
-    body_line_2: 国内有数の実運用
-    body_line_3: 実績を誇ります
+    body_line_2: 国内有数の運用実績を誇り
+    body_line_3: 継続的な研究開発も行う
   serverless:
     name: Serverless
-    body_line_1: 可用性100%の実績
-    body_line_2: 堅牢性も誇り
-    body_line_3: Blockchainに最適
+    body_line_1: 可用性100%の運用実績
+    body_line_2: 堅牢性と費用対効果に優れ
+    body_line_3: Blockchainの運用に最適
   frontend:
     name: Frontend
     body_line_1: Vue.js & Nuxt.js
-    body_line_2: 公開リポジトリで
-    body_line_3: 国内有数の実装例
+    body_line_2: 公開リポジトリで国内屈指
+    body_line_3: 開発効率と保守性に優れる
 cover:
   caption_line_one:
     first: 信頼できる記事と人々を明らかにする
