@@ -28,7 +28,7 @@ cover:
     second: revealing and providing access to
     third: reliable, articles, news, and people
 registration:
-  header: CLOSED β PRODUCT
+  header: OPEN β PRODUCT
   body_line_1: ALIS is now available for pre-registered users.
   body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
   body_line_3:
@@ -56,7 +56,7 @@ product:
     btn_text: Open the product
     url: https://alis.to
   mock_sp:
-    btn_text: View closed beta mock-up for mobile device
+    btn_text: View open beta mock-up for mobile device
     url: https://invis.io/GNF0FS8R8
   dev_status: Click here for product development status
   bi_status: Click here for BI status
@@ -354,10 +354,10 @@ goods:
   url1: https://alismedia.official.ec/
   btn_text2:
   url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
-closedb:
-  header: WHAT’S CLOSED β
+openb:
+  header: WHAT’S OPEN β
   body: |
-    From the end of April 2018, ALIS will begin the testing process via the launch of its closed beta version of the platform. The closed beta launch of ALIS will include minimal, basic functions. The goal of the closed beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
+    From Janualy 2019, ALIS will begin the testing process via the launch of its open beta version of the platform. The open beta launch of ALIS will include minimal, basic functions. The goal of the open beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
