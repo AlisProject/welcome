@@ -326,8 +326,8 @@ community:
     body_line_1: ALISの
     body_line_2: 最新情報を
     body_line_3: 知りたい
-  medium:
-    name: MEDIUM
+  alis_official:
+    name: ANNOUNCE
     body_line_1: ALISについて
     body_line_2: もっと詳しく
     body_line_3: 知りたい
@@ -744,7 +744,7 @@ news:
 
 sns_url:
   twitter: https://twitter.com/ALIS_media
-  medium: https://medium.com/@alismedia
+  alis_official: https://alis.to/users/ALIS-official
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis

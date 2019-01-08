@@ -321,8 +321,8 @@ community:
     body_line_1: Get the latest updates and news about ALIS
     body_line_2:
     body_line_3:
-  medium:
-    name: MEDIUM
+  alis_official:
+    name: ANNOUNCE
     body_line_1: Learn more
     body_line_2: about ALIS
     body_line_3:
@@ -736,7 +736,7 @@ news:
 
 sns_url:
   twitter: https://twitter.com/ALIS_media
-  medium: https://medium.com/@alismedia
+  alis_official: https://alis.to/users/ALIS-official
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis
