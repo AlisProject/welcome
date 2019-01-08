@@ -46,10 +46,10 @@ cover:
     first: 信頼できる記事と人々を明らかにする
     second: 全く新しいソーシャルメディア
 registration:
-  header: CLOSED β PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
+  header: OPEN β PRODUCT
+  body_line_1: ALISは現在オープンβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   body_line_2:
-  btn_text1: クローズドβにアクセス
+  btn_text1: オープンβにアクセス
   url1: https://alis.to
 project:
   header: OUR PROJECT
@@ -65,10 +65,10 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
+  body_line_1: ALISは現在オープンβ版を公開しており、プロダクトの開発状況もご確認いただけます。
   body_line_2: ※ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   mock_pc:
-    btn_text: クローズドβにアクセス
+    btn_text: オープンβにアクセス
     url: https://alis.to
   mock_sp:
     btn_text: Waitingリストに登録
@@ -345,8 +345,8 @@ community:
     body_line_1: ALISの
     body_line_2: 最新情報を
     body_line_3: 知りたい
-  medium:
-    name: MEDIUM
+  alis_official:
+    name: ANNOUNCE
     body_line_1: ALISについて
     body_line_2: もっと詳しく
     body_line_3: 知りたい
@@ -378,10 +378,10 @@ goods:
   url1: https://alismedia.official.ec/
   btn_text2: トークンでの支払いはこちら
   url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
-closedb:
-  header: WHAT’S CLOSED β
+openb:
+  header: WHAT’S OPEN β
   body: |
-    ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのクローズドβを用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
+    ALISは2019年1月上旬から、必要最小限の機能を実装したプロダクトのオープンβの提供をスタートします。「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」を目的としてコミュニティと共に機能開発を進めていきます。
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
@@ -763,7 +763,7 @@ news:
 
 sns_url:
   twitter: https://twitter.com/ALIS_media
-  medium: https://medium.com/@alismedia
+  alis_official: https://alis.to/users/ALIS-official
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/x8pzV9DB/alis-development

@@ -1,4 +1,4 @@
-$communities: "twitter", "medium", "discord", "reddit", "github";
+$communities: "twitter", "alis_official", "discord", "reddit", "github";
 
 .p-page-community .p-block {
 	@include mq() {
@@ -80,7 +80,7 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 			background-size: contain;
 		}
 		@include mq() {
-			@if $community == 'twitter' or  $community == 'medium' {
+			@if $community == 'twitter' or  $community == 'alis_official' {
 				br:nth-child(2) {
 					display: none;
 				}
