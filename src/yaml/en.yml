@@ -15,21 +15,40 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  roadmap: ROADMAP
+  technology: TECHNOLOGY
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
-roadmap:
-  url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
+technology:
+  header:
+    body_line_1: Technology Stacks
+    stackshare: stackshare
+  body: |
+    Our cutting-edge technology stacks. You can check the details below.
+  blockchain:
+    name: Blockchain
+    body_line_1: Ethereum
+    body_line_2:
+    body_line_3:
+  serverless:
+    name: Serverless
+    body_line_1: AWS
+    body_line_2: serverless framework
+    body_line_3:
+  frontend:
+    name: Frontend
+    body_line_1: Vue.js & Nuxt.js
+    body_line_2:
+    body_line_3:
 cover:
   caption_line_one:
     first: A completely new social media concept
     second: revealing and providing access to
     third: reliable, articles, news, and people
 registration:
-  header: CLOSED β PRODUCT
-  body_line_1: ALIS is now available for pre-registered users.
+  header: OPEN β PRODUCT
+  body_line_1: ALIS is now available for everyone.
   body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
   body_line_3:
   btn_text1: Open the product
@@ -50,13 +69,13 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: ALIS is now available for pre-registered users. You can also check our product development status.
+  body_line_1: ALIS is now available for everyone. You can also check our product development status.
   body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
   mock_pc:
     btn_text: Open the product
     url: https://alis.to
   mock_sp:
-    btn_text: View closed beta mock-up for mobile device
+    btn_text: View open beta mock-up for mobile device
     url: https://invis.io/GNF0FS8R8
   dev_status: Click here for product development status
   bi_status: Click here for BI status
@@ -321,8 +340,8 @@ community:
     body_line_1: Get the latest updates and news about ALIS
     body_line_2:
     body_line_3:
-  medium:
-    name: MEDIUM
+  alis_official:
+    name: ANNOUNCE
     body_line_1: Learn more
     body_line_2: about ALIS
     body_line_3:
@@ -354,12 +373,12 @@ goods:
   url1: https://alismedia.official.ec/
   btn_text2:
   url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
-closedb:
-  header: WHAT’S CLOSED β
+openb:
+  header: WHAT’S OPEN β
   body: |
-    From the end of April 2018, ALIS will begin the testing process via the launch of its closed beta version of the platform. The closed beta launch of ALIS will include minimal, basic functions. The goal of the closed beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
+    From Janualy 2019, ALIS will begin the testing process via the launch of its open beta version of the platform. The open beta launch of ALIS will include minimal, basic functions. The goal of the open beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
   btn_text: Click here for detail
-  url: https://medium.com/@alismedia/45a55f0169a3
+  url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
   _12182018:
     category: NEWS
@@ -736,9 +755,14 @@ news:
 
 sns_url:
   twitter: https://twitter.com/ALIS_media
-  medium: https://medium.com/@alismedia
+  alis_official: https://alis.to/users/ALIS-official
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
-  trello: https://trello.com/b/BBhg390G/alis
+  trello: https://trello.com/b/x8pzV9DB/alis-development
   github: https://github.com/AlisProject
   googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+
+technology_url:
+  blockchain: https://alis.to/AB2/articles/375b0QAXo1dl
+  serverless: https://alis.to/AB2/articles/KBXeJ1VgwzNB
+  frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ

@@ -1,12 +1,12 @@
-$communities: "twitter", "alis_official", "discord", "reddit", "github";
+$technologies: "blockchain", "serverless", "frontend";
 
-.p-page-community .p-block {
+.p-page-technology .p-block {
 	@include mq() {
 		margin-bottom: 60px;
 	}
 }
 
-.p-community-cards {
+.p-technology-cards {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -24,14 +24,14 @@ $communities: "twitter", "alis_official", "discord", "reddit", "github";
 	}
 }
 
-.p-community-card {
+.p-technology-card {
 	@include box-shadow;
 	@include transition;
 	display: block;
 	background-color: white;
 	padding: 35px;
 	text-align: center;
-	width: 196px;
+	width: 358px;
 
 	&:hover {
 		text-decoration: none;
@@ -74,28 +74,28 @@ $communities: "twitter", "alis_official", "discord", "reddit", "github";
 		}
 	}
 
-	@each $community in $communities {
-		&--#{$community}::before {
-			background: url("/img/pc/icon_community_#{$community}.png") center center no-repeat;
+	@each $technology in $technologies {
+		&--#{$technology}::before {
+			background: url("/img/pc/icon_technology_#{$technology}.png") center center no-repeat;
 			background-size: contain;
 		}
 		@include mq() {
-			@if $community == 'twitter' or  $community == 'alis_official' {
+			@if $technology == 'twitter' or  $technology == 'medium' {
 				br:nth-child(2) {
 					display: none;
 				}
-			}@else if $community == 'github' {
-				&--#{$community}::before {
+			}@else if $technology == 'github' {
+				&--#{$technology}::before {
 					width: 38px;
 				}
 				br:nth-child(2) {
 					display: none;
 				}		 
-			}@else if $community == 'discord' {
+			}@else if $technology == 'discord' {
 				br:nth-child(1) {
 					display: none;
 				}				
-			}@else if $community == 'reddit' {
+			}@else if $technology == 'reddit' {
 				br {
 					display: none;
 				}

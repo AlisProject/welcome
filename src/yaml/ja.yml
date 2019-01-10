@@ -15,22 +15,41 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  roadmap: ROADMAP
+  technology: TECHNOLOGY
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
   btn_text: WHITEPAPERを読む
-roadmap:
-  url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
+technology:
+  header:
+    body_line_1: Technology Stacks
+    stackshare: stackshare
+  body: |
+    ALISはブロックチェーン・ベースのサービス開発・運用実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性を堅牢に担保し、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
+  blockchain:
+    name: Blockchain
+    body_line_1: ALISの基幹技術
+    body_line_2: 国内有数の運用実績を誇り
+    body_line_3: 継続的な研究開発も行う
+  serverless:
+    name: Serverless
+    body_line_1: 可用性100%の運用実績
+    body_line_2: 堅牢性と費用対効果に優れ
+    body_line_3: Blockchainの運用に最適
+  frontend:
+    name: Frontend
+    body_line_1: Vue.js & Nuxt.js
+    body_line_2: 公開リポジトリで国内屈指
+    body_line_3: 開発効率と保守性に優れる
 cover:
   caption_line_one:
     first: 信頼できる記事と人々を明らかにする
     second: 全く新しいソーシャルメディア
 registration:
-  header: CLOSED β PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
+  header: OPEN β PRODUCT
+  body_line_1: ALISは現在オープンβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   body_line_2:
-  btn_text1: クローズドβにアクセス
+  btn_text1: オープンβにアクセス
   url1: https://alis.to
 project:
   header: OUR PROJECT
@@ -46,10 +65,10 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
+  body_line_1: ALISは現在オープンβ版を公開しており、プロダクトの開発状況もご確認いただけます。
   body_line_2: ※ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
   mock_pc:
-    btn_text: クローズドβにアクセス
+    btn_text: オープンβにアクセス
     url: https://alis.to
   mock_sp:
     btn_text: Waitingリストに登録
@@ -326,8 +345,8 @@ community:
     body_line_1: ALISの
     body_line_2: 最新情報を
     body_line_3: 知りたい
-  medium:
-    name: MEDIUM
+  alis_official:
+    name: ANNOUNCE
     body_line_1: ALISについて
     body_line_2: もっと詳しく
     body_line_3: 知りたい
@@ -359,12 +378,12 @@ goods:
   url1: https://alismedia.official.ec/
   btn_text2: トークンでの支払いはこちら
   url2: https://docs.google.com/forms/d/e/1FAIpQLSfzXVWiFFb9KxP1m-3ZcEe3U_KW1zKAvtBF6FqAJxqx4VN7yA/viewform
-closedb:
-  header: WHAT’S CLOSED β
+openb:
+  header: WHAT’S OPEN β
   body: |
-    ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのクローズドβを用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
+    ALISは2019年1月上旬から、必要最小限の機能を実装したプロダクトのオープンβの提供をスタートします。「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」を目的としてコミュニティと共に機能開発を進めていきます。
   btn_text: 詳細はこちら
-  url: https://medium.com/@alismedia/45a55f0169a3
+  url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
   _12182018:
     category: NEWS
@@ -744,9 +763,14 @@ news:
 
 sns_url:
   twitter: https://twitter.com/ALIS_media
-  medium: https://medium.com/@alismedia
+  alis_official: https://alis.to/users/ALIS-official
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
-  trello: https://trello.com/b/BBhg390G/alis
+  trello: https://trello.com/b/x8pzV9DB/alis-development
   github: https://github.com/AlisProject
   googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+
+technology_url:
+  blockchain: https://alis.to/AB2/articles/375b0QAXo1dl
+  serverless: https://alis.to/AB2/articles/KBXeJ1VgwzNB
+  frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ
