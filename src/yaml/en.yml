@@ -48,7 +48,7 @@ cover:
     third: reliable, articles, news, and people
 registration:
   header: OPEN β PRODUCT
-  body_line_1: ALIS is now available for pre-registered users.
+  body_line_1: ALIS is now available for everyone.
   body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
   body_line_3:
   btn_text1: Open the product
@@ -69,7 +69,7 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: ALIS is now available for pre-registered users. You can also check our product development status.
+  body_line_1: ALIS is now available for everyone. You can also check our product development status.
   body_line_2: ※ Those who can use SMS and have a Japanese phone number can use ALIS currently.
   mock_pc:
     btn_text: Open the product
