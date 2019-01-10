@@ -385,6 +385,12 @@ openb:
   btn_text: 詳細はこちら
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _01102019:
+    category: PRESS RELEASE
+    date: Jan 10, 2019
+    header: ALISオープンβ版の第一弾をリリース
+    body: 日本初！いいねするだけで暗号資産が貯まるソーシャルメディア『ALIS』のオープンβ版を公開しました
+    url: https://prtimes.jp/main/html/rd/p/000000008.000027792.html
   _12182018:
     category: NEWS
     date: Dec 18, 2018
