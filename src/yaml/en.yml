@@ -185,6 +185,14 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/_ri_sa_da
       fb: https://www.facebook.com/reishi.narisada
+    hayakawa:
+      id: hayakawa
+      name: GO HAYAKAWA
+      body: |
+        Go has been contributing to various open source communities such as WordPress and Serverless. He is now developing a service using serverless technology such as the Serverless Framework and the Serverless Step Functions. He joined the ALIS team because he is interested in blockchain techonology as well as the compatiblity of serverless and blockchain technology.
+      role: ENGINEER
+      twitter: https://twitter.com/haya_go
+      fb: https://www.facebook.com/go.hayakawa.1
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA
@@ -227,6 +235,15 @@ member:
       role: DESIGNER
       twitter: https://twitter.com/msy_i
       linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    jimmy:
+      id: jimmy
+      name: JIMMY VAN DUUREN
+      body: |
+        Jimmy joined the ALIS team initially as ambassador, but was eventually hired as full time employee in March 2019. He has a strong academic background in sociology and ICT with a bachelor and master degree from Leiden University and another bachelor degree from the Amsterdam University of Applied Sciences. His academic background makes him capable of tackling challenges with not only a practical, but also analytical approach. He has been with ALIS as community member and user from the start, meaning he is familiar with the team's vision and can look at things from a user perspective. Next to Dutch, Jimmy is fluent is English as well as Japanese.
+      role: COMMUNITY DEVELOPMENT
+      twitter: https://twitter.com/JimiVD
+      fb: https://www.facebook.com/jimmy.vanduuren
+      linkedin: https://www.linkedin.com/in/jimmy-van-duuren-058413110/
     jai:
       id: jai
       name: JAI FUKUTA
@@ -254,6 +271,7 @@ member:
       twitter: https://twitter.com/2nd_chick
       fb: https://www.facebook.com/kent0422
       linkedin:
+
 ambassador:
   header: AMBASSADOR
   body: to help spread awareness of the platform ALIS.
@@ -306,9 +324,6 @@ ambassador:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
-    jimmy:
-      name: Jimmy van Duuren
-      url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
       url:

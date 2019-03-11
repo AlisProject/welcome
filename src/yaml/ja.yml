@@ -190,6 +190,14 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/_ri_sa_da
       fb: https://www.facebook.com/reishi.narisada
+    hayakawa:
+      id: hayakawa
+      name: GO HAYAKAWA
+      body: |
+        WordPressやServerlessといったオープンソースコミュニティに参加して、多数のOSSプロダクトを開発したりコントリビューションをし続けている。現在はServerlessのテクノロジーを中心にServerless FramworkやServerless Step Functionsといったプロダクトのメンテナーや開発者をやっている。ブロックチェーンがもたらす正しく価値が認められる世界に魅力を感じると同時にServerlessとブロックチェーンの親和性にも深く興味を持ち、ALISへの参加を希望。チームにジョインした。
+      role: ENGINEER
+      twitter: https://twitter.com/haya_go
+      fb: https://www.facebook.com/go.hayakawa.1
     matsuyama:
       id: matsuyama
       name: YUKI MATSUYAMA
@@ -232,6 +240,15 @@ member:
       role: DESIGNER
       twitter: https://twitter.com/msy_i
       linkedin: https://www.linkedin.com/in/masaya-i-72864b31/
+    jimmy:
+      id: jimmy
+      name: JIMMY VAN DUUREN
+      body: |
+        ジミーは海外アンバサダーとしてALISでのキャリアをスタート、活動を続ける中で今まで以上に強くALISの成長に関わりたいとの思いからチームに参加した。オランダのライデン大学とアムステルダム専門大学で学士の学位を二つと修士の学位を取得。この経験から分析＆実践の両側面から実行できる問題解決アプローチを得意としている。これまでにコミュニティメンバー・ユーザーとしてALISと関わり続けた経験も武器に、ALISコミュニティ内での共創を多く生み出していく。オランダ語の他に英語、日本語が得意。
+      role: COMMUNITY DEVELOPMENT
+      twitter: https://twitter.com/JimiVD
+      fb: https://www.facebook.com/jimmy.vanduuren
+      linkedin: https://www.linkedin.com/in/jimmy-van-duuren-058413110/
     jai:
       id: jai
       name: JAI FUKUTA
@@ -311,9 +328,6 @@ ambassador:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
-    jimmy:
-      name: Jimmy van Duuren
-      url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
       url:
