@@ -153,14 +153,6 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--netherlands
-                  span.p-ambassador__country NETHERLANDS
-                .col-lg-6
-                  .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.jimmy.name, ambassador.profile.jimmy.url)
-            ul.p-ambassador__list
-              li.row.p-ambassador__list-item
-                .col-lg-6
                   span.p-ambassador__flag--singapore
                   span.p-ambassador__country SINGAPORE
                 .col-lg-6
@@ -280,6 +272,17 @@ body
     member.profile.narisada.linkedin)
   .p-popup-overlay(data-exit=member.profile.narisada.id)
 
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_hayakawa.png', id="js-popup-"+member.profile.hayakawa.id)
+    +popup_member(
+    member.profile.hayakawa.id,
+    member.profile.hayakawa.name,
+    member.profile.hayakawa.role,
+    member.profile.hayakawa.body,
+    member.profile.hayakawa.twitter,
+    member.profile.hayakawa.fb,
+    member.profile.hayakawa.linkedin)
+  .p-popup-overlay(data-exit=member.profile.hayakawa.id)
+
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_matsuyama.png', id="js-popup-"+member.profile.matsuyama.id)
     +popup_member(
     member.profile.matsuyama.id,
@@ -356,6 +359,17 @@ body
     member.profile.ishizaka.fb,
     member.profile.ishizaka.linkedin)
   .p-popup-overlay(data-exit=member.profile.ishizaka.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_jimmy.png', id="js-popup-"+member.profile.jimmy.id)
+    +popup_member(
+    member.profile.jimmy.id,
+    member.profile.jimmy.name,
+    member.profile.jimmy.role,
+    member.profile.jimmy.body,
+    member.profile.jimmy.twitter,
+    member.profile.jimmy.fb,
+    member.profile.jimmy.linkedin)
+  .p-popup-overlay(data-exit=member.profile.jimmy.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_jai.png', id="js-popup-"+member.profile.jai.id)
     +popup_member(
