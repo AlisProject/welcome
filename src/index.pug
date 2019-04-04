@@ -115,7 +115,7 @@ body
                 +team_member(member.profile.ishizaka.name, member.profile.ishizaka.role)(src='/img/pc/img_profile_ishizaka.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.jimmy.id)
                 +team_member(member.profile.jimmy.name, member.profile.jimmy.role)(src='/img/pc/img_profile_jimmy.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.jai.id)
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kawai.id)
                 +team_member(member.profile.kawai.name, member.profile.kawai.role)(src='/img/pc/img_profile_kawai.png')
               li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.numasawa.id)
                 +team_member(member.profile.numasawa.name, member.profile.numasawa.role)(src='/img/pc/img_profile_numasawa.png')
@@ -318,17 +318,6 @@ body
     member.profile.jimmy.fb,
     member.profile.jimmy.linkedin)
   .p-popup-overlay(data-exit=member.profile.jimmy.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_jai.png', id="js-popup-"+member.profile.jai.id)
-    +popup_member(
-    member.profile.jai.id,
-    member.profile.jai.name,
-    member.profile.jai.role,
-    member.profile.jai.body,
-    member.profile.jai.twitter,
-    member.profile.jai.fb,
-    member.profile.jai.linkedin)
-  .p-popup-overlay(data-exit=member.profile.jai.id)
 
   article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kawai.png', id="js-popup-"+member.profile.kawai.id)
     +popup_member(
