@@ -386,6 +386,12 @@ openb:
   btn_text: Click here for detail
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _04042019:
+    category: PRESS RELEASE
+    date: Apr 4, 2019
+    header: ALIS joined INATBA as a founding member
+    body: ALIS joined INATBA which offers developers and users of DLT a global forum to interact with regulators and policy makers and bring blockchain technology to the next stage.
+    url: https://prtimes.jp/main/html/rd/p/000000009.000027792.html
   _01102019:
     category: PRESS RELEASE
     date: Jan 10, 2019
