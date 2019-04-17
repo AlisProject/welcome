@@ -1,4 +1,4 @@
-$technologies: "blockchain", "serverless", "frontend";
+$technologies: "blockchain", "serverless", "frontend", "community";
 
 .p-page-technology .p-block {
 	@include mq() {
@@ -22,6 +22,10 @@ $technologies: "blockchain", "serverless", "frontend";
 	@include mq() {
 		flex-direction: column;
 	}
+}
+
+.p-content-text {
+	font-size: 1.6rem;
 }
 
 .p-technology-card {
@@ -90,11 +94,11 @@ $technologies: "blockchain", "serverless", "frontend";
 				}
 				br:nth-child(2) {
 					display: none;
-				}		 
+				}
 			}@else if $technology == 'discord' {
 				br:nth-child(1) {
 					display: none;
-				}				
+				}
 			}@else if $technology == 'reddit' {
 				br {
 					display: none;
