@@ -15,14 +15,14 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  business: BUSINESS
+  technology: TECHNOLOGY
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
 technology:
   header:
-    body_line_1: Technology stack
+    body_line_1: Technology Stacks
     stackshare: stackshare
   body: |
     Our cutting-edge technology stacks. You can check the details below.
@@ -34,39 +34,13 @@ technology:
   serverless:
     name: Serverless
     body_line_1: AWS
-    body_line_2: Serverless framework
+    body_line_2: serverless framework
     body_line_3:
   frontend:
     name: Frontend
     body_line_1: Vue.js & Nuxt.js
     body_line_2:
     body_line_3:
-business:
-  header:
-    body_line: Our Value
-  body: |
-    ブロックチェーン・サーバレスなどの最新技術はもちろん、トークンを活用したコミュニティ運営に関する知見をもとに、企業様が実現したいことをサポートいたします。単なるコンサルティングのみならず、システムの開発・運用まで一気通貫で対応可能です。
-  service:
-    header:
-      body_line: Service
-    blockchain:
-      name: ブロックチェーンを利用したPoCおよびプロダクトの開発・運用
-      body_line: ALISで1年以上ダウンさせることなく本番運用したブロックチェーンの構築・運用実績や数々の企業様との協働を通じて蓄えた知見を元に、PoCのみならず本番稼働のためのプロダクトのコンサルティング・開発支援をいたします。
-    community:
-      name: トークンを活用したコミュニティ構築・活性化のコンサル・運用
-      body_line: トークン発行・配布のみならず、マネジメントツールや運用サポートを通じてコミュニティの構築や活性化をサポートいたします
-    serverless:
-      name: サーバレスアーキテクチャの導入支援・運用
-      body_line: ALISで実際に運用した知見・経験をもとに、AWSを利用したサーバレスアーキテクチャの導入支援や運用を行います
-  usecase:
-    header:
-      body_line: Usecase
-  contact:
-    header:
-      body_line: Contact
-    body: |
-      以下の問い合わせフォームにアクセスしていただき、右下のチャットボタンをクリックしてお問い合わせください。
-    body_2: お問い合わせフォーム
 cover:
   caption_line_one:
     first: A completely new social media concept
@@ -810,6 +784,3 @@ technology_url:
   blockchain: https://alis.to/AB2/articles/375b0QAXo1dl
   serverless: https://alis.to/AB2/articles/KBXeJ1VgwzNB
   frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ
-
-contact_url:
-  contact: https://intercom.help/alismedia
