@@ -58,9 +58,6 @@ business:
     serverless:
       name: サーバレスアーキテクチャの導入支援・運用
       body_line: ALISで実際に運用した知見・経験をもとに、AWSを利用したサーバレスアーキテクチャの導入支援や運用を行います
-  usecase:
-    header:
-      body_line: Usecase
   contact:
     header:
       body_line: Contact
