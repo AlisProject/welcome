@@ -32,7 +32,7 @@
 
 
 // 各ページごとのカバー画像指定
-$pages: "about", "team", "community", "product", "technology", "news";
+$pages: "about", "team", "community", "product", "business", "news";
 
 .p-cover-header {
   @each $page in $pages {
