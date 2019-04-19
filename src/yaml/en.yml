@@ -15,17 +15,17 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  technology: TECHNOLOGY
+  business: BUSINESS
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
 technology:
   header:
-    body_line_1: Technology Stacks
-    stackshare: stackshare
+    body_line_1: Technology Stack
+    stackshare: Stackshare
   body: |
-    Our cutting-edge technology stacks. You can check the details below.
+    Below is an overview of our cutting edge technology stack.
   blockchain:
     name: Blockchain
     body_line_1: Ethereum
@@ -34,13 +34,46 @@ technology:
   serverless:
     name: Serverless
     body_line_1: AWS
-    body_line_2: serverless framework
+    body_line_2: Serverless framework
     body_line_3:
   frontend:
     name: Frontend
     body_line_1: Vue.js & Nuxt.js
     body_line_2:
     body_line_3:
+business:
+  header:
+    body_line: ALIS
+  body: |
+    Not only do we offer expert advice on working with the latest technologies like Blockchain and Serverless, we can also take operation and development out of your hands. Read more about the specifics below, or feel free to contact us for more information.
+  service:
+    header:
+      body_line: Services
+    blockchain:
+      name: Blockchain Based PoC & Product Development and Operation
+      body_line: Based on experience form developing and operating our own Blockchain based platform with 0 downtime, and through cooperation with various companies, ALIS offers development support and consultancy for not just PoC, but also full product operation.
+    community:
+      name: Token Application, Community Building and Activation 
+      body_line: From the creation and distribution of your own token, to management tools and operation support. ALIS can assist your company with developing and activating its own community. 
+    serverless:
+      name: Serverless Architecture Adoption Support and Operation 
+      body_line: With the experience gained from building our own platform, we offer support and operation for on AWS based Serverless system architecutre adoption.
+  usecase:
+    header:
+      body_line: Use Cases
+    usecase_list:
+      item1_body1: IoT and Point Systems,
+      item1_body2: in areas where security is essential,
+      item1_body3: can be reduced drastically.
+      item2_body1: By creating your own token
+      item2_body2: and implementing a tipping system,
+      item2_body3: your community can be activated.
+  contact:
+    header:
+      body_line: Contact
+    body: |
+      Contact us by using the button below and chat-button on the bottom right afterwards.
+    body_2: Contact Us
 cover:
   caption_line_one:
     first: A completely new social media concept
@@ -784,3 +817,6 @@ technology_url:
   blockchain: https://alis.to/AB2/articles/375b0QAXo1dl
   serverless: https://alis.to/AB2/articles/KBXeJ1VgwzNB
   frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ
+
+contact_url:
+  contact: https://intercom.help/alismedia
