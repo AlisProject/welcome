@@ -35,12 +35,28 @@ body
               business.service.serverless.name,
               business.service.serverless.body_line)
         .p-title.p-title--center
-          h3.p-title__header #{business.usecase.header.body_line}
+          h3.p-title__header 
+            |#{business.usecase.header.body_line}
+          ul.p-feature-list
+            li.p-usecase-list__item
+              p.p-usecase-list__item-body
+                | #{business.usecase.usecase_list.item1_body1}
+                br
+                | #{business.usecase.usecase_list.item1_body2}
+                br
+                | #{business.usecase.usecase_list.item1_body3}
+            li.p-usecase-list__item
+              p.p-usecase-list__item-body
+                | #{business.usecase.usecase_list.item2_body1}
+                br
+                | #{business.usecase.usecase_list.item2_body2}
+                br
+                | #{business.usecase.usecase_list.item2_body3}    
         .p-block.p-block--xs.u-pb-0
           .p-title.p-title--center
             h3.p-title__header
               | #{business.contact.header.body_line}
-            p.p-content-text #{business.contact.body}
+            p.p-contact-text #{business.contact.body}
             br
             br
             .text-center

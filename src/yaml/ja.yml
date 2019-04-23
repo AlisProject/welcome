@@ -22,8 +22,8 @@ whitepaper:
   btn_text: WHITEPAPERを読む
 technology:
   header:
-    body_line_1: Technology stack
-    stackshare: stackshare
+    body_line_1: Technology Stack
+    stackshare: Stackshare
   body: |
     ALISはブロックチェーン・ベースのサービス開発・運用実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性を堅牢に担保し、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
   blockchain:
@@ -43,12 +43,12 @@ technology:
     body_line_3: 開発効率と保守性に優れる
 business:
   header:
-    body_line: Our Value
+    body_line: Business
   body: |
     ブロックチェーン・サーバレスなどの最新技術はもちろん、トークンを活用したコミュニティ運営に関する知見をもとに、企業様が実現したいことをサポートいたします。単なるコンサルティングのみならず、システムの開発・運用まで一気通貫で対応可能です。
   service:
     header:
-      body_line: Service
+      body_line: Services
     blockchain:
       name: ブロックチェーンを利用したPoCおよびプロダクトの開発・運用
       body_line: ALISで1年以上ダウンさせることなく本番運用したブロックチェーンの構築・運用実績や数々の企業様との協働を通じて蓄えた知見を元に、PoCのみならず本番稼働のためのプロダクトのコンサルティング・開発支援をいたします。
@@ -60,7 +60,14 @@ business:
       body_line: ALISで実際に運用した知見・経験をもとに、AWSを利用したサーバレスアーキテクチャの導入支援や運用を行います
   usecase:
     header:
-      body_line: Usecase
+      body_line: Use Cases
+    usecase_list:
+      item1_body1: IoTやポイントシステムなど、
+      item1_body2: セキュリティが必要とされる領域のコストを
+      item1_body3: 劇的に下げることが可能です
+      item2_body1: 独自トークンの発行と
+      item2_body2: 投げ銭システムの導入により、
+      item2_body3: コミュニティの活動を支援・ドライブできます
   contact:
     header:
       body_line: Contact
