@@ -120,7 +120,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	@include box-shadow;
 	@include transition;
 	display: block;
-	background-color: white;
+	background-color: white; 
 	padding: 35px;
 	text-align: center;
 	width: 3599px;
@@ -225,6 +225,8 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	}
 }
 
+
+
 .p-contact-text{
 
   min-height: 100%;
@@ -238,4 +240,110 @@ $technologies: "blockchain", "serverless", "frontend", "community";
   @include mq(sm) {
     margin-right: 0px!important;
   }
+}
+
+.p-biz-card {
+	@include transition;
+	display: block;
+	padding: 35px;
+	text-align: left;
+	width: 3599px;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:focus, &:active {
+		text-decoration: none;
+	}
+
+	@media screen and (max-width: 1260px) {
+		margin-bottom: 5%;
+	}
+ 
+	@include mq() {
+		padding: 24px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	&::before {
+		content: "";
+		display: inline-block;
+		width: 60px;
+		max-width: 60px;
+		height: 60px;
+		@media screen and (max-width: 1260px) {
+			width: 48px;
+			height: 48px;
+		}
+		@include mq() {
+			max-width: 48px;
+			min-width: 48px;
+			margin: 0 40px;
+		}
+		@include mq(sm) {
+			margin: 0 20px;
+		}
+	}
+
+	@each $technology in $technologies {
+		&--#{$technology}::before {
+			background: url("/img/pc/icon_technology_#{$technology}.png") center center no-repeat;
+			background-size: contain;
+		}
+		@include mq() {
+			@if $technology == 'twitter' or  $technology == 'medium' {
+				br:nth-child(2) {
+					display: none;
+				}
+			}@else if $technology == 'github' {
+				&--#{$technology}::before {
+					width: 38px;
+				}
+				br:nth-child(2) {
+					display: none;
+				}
+			}@else if $technology == 'discord' {
+				br:nth-child(1) {
+					display: none;
+				}
+			}@else if $technology == 'reddit' {
+				br {
+					display: none;
+				}
+			}
+		}
+
+	}
+
+	&__sns {
+		@include font-title;
+		font-size: 1.8rem;
+		letter-spacing: 1px;
+		line-height: 2.1;
+
+		@include mq() {
+			text-align: left;
+			font-size: 1.6rem;
+			line-height: 1.5;
+			padding-left: 20px;
+			margin: 0 0 12px;
+		}
+	}
+
+	&__body {
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		line-height: 1.57;
+		@include mq() {
+			text-align: left;
+			font-size: 1.4rem;
+			line-height: 1.7;
+			padding-left: 20px;
+			margin: 0;
+		}
+	}
 }
