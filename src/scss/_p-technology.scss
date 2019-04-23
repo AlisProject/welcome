@@ -242,16 +242,36 @@ $technologies: "blockchain", "serverless", "frontend", "community";
   }
 }
 
-.p-biz-card {
+.p-business-cards {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+	@media screen and (max-width: 1260px) {
+		width: 720px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	@include mq(lg) {
+		width: 100%;
+	}
+	@include mq() {
+		flex-direction: column;
+	}
+}
+
+
+
+.p-business-card {
+	
 	@include transition;
 	display: block;
+	
 	padding: 35px;
-	text-align: left;
+	text-align: center;
 	width: 3599px;
 
-	&:hover {
-		text-decoration: none;
-	}
+
 
 	&:focus, &:active {
 		text-decoration: none;
@@ -324,6 +344,8 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 		font-size: 1.8rem;
 		letter-spacing: 1px;
 		line-height: 2.1;
+		text-align: left;
+		width: 240px;
 
 		@include mq() {
 			text-align: left;
@@ -335,9 +357,10 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	}
 
 	&__body {
+		text-align: left;
 		font-size: 1.4rem;
 		letter-spacing: 1px;
-		line-height: 1.57;
+		line-height: 2;
 		@include mq() {
 			text-align: left;
 			font-size: 1.4rem;
@@ -347,3 +370,4 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 		}
 	}
 }
+

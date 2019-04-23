@@ -20,18 +20,18 @@ body
             h3.p-title__header
               | #{business.service.header.body_line}
         .p-block.u-pt-0
-          .p-technology-cards
-            include mixin/technology_card
-            a.p-biz-card.p-biz-card--blockchain
-              +technology_card(
+          .p-business-cards
+            include mixin/business_card
+            div.p-business-card.p-business-card--blockchain
+              +business_card(
               business.service.blockchain.name,
               business.service.blockchain.body_line)
-            a.p-biz-card.p-biz-card--community
-              +technology_card(
+            div.p-business-card.p-business-card--community
+              +business_card(
               business.service.community.name,
               business.service.community.body_line)
-            a.p-biz-card.p-biz-card--serverless
-              +technology_card(
+            div.p-business-card.p-business-card--serverless
+              +business_card(
               business.service.serverless.name,
               business.service.serverless.body_line)
         .p-title.p-title--center
