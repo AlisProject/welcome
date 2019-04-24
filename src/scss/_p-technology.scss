@@ -120,7 +120,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	@include box-shadow;
 	@include transition;
 	display: block;
-	background-color: white; 
+	background-color: white;
 	padding: 35px;
 	text-align: center;
 	width: 3599px;
@@ -137,7 +137,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	@media screen and (max-width: 1260px) {
 		margin-bottom: 5%;
 	}
- 
+
 	@include mq() {
 		padding: 24px;
 		width: 100%;
@@ -235,7 +235,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 2;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 
   @include mq(sm) {
     margin-right: 0px!important;
@@ -263,10 +263,10 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 
 
 .p-business-card {
-	
+
 	@include transition;
 	display: block;
-	
+
 	padding: 35px;
 	text-align: center;
 	width: 3599px;
@@ -280,7 +280,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	@media screen and (max-width: 1260px) {
 		margin-bottom: 5%;
 	}
- 
+
 	@include mq() {
 		padding: 24px;
 		width: 100%;
@@ -345,7 +345,6 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 		letter-spacing: 1px;
 		line-height: 2.1;
 		text-align: left;
-		width: 240px;
 
 		@include mq() {
 			text-align: left;
@@ -370,4 +369,3 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 		}
 	}
 }
-
