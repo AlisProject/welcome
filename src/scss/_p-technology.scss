@@ -137,7 +137,7 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	@media screen and (max-width: 1260px) {
 		margin-bottom: 5%;
 	}
- 
+
 	@include mq() {
 		padding: 24px;
 		width: 100%;
@@ -225,6 +225,8 @@ $technologies: "blockchain", "serverless", "frontend", "community";
 	}
 }
 
+
+
 .p-contact-text{
 
   min-height: 100%;
@@ -233,9 +235,137 @@ $technologies: "blockchain", "serverless", "frontend", "community";
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 2;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 
   @include mq(sm) {
     margin-right: 0px!important;
   }
+}
+
+.p-business-cards {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+	@media screen and (max-width: 1260px) {
+		width: 720px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	@include mq(lg) {
+		width: 100%;
+	}
+	@include mq() {
+		flex-direction: column;
+	}
+}
+
+
+
+.p-business-card {
+
+	@include transition;
+	display: block;
+
+	padding: 35px;
+	text-align: center;
+	width: 3599px;
+
+
+
+	&:focus, &:active {
+		text-decoration: none;
+	}
+
+	@media screen and (max-width: 1260px) {
+		margin-bottom: 5%;
+	}
+
+	@include mq() {
+		padding: 24px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	&::before {
+		content: "";
+		display: inline-block;
+		width: 60px;
+		max-width: 60px;
+		height: 60px;
+		@media screen and (max-width: 1260px) {
+			width: 48px;
+			height: 48px;
+		}
+		@include mq() {
+			max-width: 48px;
+			min-width: 48px;
+			margin: 0 40px;
+		}
+		@include mq(sm) {
+			margin: 0 20px;
+		}
+	}
+
+	@each $technology in $technologies {
+		&--#{$technology}::before {
+			background: url("/img/pc/icon_technology_#{$technology}.png") center center no-repeat;
+			background-size: contain;
+		}
+		@include mq() {
+			@if $technology == 'twitter' or  $technology == 'medium' {
+				br:nth-child(2) {
+					display: none;
+				}
+			}@else if $technology == 'github' {
+				&--#{$technology}::before {
+					width: 38px;
+				}
+				br:nth-child(2) {
+					display: none;
+				}
+			}@else if $technology == 'discord' {
+				br:nth-child(1) {
+					display: none;
+				}
+			}@else if $technology == 'reddit' {
+				br {
+					display: none;
+				}
+			}
+		}
+
+	}
+
+	&__sns {
+		@include font-title;
+		font-size: 1.8rem;
+		letter-spacing: 1px;
+		line-height: 2.1;
+		text-align: left;
+
+		@include mq() {
+			text-align: left;
+			font-size: 1.6rem;
+			line-height: 1.5;
+			padding-left: 20px;
+			margin: 0 0 12px;
+		}
+	}
+
+	&__body {
+		text-align: left;
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		line-height: 2;
+		@include mq() {
+			text-align: left;
+			font-size: 1.4rem;
+			line-height: 1.7;
+			padding-left: 20px;
+			margin: 0;
+		}
+	}
 }
