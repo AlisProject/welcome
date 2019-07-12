@@ -198,31 +198,6 @@ member:
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    akagi:
-      id: akagi
-      name: KENTA AKAGI
-      body: |
-        武蔵野美術大学にてブランディングデザイン・カルチュラルエンジニアリングデザインを選考。感情の変化、行動とデザインの関係を研究。卒業後はDeNA・リクルートジョブズにて新規サービスの開発に従事。Forbesの"スタートアップの有望株 厳選50社"に選出されたエメラダでCXOとして新規サービスの立上げを行った後、ALISへジョイン。情報を視覚化し、物体的に捉えた時のそのあり方や、情報が一過性ではなく育っていくようなデザインの実現を進める。ペルソナの設計からIA、表層部のデザインまで一気通貫で進めている。
-      role: LEAD DESIGNER
-      twitter: https://twitter.com/AKG_FF0000
-      fb: https://www.facebook.com/kenta.akagi.1
-      linkedin: https://www.linkedin.com/in/kenta-akagi/
-    terashima:
-      id: terashima
-      name: YUKI TERASHIMA
-      body: |
-        大学時代はインターンシップや課外活動を通じてチームでWebアプリケーション制作を行うかたわら、個人でも開発を行い技術力を高める。開発ではフロントエンドからサーバーサイドまで幅広く経験。大学4年時にALISを知り、ICO以前からALISの情報をブログで発信。ALISミートアップを通じてALISメンバーと深くコミュニケーションをとり、エンジニアとしてのコミットを開始。ALISを通じて、価値が正しく評価される世界をつくること目標としている。
-      role: ENGINEER
-      twitter: https://twitter.com/y_temp4
-      linkedin:
-    narisada:
-      id: narisada
-      name: REISHI NARISADA
-      body: |
-        大学院修了後Web開発会社でCtoCサービスでのAPI開発、仮想通貨取引所のシステム開発等を通してサーバサイド開発、フロントエンド開発を経験。技術だけでなくコミュニティ形成を重要視していること、個人の新しい形の信用形成の可能性に惹かれ、ALISへの参画を決める。ALISでは主にサーバレスのバックエンド部分の開発を担当している。
-      role: ENGINEER
-      twitter: https://twitter.com/_ri_sa_da
-      fb: https://www.facebook.com/reishi.narisada
     hayakawa:
       id: hayakawa
       name: GO HAYAKAWA
