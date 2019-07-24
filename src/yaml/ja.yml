@@ -398,6 +398,96 @@ openb:
   btn_text: 詳細はこちら
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _07172019:
+    category: MEDIA
+    date: Jul 17, 2019
+    header: デフレーミング戦略にALISが掲載
+    body: 高木総一朗氏執筆の「デフレーミング戦略」に、「信頼」の文脈でALISが紹介されました
+    url: https://www.amazon.co.jp/dp/B07TBLMQZK/
+  _07162019:
+    category: PRESS RELEASE
+    date: Jul 16, 2019
+    header: 2019年8月7日(水)にALISと博報堂が共催イベントを開催
+    body: ALISと博報堂ブロックチェーン・イニシアチブによる共催イベント『業界キーマンと学ぶ企業の「コミュニティ共創」最前線』を8月7日(水)に開催します。
+    url: https://prtimes.jp/main/html/rd/p/000000011.000027792.html
+  _07112019:
+    category: NEWS
+    date: Jul 11, 2019
+    header: 2019年7月26日(金)開催Auction Labに登壇
+    body: Auction Lab第８回ワークショップ「投票とレーティング」にCEOの安が登壇します。
+    url: https://auction.amebaownd.com/posts/6557536
+  _07032019:
+    category: NEWS
+    date: Jul 3, 2019
+    header: ALIS Laboratoryを公開
+    body: ALISの実験的な機能を試す場である「ALIS Laboratory」を公開しました
+    url: https://alis.to/AB2/articles/39rw59LPzxvB
+  _07022019:
+    category: MEDIA
+    date: Jul 2, 2019
+    header: ブロックチェーンTVに出演
+    body: 「ブロックチェーンTV」にCEOの安が出演しました
+    url: https://www.youtube.com/watch?v=mH2D9vt0Fl8&feature
+  _07012019:
+    category: MEDIA
+    date: Jul 1, 2019
+    header: HEDGE GUIDEに掲載
+    body: 「仮想通貨はコミュニティのハブになる」ALIS × PoL対談にALISが掲載されました
+    url: https://hedge.guide/feature/alis-techtec.html
+  _06272019:
+    category: NEWS
+    date: Jun 27, 2019
+    header: ブロックチェーンの学習サービスにALISカリキュラムが登場
+    body: ブロックチェーンの学習サービス「PoL(ポル)」でALISのカリキュラムが公開されました
+    url: https://prtimes.jp/main/html/rd/p/000000020.000032311.html
+  _06202019:
+    category: NEWS
+    date: Jun 20, 2019
+    header: ALIS Market(α版)を公開
+    body: ALIS決済が可能なサービス・お店をまとめた「ALIS Market」を公開しました
+    url: https://alis.to/ALIS-official/articles/3bNWJXZjRGYE
+  _06122019:
+    category: NEWS
+    date: Jun 12, 2019
+    header: Blockchain EXE No.17に登壇
+    body: Blockchain EXE主催「新たな経済圏の衝撃！～ブロックチェーンによって立ち上がり始めたWeb3の実現やトークエコノミーを支える技術とは～」にCTOの石井が登壇しました
+    url: https://peatix.com/event/650171
+  _06062019:
+    category: NEWS
+    date: Jun 6, 2019
+    header: OAuthを公開
+    body: コミュニティとの共創促進を目指しOAuth及びガイドラインを公開しました
+    url: https://alisproject.github.io/oauth2/term/
+  _05292019:
+    category: NEWS
+    date: May 29, 2019
+    header: CryptoBowl No.13に登壇
+    body: Cryptobowl主催「ブロックチェーン時代の広告のあり方」にCMOの水澤が登壇しました
+    url: https://cryptobowl.connpass.com/event/128902/
+  _05232019:
+    category: NEWS
+    date: May 23, 2019
+    header: B Dash Camp 2019 Spring in Sapporoに登壇
+    body: 国内最大規模のスタートアップの祭典である「B Dash Camp 2019 Spring in Sapporo」にCEOの安が登壇しました
+    url: https://camp.bdashventures.com/
+  _05162019:
+    category: NEWS
+    date: May 16, 2019
+    header: ガイアックス新サービスcheerfor、ALISの投げ銭APIを採用
+    body: Microsoftとの協業で開発したALISの投げ銭APIをガイアックス新サービス「cheerfor」が採用しました
+    url: https://prtimes.jp/main/html/rd/p/000000299.000003955.html
+  _04262019:
+    category: NEWS
+    date: Apr 26, 2019
+    header: CAREER×BLOCKCHAINに登壇
+    body: ビジネスメディアAMP主催「CAREER×BLOCKCHAIN”あらゆる業界に今後訪れるブロックチェーンインパクト」にCEOの安が登壇しました
+    url: https://airevoice-amp.peatix.com/
+  _04242019:
+    category: PRESS RELEASE
+    date: Apr 26, 2019
+    header: 企業向けサービスを提供開始
+    body: ALISは企業向けのブロックチェーン事業参入コンサルティング・開発支援を開始いたしました。
+    url: https://prtimes.jp/main/html/rd/p/000000010.000027792.html
   _04042019:
     category: PRESS RELEASE
     date: Apr 4, 2019
