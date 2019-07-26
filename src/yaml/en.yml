@@ -391,9 +391,99 @@ openb:
   header: WHAT’S OPEN β
   body: |
     From Janualy 2019, ALIS will begin the testing process via the launch of its open beta version of the platform. The open beta launch of ALIS will include minimal, basic functions. The goal of the open beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
-  btn_text: Click here for detail
+  btn_text: Click here for details
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _07172019:
+    category: MEDIA
+    date: Jul 17, 2019
+    header: ALIS was mentioned in the book:デフレーミング戦略
+    body: ALIS was introduced in the section about "Trust" in Takagi Soichiro's new book デフレーミング戦略.
+    url: https://www.amazon.co.jp/dp/B07TBLMQZK/
+  _07162019:
+    category: PRESS RELEASE
+    date: Jul 16, 2019
+    header: ALIS and HAKUHODO announced joint event
+    body: ALIS and HAKUHODO Blockchain Initiative will host an event "Community Co-development", Learning Together With the Field's Leaders. 
+    url: https://prtimes.jp/main/html/rd/p/000000011.000027792.html
+  _07112019:
+    category: NEWS
+    date: Jul 11, 2019
+    header: Presentation at Action Lab No.8, held on July 26th, 2019
+    body: CEO Yasu presented at Auction Lab Workshop:Voting and Rating.
+    url: https://auction.amebaownd.com/posts/6557536
+  _07032019:
+    category: NEWS
+    date: Jul 3, 2019
+    header: Release ALIS Laboratory
+    body: Released ALIS Laboratory, where we can quickly test new functions and ideas.
+    url: https://alis.to/AB2/articles/39rw59LPzxvB
+  _07022019:
+    category: MEDIA
+    date: Jul 2, 2019
+    header: Guest Appearance on Blockvhain TV
+    body: CEO Yasu appeared as a guest on Blockchain TV.
+    url: https://www.youtube.com/watch?v=mH2D9vt0Fl8&feature
+  _07012019:
+    category: MEDIA
+    date: Jul 1, 2019
+    header: Published in HEDGE GUIDE
+    body: ALIS was written about together with PoL in "Cryptocurrencies will become the hub for communities"
+    url: https://hedge.guide/feature/alis-techtec.html
+  _06272019:
+    category: NEWS
+    date: Jun 27, 2019
+    header: ALIS now part of a Blockchain Study curriculum
+    body: PoL, a services providing study material on Blockchain has implemented ALIS as case study in their curriculum.
+    url: https://prtimes.jp/main/html/rd/p/000000020.000032311.html
+  _06202019:
+    category: NEWS
+    date: Jun 20, 2019
+    header: Release ALIS Market(α version) 
+    body: Started actively supporting the small businesses accepting ALIS as means of payment, which have been appearing on- and off platform, by creating the ALIS Market.
+    url: https://alis.to/ALIS-official/articles/3bNWJXZjRGYE
+  _06122019:
+    category: NEWS
+    date: Jun 12, 2019
+    header: Presentation at Blockchain EXE No.17
+    body: CTO Ishii presents at the by Blockchain EXE hosted "A New Economic Sphere! A by blockchain supported realization of Web3 and Token Economy".
+    url: https://peatix.com/event/650171
+  _06062019:
+    category: NEWS
+    date: Jun 6, 2019
+    header: Release OAuth 
+    body: ALIS releases OAuth functionality as a means to reinforce the possibility of joint development with the community. 
+    url: https://alisproject.github.io/oauth2/term/
+  _05292019:
+    category: NEWS
+    date: May 29, 2019
+    header: Presentation at CryptoBowl No.13
+    body: CMO Mizusawa presents at the by CryptoBowl hosted "Marketing in the Blockchain Era".
+    url: https://cryptobowl.connpass.com/event/128902/
+  _05232019:
+    category: NEWS
+    date: May 23, 2019
+    header: Presentation at B Dash Camp 2019 Spring in Sapporo
+    body: CEO Yasu presented at B Dash Camp 2019 Spring in Sapporo, Japan's largest startup fair.
+    url: https://camp.bdashventures.com/
+  _05162019:
+    category: NEWS
+    date: May 16, 2019
+    header: Gaiax utilizing ALIS API  for new service "cheerfor"
+    body: The ALIS Tipping API, developed in cooperation with Microsoft, is now used by Gaiax for their new service calles "cheerfor". 
+    url: https://prtimes.jp/main/html/rd/p/000000299.000003955.html
+  _04262019:
+    category: NEWS
+    date: Apr 26, 2019
+    header: Presentation at CAREERxBLOCKCHAIN
+    body: CEO Yasu held a presentation at "CAREERxBLOCKCHAIN:The impact of blockchain on different industries."
+    url: https://airevoice-amp.peatix.com/
+  _04242019:
+    category: PRESS RELEASE
+    date: Apr 26, 2019
+    header: ALIS starts offering services for businesses
+    body: ALIS now also offers dev support and consulting for businesses looking to start implementing blockchain.
+    url: https://prtimes.jp/main/html/rd/p/000000010.000027792.html
   _04042019:
     category: PRESS RELEASE
     date: Apr 4, 2019
