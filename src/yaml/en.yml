@@ -394,6 +394,84 @@ openb:
   btn_text: Click here for details
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _10102019_2:
+    category: MEDIA
+    date: Oct 10, 2019
+    header: Pt. 2 of interview published of CEO Masahiro and Sakai PhD. in 中央公論 
+    body: Part two of the interview with Masahiro and Japanese famous economist Professor Sakai about the implications of blockchain for the economy of tomorrow.
+    url: http://www.chuko.co.jp/chuokoron/2019/10/201911_1.html  
+  _10102019_1:
+    category: NEWS
+    date: Oct 10, 2019
+    header: CEO and CTO gave talk at Devcon 5
+    body: ALIS CEO and CTO gave a talk at Devcon 5, about the findings of experimenting with unorthodox voting systems.
+    url: https://devcon.org/agenda?talk=recseiNNneDaszeLQ   
+  _10042019:
+    category: NEWS
+    date: Oct 4, 2019
+    header: CMO Takashi gave talk at CryptoBowl #17
+    body: Takashi talked about different things to consider when choosing a Blockchain for the production you are looking to develop.
+    url: https://cryptobowl.connpass.com/event/147368/    
+  _10032019:
+    category: NEWS
+    date: Oct 3, 2019
+    header: Lead Engineer Keiju gave talk at AWS DevDay
+    body: Keiju gave a talk about the ins and outs of developing a service using Blockchain and Serverless technology. 
+    url: https://aws.amazon.com/jp/about-aws/events/2019/devday/     
+  _10022019:
+    category: NEWS
+    date: Oct 2, 2019
+    header: CEO Masahiro gave talk at b.tokyo 
+    body: Masahiro gave a talk at Japan's largest Blockchain event, b.tokyo, held on October 2, 2019. 
+    url: https://www.coindeskjapan.com/16124/    
+  _09292019:
+    category: NEWS
+    date: Sep 29, 2019
+    header: CMO Takashi gave talk at JCBA event 
+    body: Takashi gave a talk at Japan Cryptocurrency Business Association event, held on September 29, 2019. 
+    url: https://cryptocurrency-association.org/news/main-info/20190912-001/    
+  _09272019:
+    category: PRESS RELEASE
+    date: Sep 27, 2019
+    header: CEO Masahiro's 'HERO Card' was added to FiNANCiE
+    body: Mashiro was added as an obtainable Hero Card on popular service FiNANCiE.
+    url: https://prtimes.jp/main/html/rd/p/000000021.000042665.html   
+  _09102019:
+    category: MEDIA
+    date: Sep 10, 2019
+    header: Pt.1 of interview published of CEO Masahiro and Sakai PhD. in 中央公論 
+    body: Part one of an interview with Masahiro and Japanese famous economist Professor Sakai about the implications of blockchain for the economy of tomorrow.
+    url: http://www.chuko.co.jp/chuokoron/2019/09/201910_1.html
+  _09092019:
+    category: MEDIA
+    date: Sep 9, 2019
+    header: ALISxHAKUHODO joint event was covered on New Economy
+    body: "The on July 16th, 2019, held event was covered by Japanese major blockchain news site: New Economy." 
+    url: https://www.neweconomy.jp/features/eventsound/31178 
+  _08302019:
+    category: NEWS
+    date: Aug 30, 2019
+    header: CEO Masahiro presented at Auctionlab No.9
+    body: Masahiro presented the findings of our experimenting with voting system Majority Judgement.
+    url: https://auction.amebaownd.com/posts/6773002
+  _08212019_2:
+    category: UPDATE
+    date: Aug 22, 2019
+    header: Release NFT producing functionality
+    body: ALIS users are now able to create their very own NFT linked to their own media content.
+    url: https://alis.to/ALIS-official/articles/2APGo0OoXAYB
+  _08212019_1:
+    category: NEWS
+    date: Aug 21, 2019
+    header: "Started new B2B service: Licensing with Blockchain" 
+    body: We started offering assistance to companies that are interested in implementing licensing with the use of Blockchain.
+    url: https://prtimes.jp/main/html/rd/p/000000014.000027792.html
+  _07252019:
+    category: NEWS
+    date: Jul 25, 2019
+    header: Lead Engineer Keiju gave talk at AWS Loft 
+    body: ALIS's Lead Engineer, Keiju, talked about building systems combining Blockchain and Serverless technology. 
+    url: https://blockchainloft00.splashthat.com/  
   _07172019:
     category: MEDIA
     date: Jul 17, 2019
