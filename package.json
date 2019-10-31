@@ -55,6 +55,5 @@
     "s3sync:production": "aws s3 sync public s3://alismedia.jp/ --delete --acl  public-read",
     "deploy": "yarn clean:public && yarn build:develop && yarn install:develop && yarn s3sync:develop",
     "deploy:production": "yarn clean:public && yarn build:production && yarn install:production && yarn s3sync:production"
-  },
-  "version": "0.0.0"
+  }
 }
