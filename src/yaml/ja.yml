@@ -286,8 +286,8 @@ ambassador:
       name: Rikuya Tanaka (Ricky)
       url: https://twitter.com/RuuieTanaka
     wine:
-      name: ワイン1年生
-      url: https://twitter.com/Alisambassador
+      name: Hideaki Imoto
+      url: https://twitter.com/datushachikujin
     edindin:
       name: edindin
       url: https://twitter.com/edindin_crypto
@@ -398,6 +398,84 @@ openb:
   btn_text: 詳細はこちら
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _10102019_2:
+    category: MEDIA
+    date: Oct 10, 2019
+    header: 中央公論11月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    body: 2019年10月10日に発売された中央公論11月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
+    url: http://www.chuko.co.jp/chuokoron/2019/10/201911_1.html  
+  _10102019_1:
+    category: NEWS
+    date: Oct 10, 2019
+    header: 2019年10月8日〜11日開催Devcon 5に登壇
+    body: 2019年10月8日〜11日に開催されたDevcon 5にALIS CEOの安とCTOの石井が登壇しました。
+    url: https://devcon.org/agenda?talk=recseiNNneDaszeLQ   
+  _10042019:
+    category: NEWS
+    date: Oct 4, 2019
+    header: 2019年10月4日(金)開催CryptoBowl No.17に登壇
+    body: 2019年10月4日に開催されたCryptoBowl No.17にALIS CMO水澤が登壇しました。
+    url: https://cryptobowl.connpass.com/event/147368/    
+  _10032019:
+    category: NEWS
+    date: Oct 3, 2019
+    header: 2019年10月3日(木)開催AWS DevDayに登壇
+    body: 2019年10月3日に開催されたAWS DevDayにALISリードエンジニアの冨樫が登壇しました。
+    url: https://aws.amazon.com/jp/about-aws/events/2019/devday/     
+  _10022019:
+    category: NEWS
+    date: Oct 2, 2019
+    header: 2019年10月02日(水)開催b.tokyoに登壇
+    body: ALIS CEOの安が2019年10月02日に開催されたb.tokyoに登壇しました。
+    url: https://www.coindeskjapan.com/16124/    
+  _09292019:
+    category: NEWS
+    date: Sep 29, 2019
+    header: JCBA主催セミナーに登壇
+    body: ALIS CMOの水澤が2019年9月29日に開催されたJCBA主催セミナーに登壇しました。
+    url: https://cryptocurrency-association.org/news/main-info/20190912-001/    
+  _09272019:
+    category: PRESS RELEASE
+    date: Sep 27, 2019
+    header: SNSのFiNANCiEにCEOの安がデビュー
+    body: 夢を持つ人と夢を応援する人を繋ぐSNS「FiNANCiE」に、ALIS CEOの安がデビュー
+    url: https://prtimes.jp/main/html/rd/p/000000021.000042665.html   
+  _09102019:
+    category: MEDIA
+    date: Sep 10, 2019
+    header: 中央公論10月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    body: 2019年9月10日に発売された中央公論10月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
+    url: http://www.chuko.co.jp/chuokoron/2019/09/201910_1.html 
+  _09092019:
+    category: MEDIA
+    date: Sep 9, 2019
+    header: ALISと博報堂の共催イベントが「あたらしい経済」に記載。
+    body: 2019年8月7日に開催されたALISと博報堂の共催イベントが「あたらしい経済」に記載されました。 
+    url: https://www.neweconomy.jp/features/eventsound/31178 
+  _08302019:
+    category: NEWS
+    date: Aug 30, 2019
+    header: 2019年8月30日(金)開催Auctionlab No.9に登壇
+    body: Auction Lab第9回ワークショップ「投票とレーティング」にCEOの安が登壇しました。
+    url: https://auction.amebaownd.com/posts/6773002
+  _08212019_2:
+    category: UPDATE
+    date: Aug 21, 2019
+    header: ライセンストークン発行機能α版をリリース
+    body: ALISユーザーが作成したデジタルコンテンツをトークン化できるようになりました。が該当デジタルコンテンツの利用権として使えます。
+    url: https://alis.to/ALIS-official/articles/2APGo0OoXAYB
+  _08212019_1:
+    category: NEWS
+    date: Aug 21, 2019
+    header: ライセンス運用・活用サービスを開始
+    body: ALISは、音楽や映像、アニメ、写真などあらゆるデジタルコンテンツを扱う企業・団体向けに、ライセンスを第三者でも安全に使える『ライセンストークン発行サービス』の提供を開始しました。
+    url: https://prtimes.jp/main/html/rd/p/000000014.000027792.html
+  _07252019:
+    category: NEWS
+    date: Jul 25, 2019
+    header: 2019年7月25日(木)開催AWSに登壇 
+    body: ALISリードエンジニア冨樫が登壇しました。
+    url: https://blockchainloft00.splashthat.com/  
   _07172019:
     category: MEDIA
     date: Jul 17, 2019
