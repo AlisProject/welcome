@@ -419,7 +419,7 @@ news:
   _12142019:
     category: MEDIA
     date: Dec 14, 2019
-    header: 中央公論1月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    header: 中央公論1月号に安と慶大教授･坂井豊貴教授の対談が掲載
     body: 2019年12月10日に発売された中央公論1月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
     url: http://www.chuko.co.jp/chuokoron/2019/12/20201_1.html
   _12092019:
@@ -431,13 +431,13 @@ news:
   _11082019:
     category: MEDIA
     date: Nov 8, 2019
-    header: 中央公論12月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    header: 中央公論12月号に安と慶大教授･坂井豊貴教授の対談が掲載
     body: 2019年11月8日に発売された中央公論12月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
     url: http://www.chuko.co.jp/chuokoron/2019/11/201912_1.html
   _10102019_2:
     category: MEDIA
     date: Oct 10, 2019
-    header: 中央公論11月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    header: 中央公論11月号に安と慶大教授･坂井豊貴教授の対談が掲載
     body: 2019年10月10日に発売された中央公論11月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
     url: http://www.chuko.co.jp/chuokoron/2019/10/201911_1.html  
   _10102019_1:
@@ -449,7 +449,7 @@ news:
   _10042019:
     category: NEWS
     date: Oct 4, 2019
-    header: 2019年10月4日(金)開催CryptoBowl No.17に登壇
+    header: CryptoBowl No.17に登壇
     body: 2019年10月4日に開催されたCryptoBowl No.17にALIS CMO水澤が登壇しました。
     url: https://cryptobowl.connpass.com/event/147368/    
   _10032019:
@@ -479,19 +479,19 @@ news:
   _09102019:
     category: MEDIA
     date: Sep 10, 2019
-    header: 中央公論10月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    header: 中央公論10月号に安と慶大教授･坂井豊貴教授の対談が掲載
     body: 2019年9月10日に発売された中央公論10月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
     url: http://www.chuko.co.jp/chuokoron/2019/09/201910_1.html 
   _09092019:
     category: MEDIA
     date: Sep 9, 2019
-    header: ALISと博報堂の共催イベントが「あたらしい経済」に記載。
+    header: ALISと博報堂の共催イベント記事が掲載
     body: 2019年8月7日に開催されたALISと博報堂の共催イベントが「あたらしい経済」に記載されました。 
     url: https://www.neweconomy.jp/features/eventsound/31178 
   _08302019:
     category: NEWS
     date: Aug 30, 2019
-    header: 2019年8月30日(金)開催Auctionlab No.9に登壇
+    header: 2019年8月30日(金)開催Auctionlabに登壇
     body: Auction Lab第9回ワークショップ「投票とレーティング」にCEOの安が登壇しました。
     url: https://auction.amebaownd.com/posts/6773002
   _08212019_2:
@@ -521,13 +521,13 @@ news:
   _07162019:
     category: PRESS RELEASE
     date: Jul 16, 2019
-    header: 2019年8月7日(水)にALISと博報堂が共催イベントを開催
+    header: ALISと博報堂が共催イベントを開催
     body: ALISと博報堂ブロックチェーン・イニシアチブによる共催イベント『業界キーマンと学ぶ企業の「コミュニティ共創」最前線』を8月7日(水)に開催します。
     url: https://prtimes.jp/main/html/rd/p/000000011.000027792.html
   _07112019:
     category: NEWS
     date: Jul 11, 2019
-    header: 2019年7月26日(金)開催Auction Labに登壇
+    header: Auction Labに登壇
     body: Auction Lab第８回ワークショップ「投票とレーティング」にCEOの安が登壇します。
     url: https://auction.amebaownd.com/posts/6557536
   _07032019:
@@ -551,7 +551,7 @@ news:
   _06272019:
     category: NEWS
     date: Jun 27, 2019
-    header: ブロックチェーンの学習サービスにALISカリキュラムが登場
+    header: ブロックチェーン学習サービスにALISカリキュラムが登場
     body: ブロックチェーンの学習サービス「PoL(ポル)」でALISのカリキュラムが公開されました
     url: https://prtimes.jp/main/html/rd/p/000000020.000032311.html
   _06202019:
@@ -581,13 +581,13 @@ news:
   _05232019:
     category: NEWS
     date: May 23, 2019
-    header: B Dash Camp 2019 Spring in Sapporoに登壇
+    header: B Dash Camp 2019 Springに登壇
     body: 国内最大規模のスタートアップの祭典である「B Dash Camp 2019 Spring in Sapporo」にCEOの安が登壇しました
     url: https://camp.bdashventures.com/
   _05162019:
     category: NEWS
     date: May 16, 2019
-    header: ガイアックス新サービスcheerfor、ALISの投げ銭APIを採用
+    header: ガイアックス新サービス、ALISの投げ銭APIを採用
     body: Microsoftとの協業で開発したALISの投げ銭APIをガイアックス新サービス「cheerfor」が採用しました
     url: https://prtimes.jp/main/html/rd/p/000000299.000003955.html
   _04262019:
@@ -605,7 +605,7 @@ news:
   _04042019:
     category: PRESS RELEASE
     date: Apr 4, 2019
-    header: ブロックチェーン国際標準化組織「INATBA」に創設メンバーとして参加
+    header: ブロックチェーン国際標準化組織「INATBA」に参加
     body: ALISはEUのブロックチェーン国際標準化組織「INATBA」に創設メンバーとして参加しました。
     url: https://prtimes.jp/main/html/rd/p/000000009.000027792.html
   _01102019:
@@ -629,7 +629,7 @@ news:
   _11072018_1:
     category: UPDATE
     date: Nov 7, 2018
-    header: ベトナムで開催されるState of Chain 2018に登壇
+    header: ベトナム開催のState of Chain2018に登壇
     body: ベトナムのホーチミン市で開催されるイベント「State of Chain 2018」にCEOの安が登壇します
     url: https://stateofchain.io/
   _11072018_2:
@@ -701,7 +701,7 @@ news:
   _09082018:
     category: NEWS
     date: Sep 8, 2018
-    header: Social Innovation Week Shibuyaに登壇
+    header: SIW Shibuyaに登壇
     body: 渋谷区と日本財団が主催するイベントSocial Innovation Week ShibuyaにCEOの安が登壇しました
     url: https://blockchain2meetup.peatix.com/
   _09042018_1:
@@ -955,7 +955,7 @@ news:
   _09012017_3:
     category: PRESS RELEASE
     date: Sep 1, 2017
-    header: 日本発ICOが4分で1億円調達。株式会社ALIS、世界に向けトークンセール実施中
+    header: 日本発ICOが4分で1億円調達
     body: 株式会社ALIS（代表：安 昌浩）が、国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）を開始。日本時間9月1日11時よりトークンの販売を開始し、開始4分で1億円を調達。ビジョン実現に向けて好発進をきった。
     url: https://prtimes.jp/main/html/rd/p/000000002.000027792.html
   _08302018:
@@ -980,7 +980,7 @@ news:
   _08232018:
     category: PRESS RELEASE
     date: Aug 23, 2017
-    header: 非広告依存型ブロックチェーン技術を用いたソーシャルメディアで国内初となるICO実施を決定
+    header: 国内初となるICO実施を決定
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』をリリースするために、日本国内向けのメディアサービスとしては初のICO（Initial Coin Offering）を日本を含む世界に向けて実施することを発表しました。
     url: https://prtimes.jp/main/html/rd/p/000000001.000027792.html
   _08182017:
