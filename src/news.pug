@@ -15,6 +15,48 @@ body
         .p-block--lg
           .row.p-news-cards
             include mixin/news_card
+            .col-lg-4(data-hasurl=news._12242019.url)
+              a.p-news-card.p-news-card--twitter(href=news._12242019.url, target="_blank", data-category=news._12242019.category)
+                +news_card(
+                news._12242019.category,
+                news._12242019.date,
+                news._12242019.header,
+                news._12242019.body)
+            .col-lg-4(data-hasurl=news._12172019_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._12172019_2.url, target="_blank", data-category=news._12172019_2.category)
+                +news_card(
+                news._12172019_2.category,
+                news._12172019_2.date,
+                news._12172019_2.header,
+                news._12172019_2.body)
+            .col-lg-4(data-hasurl=news._12172019_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._12172019_1.url, target="_blank", data-category=news._12172019_1.category)
+                +news_card(
+                news._12172019_1.category,
+                news._12172019_1.date,
+                news._12172019_1.header,
+                news._12172019_1.body)
+            .col-lg-4(data-hasurl=news._12142019.url)
+              a.p-news-card.p-news-card--twitter(href=news._12142019.url, target="_blank", data-category=news._12142019.category)
+                +news_card(
+                news._12142019.category,
+                news._12142019.date,
+                news._12142019.header,
+                news._12142019.body)
+            .col-lg-4(data-hasurl=news._12092019.url)
+              a.p-news-card.p-news-card--twitter(href=news._12092019.url, target="_blank", data-category=news._12092019.category)
+                +news_card(
+                news._12092019.category,
+                news._12092019.date,
+                news._12092019.header,
+                news._12092019.body)
+            .col-lg-4(data-hasurl=news._11082019.url)
+              a.p-news-card.p-news-card--twitter(href=news._11082019.url, target="_blank", data-category=news._11082019.category)
+                +news_card(
+                news._11082019.category,
+                news._11082019.date,
+                news._11082019.header,
+                news._11082019.body)
             .col-lg-4(data-hasurl=news._10102019_2.url)
               a.p-news-card.p-news-card--twitter(href=news._10102019_2.url, target="_blank", data-category=news._10102019_2.category)
                 +news_card(

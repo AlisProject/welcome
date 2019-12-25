@@ -398,6 +398,42 @@ openb:
   btn_text: 詳細はこちら
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _12242019:
+    category: PRESS
+    date: Dec 24, 2019
+    header: トライバルメディアハウスとの協業を発表
+    body: デジタルマーケティング領域における新サービスの社会実装を推進するためのトライバルメディアハウスとの協業を発表しました
+    url: https://prtimes.jp/main/html/rd/p/000000016.000027792.html  
+  _12172019_2:
+    category: NEWS
+    date: Dec 17, 2019
+    header: 12月17日(金)開催Marking Cloudに登壇
+    body: リードエンジニアの冨樫がブロックチェーンとフルサーバレスでのシステム構築・実績について登壇しました。
+    url: https://markingcloud.connpass.com/event/156965/
+  _12172019_1:
+    category: MEDIA
+    date: Dec 17, 2019
+    header: 朝日新聞START!のCEOの安のとインタビューが掲載
+    body: 朝日新聞START!にALIS CEO安のインタビュー記事が掲載されました。
+    url: https://www.asahi.com/ads/start/articles/00303/
+  _12142019:
+    category: MEDIA
+    date: Dec 14, 2019
+    header: 中央公論1月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    body: 2019年12月10日に発売された中央公論1月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
+    url: http://www.chuko.co.jp/chuokoron/2019/12/20201_1.html
+  _12092019:
+    category: NEWS
+    date: Dec 9, 2019
+    header: PoL1周年記念イベントにCEOの安が登壇
+    body: 株式会社Techtecが開発するPoLの1周年記念イベント「The Future of Blockchain」にALIS CEOの安が登壇しました。
+    url: https://techtec.connpass.com/event/155792/
+  _11082019:
+    category: MEDIA
+    date: Nov 8, 2019
+    header: 中央公論12月号に安と慶應義塾大学教授･坂井豊貴教授の対談が掲載
+    body: 2019年11月8日に発売された中央公論12月号にALIS CEOの安と慶應義塾大学教授･坂井豊貴さんの対談内容が掲載されました。
+    url: http://www.chuko.co.jp/chuokoron/2019/11/201912_1.html
   _10102019_2:
     category: MEDIA
     date: Oct 10, 2019
