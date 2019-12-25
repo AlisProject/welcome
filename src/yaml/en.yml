@@ -394,6 +394,42 @@ openb:
   btn_text: Click here for details
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _12242019:
+    category: PRESS
+    date: Dec 24, 2019
+    header: ALIS and Tribal Media House announced partnership
+    body: ALIS and Tribal Media House started a partnership to strive for the social implementation of revolutionising services that make use of blockchain.
+    url: https://prtimes.jp/main/html/rd/p/000000016.000027792.html  
+  _12172019_2:
+    category: NEWS
+    date: Dec 17, 2019
+    header: Present at the December 17th Marking Cloud
+    body: Lead Engineer Togashi presented about system architecture and performance of full serverless in combination with blockchain.
+    url: https://markingcloud.connpass.com/event/156965/
+  _12172019_1:
+    category: MEDIA
+    date: Dec 17, 2019
+    header: Interview with CEO Yasu was published on Asahi Shimbun's START!
+    body: ALIS CEO Yasu was interviewed for Asahi Shimbun's START! about the ALIS platform. 
+    url: https://www.asahi.com/ads/start/articles/00303/
+  _12142019:
+    category: MEDIA
+    date: Dec 14, 2019
+    header: Pt. 4 of interview published of CEO Masahiro and Sakai PhD. in 中央公論 
+    body: Part four of the interview with Masahiro and Japanese famous economist Professor Sakai about the implications of blockchain for the economy of tomorrow.
+    url: http://www.chuko.co.jp/chuokoron/2019/12/20201_1.html
+  _12092019:
+    category: NEWS
+    date: Dec 9, 2019
+    header: CEO Yasu gave a talk at PoL's 1 year anniversary event
+    body: ALIS CEO Yasu gave a talk at the by Techtec developed PoL's 1 year anniversary event「The Future of Blockchain」.
+    url: https://techtec.connpass.com/event/155792/
+  _11082019:
+    category: MEDIA
+    date: Nov 8, 2019
+    header: Pt. 3 of interview published of CEO Masahiro and Sakai PhD. in 中央公論 
+    body: Part three of the interview with Masahiro and Japanese famous economist Professor Sakai about the implications of blockchain for the economy of tomorrow.
+    url: http://www.chuko.co.jp/chuokoron/2019/11/201912_1.html
   _10102019_2:
     category: MEDIA
     date: Oct 10, 2019
