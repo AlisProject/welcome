@@ -33,6 +33,7 @@
 
 .l-main {
 	@include make-main-container;
+    padding: 0 0;
 	@include mq() {
 		padding: 0;
 	}
@@ -44,7 +45,7 @@
 
 /* Footer
 -------------------------------------------------- */
-$sns-items: "twitter", "alis_official", "discord", "reddit", "trello", "github";
+$sns-items: "github", "alis_developer_blog", "alis_official";
 
 .l-footer {
   color: white;
@@ -73,9 +74,9 @@ $sns-items: "twitter", "alis_official", "discord", "reddit", "trello", "github";
       @include transition;
       max-width: 100%;
       height: auto;
-      &:hover {
-        opacity: 0;
-      }
+      //&:hover {
+      //  opacity: 0;
+      //}
     }
 
     @include mq() {
@@ -99,7 +100,7 @@ $sns-items: "twitter", "alis_official", "discord", "reddit", "trello", "github";
     &__item--#{$sns} {
       @extend .l-footer__item;
       background-size: contain;
-      background-image: url("/img/pc/icon_footer_hover_#{$sns}.png");
+      //background-image: url("/img/pc/icon_footer_hover_#{$sns}.png");
     }
   }
 

@@ -8,282 +8,106 @@ body
 
   .p-index
     main.l-main
-      img(src="/img/pc/top_sp_en.png").p-index__img.is-en.js-cover-iphone
       // Cover
       include includes/cover
 
-      // ABOUT
-      section.container-fluid.p-section
-        .p-title.p-title--ourproject
-          .p-title__header #{project.header}
-          .p-title__body
-            | #{project.body1}
+      .container-fluid
+        // ビジネス概要
+        .p-block.p-block--xs.u-pb-0
+          .p-title.p-title--center
+            h3.p-title__header
+              | #{business.header.body_line}
+            p.p-title__body #{business.body}
+            // サービス内容
+            h3.p-title__header
+              | #{business.service.header.body_line}
+        .p-block.u-pt-0
+          .p-business-cards
+            include mixin/business_card
+            div.p-business-card.p-business-card--serverless
+              +business_card(
+              business.service.serverless.title,
+              business.service.serverless.sub_title,
+              business.service.serverless.body_line)
+            div.p-business-card.p-business-card--community
+              +business_card(
+              business.service.community.title,
+              business.service.community.sub_title,
+              business.service.community.body_line)
+            div.p-business-card.p-business-card--blockchain
+              +business_card(
+              business.service.blockchain.title,
+              business.service.blockchain.sub_title,
+              business.service.blockchain.body_line)
+        // 実装実績
+        .p-block.p-block--xs.u-pt-0
+          .p-title.p-title--center
+            h3.p-title__header
+              | #{business.achievement.header.body_line}
+            p.p-title__body #{business.achievement.body}
+          .p-achievement-cards
+            include mixin/achievement_card
+            div.p-achievement-card.p-achievement-card--kinyu
+              +achievement_card(business.achievement.kinyu.name)
+            div.p-achievement-card.p-achievement-card--butsuryu
+              +achievement_card(business.achievement.butsuryu.name)
+            div.p-achievement-card.p-achievement-card--it
+              +achievement_card(business.achievement.it.name)
+            div.p-achievement-card.p-achievement-card--infra
+              +achievement_card(business.achievement.infra.name)
+            div.p-achievement-card.p-achievement-card--entertainment
+              +achievement_card(business.achievement.entertainment.name)
 
-          ul.p-feature-list(data-scroll="js-cover-iphone")
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item1_body1}
-                br
-                | #{project.feature_list.item1_body2}
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item2_body1}
-                br.u-md-only
-                | #{project.feature_list.item2_body2}
-                br.u-md-none
-                | #{project.feature_list.item2_body3}
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item3_body1}
-                br
-                | #{project.feature_list.item3_body2}
+        // PARTNERS
+        section.p-section.u-pt-0
+          .p-title.p-title--center
+            h3.p-title__header パートナー企業
+
+          .p-partners
+            a(href="https://alis.to/ALIS-official/articles/KmQ0nYMX1pog", target="blank")
+              img.p-partners__img(src="/img/pc/logo_microsoft.png" alt='Microsoft')
+              img.p-partners__img--sp(src="/img/sp/logo_microsoft.png" alt='Microsoft')
+            a(href="https://alis.to/ALIS-official/articles/36561PLdz99Q", target="blank")
+              img.p-partners__img(src="/img/pc/logo_hakuhodo.png" alt='Hakuhodo')
+              img.p-partners__img--sp(src="/img/sp/logo_hakuhodo.png" alt='Hakuhodo')
+            a(href="https://prtimes.jp/main/html/rd/p/000000120.000004355.html", target="blank")
+              img.p-partners__img(src="/img/pc/logo_tribalmediahouse.png" alt='TribalMediaHouse')
+              img.p-partners__img--sp(src="/img/sp/logo_tribalmediahouse.png" alt='TribalMediaHouse')
 
 
-      // MEDIA APPEARANCE
-      section.container-fluid.p-section
-        .p-title.p-title--nobody
-          h3.p-title__header MEDIA APPEARANCE
-        // media logos
-        .p-media-logos
-          a
-            img(src="/img/sp/logo_nhk.png", alt='NHK')
-          a(href="https://japan.cnet.com/article/35106279/", target="blank")
-            img(src="/img/sp/logo_cnet.png", alt='Cnet Japan')
-          a(href="https://forbesjapan.com/articles/detail/17547", target="blank")
-            img(src="/img/sp/logo_forbes.png", alt='Forbes Japan')
-          a(href="https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/", target="blank")
-            img(src="/img/sp/logo_nikkei.png", alt='日本経済新聞')
-          a(href="http://www.itmedia.co.jp/news/articles/1708/25/news102.html", target="blank")
-            img(src="/img/sp/logo_itmedia.png" alt='ITMedia')
-          a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/", target="blank")
-            img(src="/img/sp/logo_cryptocoins.png" alt='cryptocoinsnews')
-          a(href="http://ico-news.jp/2018/01/alis_interview/", target="blank")
-            img(src="/img/sp/logo_iconews.png" alt='ICO NEWS')
-          a(href="https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media", target="blank")
-            img(src="/img/sp/logo_cointelegraph.png" alt='Cointelegraph')
+        // MEDIA APPEARANCE
+        section.container-fluid.p-section
+          .p-title.p-title--center
+            h3.p-title__header メディア
+          // media logos
+          .p-media-logos
+            a
+              img(src="/img/sp/logo_nhk.png", alt='NHK')
+            a
+              img(src="/img/sp/logo_ntv.png", alt='日本テレビ')
+            a
+              img(src="/img/sp/logo_cnet.png", alt='Cnet Japan')
+            a
+              img(src="/img/sp/logo_forbes.png", alt='Forbes Japan')
+            a
+              img(src="/img/sp/logo_nikkei.png", alt='日本経済新聞')
+            a
+              img(src="/img/sp/logo_toyokeizai.png", alt='東洋経済')
+            a
+              img(src="/img/sp/logo_chuokolon.jpg", alt='中央公論')
+            a
+              img(src="/img/sp/logo_itmedia.png" alt='ITMedia')
 
-      // PRODUCT
-      section.container-fluid.p-section
-        .p-title
-          .p-title__header #{product.header}
-          .p-title__body
-            | #{product.body_line_1}
-            br.u-pc-only
-            | #{product.body_line_2}
-        .p-product
-          img.p-product__img(src="/img/pc/img_product.png" alt='ALIS open β')
-          .p-product__btns
-            a.p-product__button(href=product.mock_pc.url, target="_blank") #{product.mock_pc.btn_text}
+        // コンタクト
+        .p-block.p-block--xs.u-pb-0
+          .p-title.p-title--center
+            h3.p-title__header
+              | #{business.contact.header.body_line}
+            p.p-contact-text #{business.contact.body}
             br
             br
-            a.p-product__link(href=sns_url.github, target="_blank") #{product.dev_status}
-
-      // MEMBER
-      section.container-fluid.p-section
-        .p-title.p-title--nobody
-          .p-title__header #{member.header}
-        .p-member
-            ul.row.p-member__list
-              include mixin/team_member
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yasu.id)
-                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.mizusawa.id)
-                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.ishii.id)
-                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.togashi.id)
-                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.hayakawa.id)
-                +team_member(member.profile.hayakawa.name, member.profile.hayakawa.role)(src='/img/pc/img_profile_hayakawa.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.matsuyama.id)
-                +team_member(member.profile.matsuyama.name, member.profile.matsuyama.role)(src='/img/pc/img_profile_matsuyama.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yamashita.id)
-                +team_member(member.profile.yamashita.name, member.profile.yamashita.role)(src='/img/pc/img_profile_yamashita.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.horike.id)
-                +team_member(member.profile.horike.name, member.profile.horike.role)(src='/img/pc/img_profile_horike.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kamei.id)
-                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
-                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.ishizaka.id)
-                +team_member(member.profile.ishizaka.name, member.profile.ishizaka.role)(src='/img/pc/img_profile_ishizaka.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.jimmy.id)
-                +team_member(member.profile.jimmy.name, member.profile.jimmy.role)(src='/img/pc/img_profile_jimmy.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kawai.id)
-                +team_member(member.profile.kawai.name, member.profile.kawai.role)(src='/img/pc/img_profile_kawai.png')
-              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.numasawa.id)
-                +team_member(member.profile.numasawa.name, member.profile.numasawa.role)(src='/img/pc/img_profile_numasawa.png')
-
-      // PARTNERS
-      section.p-section
-        .p-title.p-title--nobody
-          h3.p-title__header PARTNERS
-
-        .p-partners
-          a(href="https://alis.to/ALIS-official/articles/KJNk4X4POZwx", target="blank")
-            img.p-partners__img(src="/img/pc/logo_mytoken.png" alt='MyToken')
-            img.p-partners__img--sp(src="/img/sp/logo_mytoken.png" alt='MyToken')
-          a(href="https://alis.to/ALIS-official/articles/KmQ0nYMX1pog", target="blank")
-            img.p-partners__img(src="/img/pc/logo_microsoft.png" alt='Microsoft')
-            img.p-partners__img--sp(src="/img/sp/logo_microsoft.png" alt='Microsoft')
-          a(href="https://alis.to/ALIS-official/articles/36561PLdz99Q", target="blank")
-            img.p-partners__img(src="/img/pc/logo_hakuhodo.png" alt='Hakuhodo')
-            img.p-partners__img--sp(src="/img/sp/logo_hakuhodo.png" alt='Hakuhodo')
-
-  include mixin/popup_member
-  article.p-popup.p-popup-member.is-effect(id="js-popup-"+member.profile.yasu.id)
-    +popup_member(
-    member.profile.yasu.id,
-    member.profile.yasu.name,
-    member.profile.yasu.role,
-    member.profile.yasu.body,
-    member.profile.yasu.twitter,
-    member.profile.yasu.fb,
-    member.profile.yasu.linkedin)
-  .p-popup-overlay(data-exit=member.profile.yasu.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_mizusawa.png', id="js-popup-"+member.profile.mizusawa.id)
-    +popup_member(
-    member.profile.mizusawa.id,
-    member.profile.mizusawa.name,
-    member.profile.mizusawa.role,
-    member.profile.mizusawa.body,
-    member.profile.mizusawa.twitter,
-    member.profile.mizusawa.fb,
-    member.profile.mizusawa.linkedin)
-  .p-popup-overlay(data-exit=member.profile.mizusawa.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_ishii.png', id="js-popup-"+member.profile.ishii.id)
-    +popup_member(
-    member.profile.ishii.id,
-    member.profile.ishii.name,
-    member.profile.ishii.role,
-    member.profile.ishii.body,
-    member.profile.ishii.twitter,
-    member.profile.ishii.fb,
-    member.profile.ishii.linkedin)
-  .p-popup-overlay(data-exit=member.profile.ishii.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_togashi.png', id="js-popup-"+member.profile.togashi.id)
-    +popup_member(
-    member.profile.togashi.id,
-    member.profile.togashi.name,
-    member.profile.togashi.role,
-    member.profile.togashi.body,
-    member.profile.togashi.twitter,
-    member.profile.togashi.fb,
-    member.profile.togashi.linkedin)
-  .p-popup-overlay(data-exit=member.profile.togashi.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_hayakawa.png', id="js-popup-"+member.profile.hayakawa.id)
-    +popup_member(
-    member.profile.hayakawa.id,
-    member.profile.hayakawa.name,
-    member.profile.hayakawa.role,
-    member.profile.hayakawa.body,
-    member.profile.hayakawa.twitter,
-    member.profile.hayakawa.fb,
-    member.profile.hayakawa.linkedin)
-  .p-popup-overlay(data-exit=member.profile.hayakawa.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_matsuyama.png', id="js-popup-"+member.profile.matsuyama.id)
-    +popup_member(
-    member.profile.matsuyama.id,
-    member.profile.matsuyama.name,
-    member.profile.matsuyama.role,
-    member.profile.matsuyama.body,
-    member.profile.matsuyama.twitter,
-    member.profile.matsuyama.fb,
-    member.profile.matsuyama.linkedin)
-  .p-popup-overlay(data-exit=member.profile.matsuyama.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_yamashita.png', id="js-popup-"+member.profile.yamashita.id)
-    +popup_member(
-    member.profile.yamashita.id,
-    member.profile.yamashita.name,
-    member.profile.yamashita.role,
-    member.profile.yamashita.body,
-    member.profile.yamashita.twitter,
-    member.profile.yamashita.fb,
-    member.profile.yamashita.linkedin)
-  .p-popup-overlay(data-exit=member.profile.yamashita.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_horike.png', id="js-popup-"+member.profile.horike.id)
-    +popup_member(
-    member.profile.horike.id,
-    member.profile.horike.name,
-    member.profile.horike.role,
-    member.profile.horike.body,
-    member.profile.horike.twitter,
-    member.profile.horike.fb,
-    member.profile.horike.linkedin)
-  .p-popup-overlay(data-exit=member.profile.horike.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
-    +popup_member(
-    member.profile.kamei.id,
-    member.profile.kamei.name,
-    member.profile.kamei.role,
-    member.profile.kamei.body,
-    member.profile.kamei.twitter,
-    member.profile.kamei.fb,
-    member.profile.kamei.linkedin)
-  .p-popup-overlay(data-exit=member.profile.kamei.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
-    +popup_member(
-    member.profile.kubori.id,
-    member.profile.kubori.name,
-    member.profile.kubori.role,
-    member.profile.kubori.body,
-    member.profile.kubori.twitter,
-    member.profile.kubori.fb,
-    member.profile.kubori.linkedin)
-  .p-popup-overlay(data-exit=member.profile.kubori.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_ishizaka.png', id="js-popup-"+member.profile.ishizaka.id)
-    +popup_member(
-    member.profile.ishizaka.id,
-    member.profile.ishizaka.name,
-    member.profile.ishizaka.role,
-    member.profile.ishizaka.body,
-    member.profile.ishizaka.twitter,
-    member.profile.ishizaka.fb,
-    member.profile.ishizaka.linkedin)
-  .p-popup-overlay(data-exit=member.profile.ishizaka.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_jimmy.png', id="js-popup-"+member.profile.jimmy.id)
-    +popup_member(
-    member.profile.jimmy.id,
-    member.profile.jimmy.name,
-    member.profile.jimmy.role,
-    member.profile.jimmy.body,
-    member.profile.jimmy.twitter,
-    member.profile.jimmy.fb,
-    member.profile.jimmy.linkedin)
-  .p-popup-overlay(data-exit=member.profile.jimmy.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kawai.png', id="js-popup-"+member.profile.kawai.id)
-    +popup_member(
-    member.profile.kawai.id,
-    member.profile.kawai.name,
-    member.profile.kawai.role,
-    member.profile.kawai.body,
-    member.profile.kawai.twitter,
-    member.profile.kawai.fb,
-    member.profile.kawai.linkedin)
-  .p-popup-overlay(data-exit=member.profile.kawai.id)
-
-  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_numasawa.png', id="js-popup-"+member.profile.numasawa.id)
-    +popup_member(
-    member.profile.numasawa.id,
-    member.profile.numasawa.name,
-    member.profile.numasawa.role,
-    member.profile.numasawa.body,
-    member.profile.numasawa.twitter,
-    member.profile.numasawa.fb,
-    member.profile.numasawa.linkedin)
-  .p-popup-overlay(data-exit=member.profile.numasawa.id)
+            .text-center
+              a.p-product__button(href=contact_url.contact, target="_blank") #{business.contact.body_2}
 
   // Footer
   #meetus

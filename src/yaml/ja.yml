@@ -15,7 +15,7 @@ navbar:
   member: MEMBER
   community: COMMUNITY
   product: PRODUCT
-  business: BUSINESS
+  technology: TECHNOLOGY
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
@@ -25,7 +25,7 @@ technology:
     body_line_1: Technology Stack
     stackshare: Stackshare
   body: |
-    ALISはブロックチェーン・ベースのサービス開発・運用実績に基づいた豊富なナレッジを有します。ブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の技術を採用し、低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性を堅牢に担保し、可用性も100%を誇ります(2018年度運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
+    ALISは長年企業システムに携わってき経験を持つエンジニアが多数在籍する、先進技術・特にブロックチェーンに強みを持つ企業です。豊富な経験・実績から御社のデジタルトランスフォーメーションを一気通貫で支援します。自社プロダクトではブロックチェーンはもちろん、バックエンドはフルサーバレス、フロントエンドにはVue.jsやNuxt.js等の最新技術・アーキテクチャを採用。低いレイテンシはもちろん情報セキュリティ(JIS Q 27002)における完全性・機密性を堅牢に担保し、可用性も100%を誇ります(2018-2020年運用実績)。各項目をクリックすると、弊社エンジニアの技術ブログで詳細を確認できます。
   blockchain:
     name: Blockchain
     body_line_1: ALISの基幹技術
@@ -35,7 +35,7 @@ technology:
     name: Serverless
     body_line_1: 可用性100%の運用実績
     body_line_2: 堅牢性と費用対効果に優れ
-    body_line_3: Blockchainの運用に最適
+    body_line_3: 弊社DX事業の基盤を成す
   frontend:
     name: Frontend
     body_line_1: Vue.js & Nuxt.js
@@ -43,34 +43,44 @@ technology:
     body_line_3: 開発効率と保守性に優れる
 business:
   header:
-    body_line: Business
+    body_line: ビジネス概要
   body: |
-    ブロックチェーン・サーバレスなどの最新技術はもちろん、トークンを活用したコミュニティ運営に関する知見をもとに、企業様が実現したいことをサポートいたします。単なるコンサルティングのみならず、システムの開発・運用まで一気通貫で対応可能です。
+    デジタル時代に競争優位を発揮するために今、組織・ビジネスモデルの変革が求められています。
+    50社以上の実績を誇るALISは、デジタルトランスフォーメーションを企業様視点から全方位でお手伝いいたします。デジタル活用状況の可視化・戦略立案をはじめ、ブロックチェーンやサーバーレス等の先端技術を活用した顧客体験向上、技術的負債の徹底的な解消によるコスト削減・競争力強化、デジタル人材の育成や採用など、企業様の希望を一気通貫でサポートいたします。
   service:
     header:
-      body_line: Services
-    blockchain:
-      name: ブロックチェーンを利用したPoCおよびプロダクトの開発・運用
-      body_line: ALISで1年以上ダウンさせることなく本番運用したブロックチェーンの構築・運用実績や数々の企業様との協働を通じて蓄えた知見を元に、PoCのみならず本番稼働のためのプロダクトのコンサルティング・開発支援をいたします。
-    community:
-      name: トークンを活用したコミュニティ構築・活性化のコンサル・運用
-      body_line: トークン発行・配布のみならず、マネジメントツールや運用サポートを通じてコミュニティの構築や活性化をサポートいたします
+      body_line: サービス内容
     serverless:
-      name: サーバレスアーキテクチャの導入支援・運用
-      body_line: ALISで実際に運用した知見・経験をもとに、AWSを利用したサーバレスアーキテクチャの導入支援や運用を行います
-  usecase:
+      title: DX推進
+      sub_title: 戦略立案・推進を徹底的な顧客視点でサポート
+      body_line: 我々のゴールは「お客様のデジタル企業化」であり、そのために我々が持つノウハウ全てをお客様に装着することを重視しています。誰も触れず競争力の無い独自システムを納品して囲い込むことや、戦略だけ作って手を動かさないことを良しとせず、お客様視点で必要なサポートを一気通貫で行います。
+    community:
+      title: 新規ビジネス実装
+      sub_title: 幅広い業界・サービスでの実装支援
+      body_line: 自社プロダクトで約2年間、1秒もダウンさせることなく本番運用したブロックチェーン利用システムの構築・運用実績や数々の企業様との協働を通じて蓄積した知見を元に、PoCのみならず本番稼働のためのプロダクトのコンサルティング・開発支援をいたします。
+    blockchain:
+      title: 自社プロダクト
+      sub_title: ブロックチェーンソーシャルメディア「ALIS」
+      body_line: 可用性100%。ブロックチェーンおよびフルサーバーレスなアーキテクチャを兼ね備えた最先端のシステムをプロダクトローンチ後一度もダウンさせることなく、約2年間での運用実績を持ちます。妥協無き情報セキュリティは私たちの「当たり前」です。ALISに付随したブロックチェーン証明書やライセンス管理などのサービス開発実績も豊富です。
+
+  achievement:
     header:
-      body_line: Use Cases
-    usecase_list:
-      item1_body1: IoTやポイントシステムなど、
-      item1_body2: セキュリティが必要とされる領域のコストを
-      item1_body3: 劇的に下げることが可能です
-      item2_body1: 独自トークンの発行と
-      item2_body2: 投げ銭システムの導入により、
-      item2_body3: コミュニティの活動を支援・ドライブできます
+      body_line: 50社以上のビジネス実装実績
+    body: |
+      業界Top tierを中心に金融、物流、インフラ業やエンタメ業まで、幅広い業界で50社以上のお取引実績。実ビジネスまでを見据えた豊富な知見を基にDX推進･ビジネスモデル変革をご支援します。
+    it:
+      name: IT
+    infra:
+      name: インフラ
+    entertainment:
+      name: エンタメ
+    kinyu:
+      name: 金　融
+    butsuryu:
+      name: 物　流
   contact:
     header:
-      body_line: Contact
+      body_line: お問い合わせ
     body: |
       以下の問い合わせフォームにアクセスしていただき、右下のチャットボタンをクリックしてお問い合わせください。
     body_2: お問い合わせフォーム
@@ -79,11 +89,11 @@ cover:
     first: 信頼できる記事と人々を明らかにする
     second: 全く新しいソーシャルメディア
 registration:
-  header: OPEN β PRODUCT
-  body_line_1: ALISは現在オープンβ版を公開しております。ALISに登録すると、投稿した記事がいいねを獲得したり他の記事にいいねをすることでALISトークンを獲得できます。
+  header: デジタルが当たり前のビジネスへ
+  body_line_1: より良い顧客体験にコミットできる組織変革を全方位でサポート
   body_line_2:
-  btn_text1: オープンβにアクセス
-  url1: https://alis.to
+  btn_text1: お問い合わせフォーム
+  url1: https://intercom.help/alismedia/ja/
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
@@ -993,6 +1003,7 @@ news:
 sns_url:
   twitter: https://twitter.com/ALIS_media
   alis_official: https://alis.to/users/ALIS-official
+  alis_developer_blog: https://alis.to/users/AB2
   reddit: https://www.reddit.com/r/ALIS_Official
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/x8pzV9DB/alis-development
