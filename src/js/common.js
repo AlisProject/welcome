@@ -7,7 +7,7 @@ $(() => {
   const isIOS = /iP(hone|(o|a)d)/.test(navigator.userAgent);
 
   const checkLang = (path, reg) => {
-    let lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
+    let lang = (path.match(reg))?path.slice(1,3).toUpperCase():'JA';
 
     return lang;
   }
@@ -32,7 +32,7 @@ $(() => {
   $('.c-select__option').click(function(e) {
     let nextLang = $(e.target).text();
     path = (path.match(reg))?location.pathname.slice(3):location.pathname;
-    location.href = (nextLang == 'EN')?path:'/'+nextLang.toLowerCase()+path;
+    location.href = (nextLang == 'JA')?path:'/'+nextLang.toLowerCase()+path;
   });
 
   // 言語の引き継いだ画面遷移
@@ -40,7 +40,7 @@ $(() => {
     e.preventDefault();
     let lang = checkLang(path, reg).toLowerCase();
     let nextUrl = $(this)[0].getAttribute('href');
-    if (lang !='en') {
+    if (lang !='ja') {
      nextUrl = '/'+lang+nextUrl;
     }
 
