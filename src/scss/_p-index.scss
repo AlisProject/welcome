@@ -55,7 +55,7 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
 
 .is-ja .p-index .p-section {
   @include mq() {
-    padding-top: 60px;
+    padding-top: 14rem;
   }
 }
 
@@ -224,6 +224,10 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
 
 .is-ja .p-cta__body {
   letter-spacing: 3px;
+
+  @include mq() {
+    width: 300px;
+  }
 }
 
 
@@ -356,7 +360,6 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
   }
 }
 .p-achievement-card {
-  //padding: 15px;
   text-align: center;
   width: 140px;
   max-width: 140px;
@@ -366,11 +369,9 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
   }
 
   @include mq() {
-    //padding: 24px;
     width: 120px;
-    //display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   &::before {

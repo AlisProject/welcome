@@ -135,13 +135,13 @@ $pages: "about", "team", "community", "product", "business", "news";
   padding: 100px 80px 169px;
 
   @include mq() {
-    padding: 80px 0px 10px;
+    padding: 80px 0px 14rem;
   }
 
   &:first-of-type {
     padding-top: 120px;
     @include mq() {
-      padding-top: 60px;
+      padding-top: 14rem;
     }
   }
 }
@@ -164,7 +164,7 @@ $pages: "about", "team", "community", "product", "business", "news";
     padding: 100px 80px 100px;
   }
   @include mq() {
-    padding: 80px 0px 10px;
+    padding: 14rem 0px 14rem;
   }
 }
 
