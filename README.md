@@ -7,7 +7,8 @@ The website resources of [ALIS project website.](https://alismedia.jp)
 # Prerequisite 
 - node
     - see: `.node-version`
-- yarn
+- yarn@1.6.0
+    - `npm i -g yarn@1.6.0`
 
 # Installation
 
