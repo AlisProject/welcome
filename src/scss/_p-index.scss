@@ -324,6 +324,12 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
 
 /* ACHIEVEMENT
 -------------------------------------------------- */
+.achievements {
+  .p-title__body{
+    margin-bottom: 8rem;
+  }
+}
+
 .p-achievement-cards {
   margin: 0 auto;
   display: flex;
