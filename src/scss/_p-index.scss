@@ -492,9 +492,7 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
 
 .p-partners {
   text-align: center;
-  @include mq() {
-    text-align: left;
-  }
+
   &__img {
     height: auto;
     width: 180px;
@@ -506,6 +504,7 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
       display: none;
     }
   }
+
   &__img--sp {
     display: none;
     @include mq() {
@@ -531,7 +530,6 @@ $achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
   @include mq() {
     max-width: 100%;
     margin-bottom: 0;
-    justify-content: flex-start;
   }
 
   a {
