@@ -85,7 +85,7 @@
   }
 }
 
-$pages: 'team', 'about', 'community', 'product', 'news';
+$pages: 'team' 'technology' 'news';
 
 @each $page in $pages {
   .p-page-#{$page} .nav li a.nav__#{$page} {

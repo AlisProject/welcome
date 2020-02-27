@@ -1,3 +1,5 @@
+$achievements: "infra", "butsuryu", "kinyu", "entertainment", "it";
+
 
 .p-index .p-section {
   padding-right: $inner-index-padding-x;
@@ -53,7 +55,7 @@
 
 .is-ja .p-index .p-section {
   @include mq() {
-    padding-top: 60px;
+    padding-top: 14rem;
   }
 }
 
@@ -67,29 +69,29 @@
 }
 
 .p-cover {
-   // height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
   margin-top: calc(#{$navbar-height} + #{$navbar-mb});
   height: auto;
   background-image: url("/img/pc/img_top.jpg");
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   box-sizing: border-box;
   position: relative;
 
   @include mq-min(xxl) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     height: auto;
   }
 
   @include mq(xxl) {
-    padding-bottom: 30px;
+    padding-bottom: 80px;
   }
 
   @include mq() {
     margin-top: calc(#{$navbar-height-sp} + #{$navbar-mb});
-    height: calc(100vh - #{$navbar-height-sp} - 100px);
+    height: 300px;
     padding-bottom: 0px;
     background-image: url("/img/sp/img_top.jpg");
+    background-position: center;
     margin-bottom: 1em
   }
 
@@ -147,8 +149,7 @@
 -------------------------------------------------- */
 
 .p-cta {
-  margin: 87px $inner-index-padding-x;
-  max-width: 404px;
+  margin: 0px $inner-index-padding-x 40px $inner-index-padding-x;
   box-sizing: border-box;
   position: relative;
 
@@ -158,7 +159,7 @@
     margin-left: 5%;
   }
   @include mq() {
-    background: white;
+    //background: white;
     width: $inner-width-sp;
     margin: 0 auto;
     padding: 30px 16px;
@@ -174,9 +175,11 @@
 
   &__header {
     @include font-title;
-    font-size: 2.4rem;
+    margin-top: 0;
+    font-size: 5.6rem;
     line-height: 1.125;
     letter-spacing: 1px;
+    padding-top: 160px;
     margin-bottom: 20px;
 
     @include mq() {
@@ -189,7 +192,7 @@
 
   &__body {
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     display: inline-block;
     line-height: 1.75;
     letter-spacing: 1px;
@@ -212,6 +215,7 @@
 
   &__button {
     @include button(240px);
+    margin-top: 40px;
     @include mq(sm) {
       @include button(208px);
     }
@@ -220,6 +224,10 @@
 
 .is-ja .p-cta__body {
   letter-spacing: 3px;
+
+  @include mq() {
+    width: 300px;
+  }
 }
 
 
@@ -318,6 +326,86 @@
   }
 }
 
+/* ACHIEVEMENT
+-------------------------------------------------- */
+.achievements {
+  .p-title__body{
+    margin-bottom: 8rem;
+  }
+}
+
+.p-achievement-cards {
+  margin: 0 auto;
+  display: flex;
+  width: 768px;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1260px) {
+    width: 720px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  @include mq(lg) {
+    width: 500px;
+  }
+  @include mq() {
+    width: 100%;
+    //flex-direction: column;
+  }
+  @media screen and (max-width: 630px) {
+    width: 400px;
+  }
+  @media screen and (max-width: 470px) {
+    width: 100%;
+  }
+}
+.p-achievement-card {
+  text-align: center;
+  width: 140px;
+  max-width: 140px;
+
+  @media screen and (max-width: 1260px) {
+    margin-bottom: 5%;
+  }
+
+  @include mq() {
+    width: 120px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+  }
+
+  @each $achievement in $achievements {
+    &--#{$achievement}::before {
+      background: url("/img/pc/icon_achievement_#{$achievement}.png") center center no-repeat;
+      background-size: contain;
+    }
+    @include mq() {
+      &--#{$achievement}::before {
+        width: 86px;
+        height: 86px;
+      }
+    }
+  }
+
+  &__name {
+    margin-top: 0;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 2.1;
+    text-align: center;
+
+    @include mq() {
+      font-size: 1.6rem;
+    }
+  }
+}
 
 /* PRODUCT
 -------------------------------------------------- */
@@ -404,12 +492,10 @@
 
 .p-partners {
   text-align: center;
-  @include mq() {
-    text-align: left;
-  }
+
   &__img {
-    height: 54px;
-    width: auto;
+    height: auto;
+    width: 180px;
     margin: 16px 20px;
     @include mq(lg) {
       margin: 28px 30px
@@ -418,11 +504,13 @@
       display: none;
     }
   }
+
   &__img--sp {
     display: none;
     @include mq() {
       display: inline-block;
-      height: 40px;
+      height: auto;
+      width: 120px;
       margin-bottom: 24px;
       margin-right: 2rem;
     }
@@ -442,7 +530,6 @@
   @include mq() {
     max-width: 100%;
     margin-bottom: 0;
-    justify-content: flex-start;
   }
 
   a {
