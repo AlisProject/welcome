@@ -1,5 +1,11 @@
 $technologies: "blockchain", "serverless", "frontend", "community";
 
+.technology {
+	.p-title__body {
+		margin-bottom: 8rem;
+	}
+}
+
 .p-page-technology .p-block {
 	@include mq() {
 		margin-bottom: 20px;

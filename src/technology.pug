@@ -12,12 +12,11 @@ body
         h2.p-cover-header__title Technology
 
       .container-fluid
-        .p-block.p-block--xs
+        .p-block.p-block--xs.technology
           .p-title.p-title--center
             h3.p-title__header
               | #{technology.header.body_line_1}
             p.p-title__body #{technology.body}
-        .p-block.u-pt-0
           .p-technology-cards
             include mixin/technology_card
             a(href=technology_url.blockchain, target="_blank").p-technology-card.p-technology-card--blockchain
