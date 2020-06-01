@@ -82,7 +82,7 @@ business:
     header:
       body_line: お問い合わせ
     body: |
-      以下の問い合わせフォームにアクセスしていただき、右下のチャットボタンをクリックしてお問い合わせください。
+      ご質問等あれば、以下のフォームよりお問い合わせください。
     body_2: お問い合わせフォーム
 cover:
   caption_line_one:
@@ -93,7 +93,7 @@ registration:
   body_line_1: より良い顧客体験にコミットできる組織変革を全方位でサポート
   body_line_2:
   btn_text1: お問い合わせフォーム
-  url1: https://intercom.help/alismedia/ja/
+  url1: https://forms.gle/Sjt7zaKU5SnYUBRH8
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
@@ -1016,4 +1016,4 @@ technology_url:
   frontend: https://alis.to/AB2/articles/34ZkxZ1pwylQ
 
 contact_url:
-  contact: https://intercom.help/alismedia
+  contact: https://forms.gle/Sjt7zaKU5SnYUBRH8
