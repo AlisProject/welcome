@@ -408,6 +408,60 @@ openb:
   btn_text: 詳細はこちら
   url: https://alis.to/ALIS-official/articles/3qQXJLNJA4NM
 news:
+  _08142020:
+    category: NEWS
+    date: Aug 14, 2020
+    header: 坂井教授著の「メカニズムデザインで勝つ」に掲載
+    body: 慶應大学教授・坂井教授&オークション･ラボ執筆の「メカニズデザインで勝つ」でALISのMajority Judgementsの実験が紹介されました。
+    url: https://www.amazon.co.jp/dp/B08FDBCDLJ/
+  _08102020:
+    category: NEWS
+    date: Aug 10, 2020
+    header: 「Withコロナの時代、スポーツは何ができるか？」に登壇
+    body: 筑波フューチャーファンディング主催「Withコロナの時代、スポーツは何ができるか？」にALIS CEOの安が登壇しました。
+    url: https://tsukubasenpaitalk20200810.peatix.com/
+  _05142020:
+    category: NEWS
+    date: May 14, 2020
+    header: ALIS DXブログの開始を発表し、第一弾の記事を公開
+    body: ALIS DXブログの開始を発表し、第一弾記事「技術的負債:組織はどう対峙すべきか」を公開しました。
+    url: https://alis.to/DXB/articles/KWyPxWpY44k9
+  _04292020:
+    category: UPDATE
+    date: Apr 29, 2020
+    header: カストディ規制に対する対応をリリース
+    body: カストディ規制対応に伴うALISの対応方針を公開しました。
+    url: https://alis.to/ALIS-official/articles/2Mq1wz6pjjzW
+  _03162020:
+    category: UPDATE
+    date: Mar 16, 2020
+    header: ALISとCryptoSpellsのコラボを開始
+    body: CryptoSpellsオリジナルカードがもらえる共同キャンペーンを開始しました。
+    url: https://alis.to/ALIS-official/articles/KeO0vXW1opDL
+  _02282020:
+    category: PRESS RELEASE
+    date: Feb 28, 2020
+    header: AVACUS上でALISが利用可能になったことを発表
+    body: 暗号資産を暗号資産のまま利用可能なライフスタイルを提案しているAVACUSでのALISトークン利用が可能になりました。
+    url: https://prtimes.jp/main/html/rd/p/000000017.000027792.html
+  _02052020:
+    category: UPDATE
+    date: Feb 5, 2020
+    header: ALISバッジ機能をリリース
+    body: ALISバッジというNFTを受け取ったり、マイページで自分のバッジを表示させたりすることが可能になりました。
+    url: https://alis.to/ALIS-official/articles/K0ZQLL7yDQP8
+  _02032020:
+    category: PRESS RELEASE
+    date: Feb 3, 2020
+    header: ALISとAVACUSの協働を発表
+    body: トークンエコノミーを成熟させるフィールド拡大へ向けたALISとAvacusの協働が開始しました。
+    url: https://prtimes.jp/main/html/rd/p/000000009.000048530.html
+  _01292020:
+    category: NEWS
+    date: Jan 29, 2020
+    header: 第13回オークション・ラボ ワークショップに安が登壇
+    body: 2020年1月29日に開催された第13回オークション・ラボ　ワークショップ「ラディカル・マーケット」にCEOの安が登壇しました。
+    url: https://place171.com/auction/153/
   _12242019:
     category: PRESS
     date: Dec 24, 2019
