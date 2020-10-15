@@ -7,24 +7,16 @@ The website resources of [ALIS project website.](https://alismedia.jp)
 # Prerequisite 
 - node
     - see: `.node-version`
-- yarn@1.6.0
-    - `npm i -g yarn@1.6.0`
 
 # Installation
 
     git clone https://github.com/AlisProject/welcome.git
     cd welcome
-    yarn
-
-# Run
-
-    yarn watch
-    
-Local resources be opened automatically.
+    npm i
 
 # Linting
 
-    yarn test
+    npm test
 
 # Deployment
 Prerequisite: `aws-cli`  
@@ -45,7 +37,7 @@ Please change `example.com` to your S3 bucket name.
         
 1. Deployment.
 
-        yarn deploy
+        npm run s3sync:develop
 
 1. Now you can see: 
     
