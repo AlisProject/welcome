@@ -425,151 +425,103 @@ text-align: center;
 }
 
 
-#page-index #services .service h3{
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0;
-    font-weight: 600;
-    text-align: center;
-    padding: 50px 0 0 0;
-}
-#page-index #services .service h3 img{
-    width: 80px;
-    border-radius: 40px;
-    display: block;
-    margin: 0 auto 15px auto;
-}
-#page-index #services .service p{
-    padding: 15px 0 0 0;
-    letter-spacing: 0;
-    text-align: center;
-}
-#page-index #services .service .button{
-    padding: 20px 0 0 0;
-}
-#page-index #services .service .button a{
-    text-align: center;
-    display: block;
-    padding: 6px 0 6px 0;
-    border-radius: 3px;
-    border: solid 1px #325a82;
-    text-decoration: none;
-    width: 200px;
-    margin: auto;
-    background: #FFF;
-}
-#page-index #services .text-01{
-    display: none;
-}
-#page-index #services .text-02{
-    display: none;
-}
-#page-index #services .text-03{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*#page-index #services .image{*/
-/*background: url("../../images/tp_srvc_bg.png");*/
-/*width: 677px;*/
-/*height: 684px;*/
-/*position: relative;*/
-/*margin: 135px auto 0 auto;*/
-/*}*/
 /*#page-index #services .service h3{*/
-/*font-size: 20px;*/
-/*line-height: 20px;*/
-/*font-weight: 600;*/
-/*text-align: center;*/
+    /*font-size: 16px;*/
+    /*line-height: 16px;*/
+    /*letter-spacing: 0;*/
+    /*font-weight: 600;*/
+    /*text-align: center;*/
+    /*padding: 50px 0 0 0;*/
 /*}*/
 /*#page-index #services .service h3 img{*/
-/*width: 120px;*/
-/*border-radius: 60px;*/
-/*display: block;*/
-/*margin: 0 auto 20px auto;*/
+    /*width: 80px;*/
+    /*border-radius: 40px;*/
+    /*display: block;*/
+    /*margin: 0 auto 15px auto;*/
 /*}*/
 /*#page-index #services .service p{*/
-/*text-align: center;*/
-/*padding: 30px 0 0 0;*/
+    /*padding: 15px 0 0 0;*/
+    /*letter-spacing: 0;*/
+    /*text-align: center;*/
 /*}*/
 /*#page-index #services .service .button{*/
-/*padding: 30px 0 0 0;*/
+    /*padding: 20px 0 0 0;*/
 /*}*/
 /*#page-index #services .service .button a{*/
-/*font-size: 16px;*/
-/*line-height: 16px;*/
-/*text-align: center;*/
-/*display: block;*/
-/*width: 200px;*/
-/*padding: 11px 0 11px 0;*/
-/*border-radius: 3px;*/
-/*border: solid 1px #325a82;*/
-/*text-decoration: none;*/
-/*margin: auto;*/
-/*}*/
-/*#page-index #services .service .button a:hover{*/
-/*background: #325a82;*/
-/*color: #FFF;*/
-/*opacity: 1;*/
-/*}*/
-/*#page-index #services #service-01{*/
-/*position: absolute;*/
-/*top:-60px;*/
-/*left: 0;*/
-/*right: 0;*/
-/*margin: auto;*/
-/*}*/
-/*#page-index #services #service-02{*/
-/*position: absolute;*/
-/*bottom:30px;*/
-/*right: -105px;*/
-/*}*/
-/*#page-index #services #service-03{*/
-/*position: absolute;*/
-/*bottom:30px;*/
-/*left: -160px;*/
+    /*text-align: center;*/
+    /*display: block;*/
+    /*padding: 6px 0 6px 0;*/
+    /*border-radius: 3px;*/
+    /*border: solid 1px #325a82;*/
+    /*text-decoration: none;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*background: #FFF;*/
 /*}*/
 /*#page-index #services .text-01{*/
-/*position: absolute;*/
-/*top:133px;*/
-/*right: 30px;*/
-/*text-align: center;*/
-/*font-size: 16px;*/
-/*line-height: 24px;*/
-/*font-weight: 500;*/
-/*color: #325a82;*/
+    /*display: none;*/
 /*}*/
 /*#page-index #services .text-02{*/
-/*position: absolute;*/
-/*top:440px;*/
-/*left: 0;*/
-/*right: 0;*/
-/*margin: auto;*/
-/*text-align: center;*/
-/*font-size: 16px;*/
-/*line-height: 24px;*/
-/*font-weight: 500;*/
-/*color: #325a82;*/
+    /*display: none;*/
 /*}*/
 /*#page-index #services .text-03{*/
-/*position: absolute;*/
-/*top:133px;*/
-/*left: 20px;*/
-/*text-align: center;*/
-/*font-size: 16px;*/
-/*line-height: 24px;*/
-/*font-weight: 500;*/
-/*color: #325a82;*/
+    /*display: none;*/
 /*}*/
+
+
+#page-index #services .image{
+width: 677px;
+height: 490px;
+position: relative;
+margin: 0 auto 0 auto;
+}
+#page-index #services .service h3{
+font-size: 20px;
+line-height: 20px;
+font-weight: 600;
+text-align: center;
+}
+#page-index #services .service h3 img{
+width: 120px;
+border-radius: 60px;
+display: block;
+margin: 0 auto 20px auto;
+}
+#page-index #services .service p{
+text-align: center;
+padding: 30px 0 0 0;
+}
+#page-index #services .service .button{
+padding: 30px 0 0 0;
+}
+#page-index #services .service .button a{
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+display: block;
+width: 200px;
+padding: 11px 0 11px 0;
+border-radius: 3px;
+border: solid 1px #325a82;
+text-decoration: none;
+margin: auto;
+}
+#page-index #services .service .button a:hover{
+background: #325a82;
+color: #FFF;
+opacity: 1;
+}
+#page-index #services #service-01{
+position: absolute;
+bottom:30px;
+left: -100px;
+}
+
+#page-index #services #service-03{
+position: absolute;
+bottom:30px;
+right: -75px;
+}
 
 
 
