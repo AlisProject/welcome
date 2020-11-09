@@ -1,31 +1,30 @@
-version: 2
+version: 2.1
+
+workflows:
+  build:
+    jobs:
+      - build:
+          context:
+            - docker-hub-credencials
+
 jobs:
   build:
     docker:
-      - image: circleci/node:8.11.1
+      - image: circleci/node:12.19.0
+        auth:
+          username: $DOCKERHUB_USER
+          password: $DOCKERHUB_PASSWORD
     steps:
     - checkout
     - run:
         name: dependencies
         command: |
-          yarn run clean:generates
-          yarn
-
-    - run:
-        name: build
-        command: yarn run build:develop
+          npm i
 
     - run:
         name: lint
         command: |
-          yarn pug-lint ./src
-          yarn eslint ./src/js
-
-    - run:
-        name: lint
-        command: |
-          yarn pug-lint ./src
-          yarn eslint ./src/js
+          npm run test
 
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ epoch }}
@@ -36,11 +35,11 @@ jobs:
         command: |
           sudo apt-get -y -qq install awscli
           if [ "${CIRCLE_BRANCH}" != "master" ]; then
-            yarn install:develop
-            yarn s3sync:develop
+            cp -p robots.txt src
+            npm run s3sync:develop
           else
             export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION_PRODUCTION}
             export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_PRODUCTION}
             export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_PRODUCTION}
-            yarn deploy:production
+            npm run s3sync:production
           fi

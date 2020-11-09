@@ -1,11 +1,7 @@
 node_modules
-public
-!public/.gitkeep
 .s3cfg
 .DS_Store
-.yarnclean
 .envrc
-yarn-error.log
 
 # For JetBrains IDE
 .idea

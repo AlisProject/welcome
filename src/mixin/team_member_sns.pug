@@ -1,9 +1,0 @@
-mixin team_member_sns(fb_id, twitter_id)
-  p.team__sns-link
-    +team_member_fb(fb_id)
-    a(href="https://twitter.com/" + twitter_id, target="_blank")
-      img(src='/img/twitter_logo.svg', alt='twitter')
-
-mixin team_member_fb(fb_id)
-  a(href="https://www.facebook.com/" + fb_id, target="_blank")
-    img(src='/img/facebook_logo.svg', alt='facebook')
